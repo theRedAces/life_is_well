@@ -191,4 +191,20 @@
     </ScrollView>
 
 
+    <EditText
+        android:id="@+id/editTextTextPersonName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:autofillHints=""
+        android:ems="10"
+        android:hint="@string/plain_text"
+        android:inputType="textPersonName"
+        android:minHeight="48dp"
+        android:text="@string/plain_text"
+        app:layout_constraintBottom_toTopOf="@+id/textView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.496" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
