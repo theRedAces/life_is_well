@@ -45,6 +45,7 @@
             android:layout_height="wrap_content">
 
             <LinearLayout
+                android:onClick="financeBtn"
                 android:id="@+id/layoutFinance"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
@@ -79,6 +80,7 @@
             </LinearLayout>
 
             <LinearLayout
+                android:onClick="healthBtn"
                 android:id="@+id/layoutHealth"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
@@ -113,6 +115,7 @@
             </LinearLayout>
 
             <LinearLayout
+                android:onClick="mentalBtn"
                 android:id="@+id/layoutMental"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
@@ -148,6 +151,7 @@
 
 
             <LinearLayout
+                android:onClick="addBtn"
                 android:id="@+id/layoutAdd"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
