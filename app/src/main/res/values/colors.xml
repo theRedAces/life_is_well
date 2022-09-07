@@ -7,4 +7,22 @@
     <color name="teal_700">#FF018786</color>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
+
+/* Home Page Color Assets */
+
+    <color name="colorPrimaryHome">#8A37B1</color>
+    <color name="colorPrimaryDarkHome">#2BCC6F</color>
+    <color name="colorAccentHome">#333333</color>
+    <color name="colorPrimaryLightHome">#8A37B1</color>
+    <color name="colorWhiteHome">#FFFFFF</color>
+    <color name="colorBlackHome">#000000</color>
+    <color name="colorFinanceHome">#87FC73</color>
+    <color name="colorHealthHome">#ED801B</color>
+    <color name="colorMentalHome">#BDE9FF</color>
+    <color name="colorAddBtnHome">#D9D9D9</color>
+    <color name="colorBackgroundHome">#1D5284</color>
+    <color name="colorDividerHome">#D6D6D6</color>
+
+
+
 </resources>
