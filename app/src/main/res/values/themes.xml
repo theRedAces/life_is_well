@@ -13,4 +13,18 @@
         <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
         <!-- Customize your theme here. -->
     </style>
+    /*Custom style for home page */
+    <style name="Theme.Life_is_well_home" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/colorPrimaryHome</item>
+        <item name="colorPrimaryVariant">@color/colorPrimaryLightHome</item>
+        <item name="colorOnPrimary">@color/colorWhiteHome</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/colorAccentHome</item>
+        <item name="colorSecondaryVariant">@color/colorAccentHome</item>
+        <item name="colorOnSecondary">@color/colorBlackHome</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
+        <!-- Customize your theme here. -->
+    </style>
 </resources>
