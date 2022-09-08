@@ -8,7 +8,7 @@
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
 
-/* Home Page Color Assets */
+    /* Home Page Color Assets */
 
     <color name="colorPrimaryHome">#8A37B1</color>
     <color name="colorPrimaryDarkHome">#2BCC6F</color>

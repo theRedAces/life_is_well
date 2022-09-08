@@ -1,5 +1,8 @@
 <resources>
     <string name="app_name">life_is_well</string>
-    <string name="life_is_well">Life Is Well!</string>
-    <string name="plain_text">Plain Text</string>
+    <string name="add">Add</string>
+    <string name="mental">Mental</string>
+    <string name="health">Health</string>
+    <string name="finance">Finance</string>
+    <string name="lifeiswell">LifeIsWell</string>
 </resources>
