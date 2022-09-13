@@ -5,4 +5,11 @@
     <string name="health">Health</string>
     <string name="finance">Finance</string>
     <string name="lifeiswell">LifeIsWell</string>
+    <string name="nameOfUser">NameOfUser</string>
+    <string name="nameofuser">NameOfUser</string>
+    <string name="profile_photo_of_user">Profile Photo of User</string>
+    <string name="user_details">User Details</string>
+    <string name="user_stats">User Stats</string>
+    <string name="bio">Bio</string>
+    <string name="trophy_case">Trophy Case</string>
 </resources>
