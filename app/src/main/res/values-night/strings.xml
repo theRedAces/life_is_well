@@ -1,5 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="life_is_well">Life Is Well!</string>
-    <string name="plain_text">Plain Text</string>
+    <string name="app_name">life_is_well</string>
+    <string name="add">Add</string>
+    <string name="mental">Mental</string>
+    <string name="health">Health</string>
+    <string name="finance">Finance</string>
+    <string name="lifeiswell">LifeIsWell</string>
+    <string name="nameOfUser">NameOfUser</string>
+    <string name="nameofuser">NameOfUser</string>
+    <string name="profile_photo_of_user">Profile Photo of User</string>
+    <string name="user_details">User Details</string>
+    <string name="user_stats">User Stats</string>
+    <string name="bio">Bio</string>
+    <string name="trophy_case">Trophy Case</string>
 </resources>
