@@ -28,5 +28,4 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintBottom_toTopOf="@id/home_bottom_nav"/>
 
-
 </androidx.constraintlayout.widget.ConstraintLayout>
