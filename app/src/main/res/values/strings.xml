@@ -5,11 +5,13 @@
     <string name="health">Health</string>
     <string name="finance">Finance</string>
     <string name="lifeiswell">LifeIsWell</string>
-    <string name="nameOfUser">NameOfUser</string>
-    <string name="nameofuser">NameOfUser</string>
-    <string name="profile_photo_of_user">Profile Photo of User</string>
-    <string name="user_details">User Details</string>
-    <string name="user_stats">User Stats</string>
-    <string name="bio">Bio</string>
-    <string name="trophy_case">Trophy Case</string>
+    <string name="account">Account 1</string>
+    <string name="new_account">New Account</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="home">Home</string>
+    <string name="profile">Profile</string>
+    <string name="goals">Goals</string>
+    <string name="settings">Settings</string>
+    <string name="account_1">Account 1</string>
 </resources>
