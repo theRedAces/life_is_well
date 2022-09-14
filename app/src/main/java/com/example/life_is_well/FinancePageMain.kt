@@ -19,7 +19,10 @@ class FinancePageMain : AppCompatActivity() {
     }
 
 
-    fun accountBtnMain(view: View) {}
+    fun accountBtnMain(view: View) {
+        val intent = Intent(this,FinanceAccountPageMain::class.java )
+        startActivity(intent)
+    }
     fun financeAddBtn(view: View) {}
 
 }
