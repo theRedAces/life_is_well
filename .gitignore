@@ -18,6 +18,7 @@ captures/
 output.json
 
 # IntelliJ
+*.iml
 deploymentTargetDropDown.xml
 render.experimental.xml
 
@@ -30,4 +31,4 @@ google-services.json
 
 # Android Profiling
 *.hprof
-/.gradle/
+/.gradle/7.3.3/
