@@ -3,6 +3,28 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/mamin/OneDrive/Documents/Midterm Project/Apps/RedAces/LifeIsWell/app/src/main/res/drawable/home_page_header_background.xml" value="0.209" />
+        <entry key="..\:/Users/mamin/OneDrive/Documents/Midterm Project/Apps/RedAces/LifeIsWell/app/src/main/res/layout/activity_breathing_exercise_mental_page.xml" value="0.1" />
+        <entry key="..\:/Users/mamin/OneDrive/Documents/Midterm Project/Apps/RedAces/LifeIsWell/app/src/main/res/layout/activity_finance_page_main.xml" value="0.16712962962962963" />
+        <entry key="..\:/Users/mamin/OneDrive/Documents/Midterm Project/Apps/RedAces/LifeIsWell/app/src/main/res/layout/activity_gratitude_mental_page.xml" value="0.32592592592592595" />
+        <entry key="..\:/Users/mamin/OneDrive/Documents/Midterm Project/Apps/RedAces/LifeIsWell/app/src/main/res/layout/activity_gratitude_page_mental.xml" value="0.16712962962962963" />
+        <entry key="..\:/Users/mamin/OneDrive/Documents/Midterm Project/Apps/RedAces/LifeIsWell/app/src/main/res/layout/activity_health_page_main.xml" value="0.22" />
+        <entry key="..\:/Users/mamin/OneDrive/Documents/Midterm Project/Apps/RedAces/LifeIsWell/app/src/main/res/layout/activity_main.xml" value="0.33" />
+        <entry key="..\:/Users/mamin/OneDrive/Documents/Midterm Project/Apps/RedAces/LifeIsWell/app/src/main/res/layout/activity_meditation_mental_page.xml" value="0.15925925925925927" />
+        <entry key="..\:/Users/mamin/OneDrive/Documents/Midterm Project/Apps/RedAces/LifeIsWell/app/src/main/res/layout/activity_meditation_page.xml" value="0.16712962962962963" />
+        <entry key="..\:/Users/mamin/OneDrive/Documents/Midterm Project/Apps/RedAces/LifeIsWell/app/src/main/res/layout/activity_meditation_page_main.xml" value="0.15231481481481482" />
+        <entry key="..\:/Users/mamin/OneDrive/Documents/Midterm Project/Apps/RedAces/LifeIsWell/app/src/main/res/layout/activity_mental_page_main.xml" value="0.16193181818181818" />
+        <entry key="..\:/Users/mamin/OneDrive/Documents/Midterm Project/Apps/RedAces/LifeIsWell/app/src/main/res/layout/activity_to_do_mental_page.xml" value="0.32175925925925924" />
+        <entry key="..\:/Users/mamin/OneDrive/Documents/Midterm Project/Apps/RedAces/LifeIsWell/app/src/main/res/layout/breathing_exercise_mental_page.xml" value="0.32175925925925924" />
+        <entry key="..\:/Users/mamin/OneDrive/Documents/Midterm Project/Apps/RedAces/LifeIsWell/app/src/main/res/layout/content_breathing_exercise_mental_page.xml" value="0.1" />
+        <entry key="..\:/Users/mamin/OneDrive/Documents/Midterm Project/Apps/RedAces/LifeIsWell/app/src/main/res/layout/content_breathing_exercixe.xml" value="0.32175925925925924" />
+        <entry key="..\:/Users/mamin/OneDrive/Documents/Midterm Project/Apps/RedAces/LifeIsWell/app/src/main/res/layout/content_main.xml" value="0.16712962962962963" />
+        <entry key="..\:/Users/mamin/OneDrive/Documents/Midterm Project/Apps/RedAces/LifeIsWell/app/src/main/res/layout/fragment_dashboard.xml" value="0.3037037037037037" />
+        <entry key="..\:/Users/mamin/OneDrive/Documents/Midterm Project/Apps/RedAces/LifeIsWell/app/src/main/res/layout/fragment_first.xml" value="0.16712962962962963" />
+        <entry key="..\:/Users/mamin/OneDrive/Documents/Midterm Project/Apps/RedAces/LifeIsWell/app/src/main/res/layout/fragment_home.xml" value="0.3037037037037037" />
+        <entry key="..\:/Users/mamin/OneDrive/Documents/Midterm Project/Apps/RedAces/LifeIsWell/app/src/main/res/layout/fragment_notifications.xml" value="0.3037037037037037" />
+        <entry key="..\:/Users/mamin/OneDrive/Documents/Midterm Project/Apps/RedAces/LifeIsWell/app/src/main/res/layout/fragment_second.xml" value="0.16712962962962963" />
+        <entry key="..\:/Users/mamin/OneDrive/Documents/Midterm Project/Apps/RedAces/LifeIsWell/app/src/main/res/menu/bottom_nav_menu.xml" value="0.3037037037037037" />
         <entry key="app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.302" />
         <entry key="app/src/main/res/drawable/home_page_add_btn_background.xml" value="0.302" />
         <entry key="app/src/main/res/drawable/home_page_finance_btn_background.xml" value="0.302" />
