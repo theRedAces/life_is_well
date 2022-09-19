@@ -9,7 +9,7 @@ import android.widget.Toast
 import java.text.SimpleDateFormat
 import java.util.*
 
-class PhysicalMacroTracker : AppCompatActivity() {
+class HealthMacroTracker : AppCompatActivity() {
 
     private var tvSelectedDate : TextView? = null
 
