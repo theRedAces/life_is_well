@@ -3,47 +3,28 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
-        <entry key="..\:/Users/mamin/OneDrive/Documents/Midterm Project/Apps/RedAces/LifeIsWell/app/src/main/res/drawable/home_page_header_background.xml" value="0.209" />
-        <entry key="..\:/Users/mamin/OneDrive/Documents/Midterm Project/Apps/RedAces/LifeIsWell/app/src/main/res/drawable/ic_baseline_account_circle.xml" value="0.1025" />
-        <entry key="..\:/Users/mamin/OneDrive/Documents/Midterm Project/Apps/RedAces/LifeIsWell/app/src/main/res/layout/activity_breathing_exercise_mental_page.xml" value="0.1" />
-        <entry key="..\:/Users/mamin/OneDrive/Documents/Midterm Project/Apps/RedAces/LifeIsWell/app/src/main/res/layout/activity_finance_account_page_main.xml" value="0.18802083333333333" />
-        <entry key="..\:/Users/mamin/OneDrive/Documents/Midterm Project/Apps/RedAces/LifeIsWell/app/src/main/res/layout/activity_finance_page_main.xml" value="0.16712962962962963" />
-        <entry key="..\:/Users/mamin/OneDrive/Documents/Midterm Project/Apps/RedAces/LifeIsWell/app/src/main/res/layout/activity_gratitude_mental_page.xml" value="0.32592592592592595" />
-        <entry key="..\:/Users/mamin/OneDrive/Documents/Midterm Project/Apps/RedAces/LifeIsWell/app/src/main/res/layout/activity_gratitude_page_mental.xml" value="0.16712962962962963" />
-        <entry key="..\:/Users/mamin/OneDrive/Documents/Midterm Project/Apps/RedAces/LifeIsWell/app/src/main/res/layout/activity_health_page_main.xml" value="0.22" />
-        <entry key="..\:/Users/mamin/OneDrive/Documents/Midterm Project/Apps/RedAces/LifeIsWell/app/src/main/res/layout/activity_main.xml" value="0.33" />
-        <entry key="..\:/Users/mamin/OneDrive/Documents/Midterm Project/Apps/RedAces/LifeIsWell/app/src/main/res/layout/activity_meditation_mental_page.xml" value="0.15925925925925927" />
-        <entry key="..\:/Users/mamin/OneDrive/Documents/Midterm Project/Apps/RedAces/LifeIsWell/app/src/main/res/layout/activity_meditation_page.xml" value="0.16712962962962963" />
-        <entry key="..\:/Users/mamin/OneDrive/Documents/Midterm Project/Apps/RedAces/LifeIsWell/app/src/main/res/layout/activity_meditation_page_main.xml" value="0.15231481481481482" />
-        <entry key="..\:/Users/mamin/OneDrive/Documents/Midterm Project/Apps/RedAces/LifeIsWell/app/src/main/res/layout/activity_mental_page_main.xml" value="0.1" />
-        <entry key="..\:/Users/mamin/OneDrive/Documents/Midterm Project/Apps/RedAces/LifeIsWell/app/src/main/res/layout/activity_to_do_mental_page.xml" value="0.32175925925925924" />
-        <entry key="..\:/Users/mamin/OneDrive/Documents/Midterm Project/Apps/RedAces/LifeIsWell/app/src/main/res/layout/breathing_exercise_mental_page.xml" value="0.32175925925925924" />
-        <entry key="..\:/Users/mamin/OneDrive/Documents/Midterm Project/Apps/RedAces/LifeIsWell/app/src/main/res/layout/content_breathing_exercise_mental_page.xml" value="0.1" />
-        <entry key="..\:/Users/mamin/OneDrive/Documents/Midterm Project/Apps/RedAces/LifeIsWell/app/src/main/res/layout/content_breathing_exercixe.xml" value="0.32175925925925924" />
-        <entry key="..\:/Users/mamin/OneDrive/Documents/Midterm Project/Apps/RedAces/LifeIsWell/app/src/main/res/layout/content_main.xml" value="0.16712962962962963" />
-        <entry key="..\:/Users/mamin/OneDrive/Documents/Midterm Project/Apps/RedAces/LifeIsWell/app/src/main/res/layout/fragment_dashboard.xml" value="0.3037037037037037" />
-        <entry key="..\:/Users/mamin/OneDrive/Documents/Midterm Project/Apps/RedAces/LifeIsWell/app/src/main/res/layout/fragment_first.xml" value="0.16712962962962963" />
-        <entry key="..\:/Users/mamin/OneDrive/Documents/Midterm Project/Apps/RedAces/LifeIsWell/app/src/main/res/layout/fragment_first3.xml" value="0.18802083333333333" />
-        <entry key="..\:/Users/mamin/OneDrive/Documents/Midterm Project/Apps/RedAces/LifeIsWell/app/src/main/res/layout/fragment_goals.xml" value="0.18802083333333333" />
-        <entry key="..\:/Users/mamin/OneDrive/Documents/Midterm Project/Apps/RedAces/LifeIsWell/app/src/main/res/layout/fragment_home.xml" value="0.3037037037037037" />
-        <entry key="..\:/Users/mamin/OneDrive/Documents/Midterm Project/Apps/RedAces/LifeIsWell/app/src/main/res/layout/fragment_notifications.xml" value="0.3037037037037037" />
-        <entry key="..\:/Users/mamin/OneDrive/Documents/Midterm Project/Apps/RedAces/LifeIsWell/app/src/main/res/layout/fragment_second.xml" value="0.16712962962962963" />
-        <entry key="..\:/Users/mamin/OneDrive/Documents/Midterm Project/Apps/RedAces/LifeIsWell/app/src/main/res/menu/bottom_nav_menu.xml" value="0.3037037037037037" />
-        <entry key="..\:/Users/mamin/OneDrive/Documents/Midterm Project/Apps/RedAces/LifeIsWell/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.15" />
-        <entry key="app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.302" />
-        <entry key="app/src/main/res/drawable/home_page_add_btn_background.xml" value="0.302" />
-        <entry key="app/src/main/res/drawable/home_page_finance_btn_background.xml" value="0.302" />
-        <entry key="app/src/main/res/drawable/home_page_header_background.xml" value="0.302" />
-        <entry key="app/src/main/res/drawable/home_page_health_btn_background.xml" value="0.302" />
-        <entry key="app/src/main/res/drawable/home_page_mental_btn_background.xml" value="0.302" />
-        <entry key="app/src/main/res/drawable/ic_baseline_add.xml" value="0.302" />
-        <entry key="app/src/main/res/drawable/ic_launcher_background.xml" value="0.302" />
-        <entry key="app/src/main/res/layout/activity_finance_page_main.xml" value="0.41890869140625" />
-        <entry key="app/src/main/res/layout/activity_health_page_main.xml" value="0.2984375" />
+        <entry key="..\:/Users/Shane/AndroidStudioProjects/life_is_well-1/app/src/main/res/drawable/bottom_nav_bar.xml" value="0.3635" />
+        <entry key="..\:/Users/Shane/AndroidStudioProjects/life_is_well-1/app/src/main/res/drawable/home_page_add_btn_background.xml" value="0.3625" />
+        <entry key="..\:/Users/Shane/AndroidStudioProjects/life_is_well-1/app/src/main/res/drawable/home_page_finance_btn_background.xml" value="0.3625" />
+        <entry key="..\:/Users/Shane/AndroidStudioProjects/life_is_well-1/app/src/main/res/drawable/home_page_header_background.xml" value="0.3635" />
+        <entry key="..\:/Users/Shane/AndroidStudioProjects/life_is_well-1/app/src/main/res/drawable/home_page_health_btn_background.xml" value="0.3625" />
+        <entry key="..\:/Users/Shane/AndroidStudioProjects/life_is_well-1/app/src/main/res/drawable/home_page_mental_btn_background.xml" value="0.3625" />
+        <entry key="..\:/Users/Shane/AndroidStudioProjects/life_is_well-1/app/src/main/res/drawable/ic_baseline_add.xml" value="0.3635" />
+        <entry key="..\:/Users/Shane/AndroidStudioProjects/life_is_well-1/app/src/main/res/drawable/ic_baseline_settings.xml" value="0.1935" />
+        <entry key="..\:/Users/Shane/AndroidStudioProjects/life_is_well-1/app/src/main/res/layout/activity_finance_account_page_main.xml" value="0.3625" />
+        <entry key="..\:/Users/Shane/AndroidStudioProjects/life_is_well-1/app/src/main/res/layout/activity_finance_page_main.xml" value="0.33" />
+        <entry key="..\:/Users/Shane/AndroidStudioProjects/life_is_well-1/app/src/main/res/layout/activity_health_page_main.xml" value="0.3625" />
+        <entry key="..\:/Users/Shane/AndroidStudioProjects/life_is_well-1/app/src/main/res/layout/activity_main.xml" value="0.33" />
+        <entry key="..\:/Users/Shane/AndroidStudioProjects/life_is_well-1/app/src/main/res/layout/activity_mental_page_main.xml" value="0.3625" />
+        <entry key="..\:/Users/Shane/AndroidStudioProjects/life_is_well-1/app/src/main/res/layout/dummy.xml" value="0.3614583333333333" />
+        <entry key="..\:/Users/Shane/AndroidStudioProjects/life_is_well-1/app/src/main/res/layout/fragment_goals.xml" value="0.3625" />
+        <entry key="..\:/Users/Shane/AndroidStudioProjects/life_is_well-1/app/src/main/res/layout/fragment_home.xml" value="0.3625" />
+        <entry key="..\:/Users/Shane/AndroidStudioProjects/life_is_well-1/app/src/main/res/layout/fragment_profile.xml" value="0.3625" />
+        <entry key="..\:/Users/Shane/AndroidStudioProjects/life_is_well-1/app/src/main/res/layout/fragment_settings.xml" value="0.3625" />
+        <entry key="..\:/Users/Shane/AndroidStudioProjects/life_is_well-1/app/src/main/res/menu/bottom_nav_menu.xml" value="0.3625" />
+        <entry key="..\:/Users/dkens/life_is_well/app/src/main/res/layout/activity_health_macro_tracker.xml" value="0.358695652173913" />
+        <entry key="..\:/Users/dkens/life_is_well/app/src/main/res/layout/activity_health_page_main.xml" value="0.358695652173913" />
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.30625" />
-        <entry key="app/src/main/res/layout/activity_mental_page_main.xml" value="0.2984375" />
-        <entry key="app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.302" />
-        <entry key="app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.302" />
       </map>
     </option>
   </component>
