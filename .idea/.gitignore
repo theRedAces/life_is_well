@@ -3,7 +3,6 @@
 # Gradle files
 .gradle/
 /.gradle/
-/.gradle/7.3.3/
 build/
 
 # Local configuration file (sdk path, etc)
@@ -20,10 +19,6 @@ captures/
 output.json
 
 # IntelliJ
-*.iml
-=======
-.idea/
-/.idea/
 deploymentTargetDropDown.xml
 render.experimental.xml
 
@@ -36,4 +31,3 @@ google-services.json
 
 # Android Profiling
 *.hprof
-/.gradle/
