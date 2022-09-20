@@ -27,6 +27,8 @@
         <entry key="..\:/Users/dkens/life_is_well/app/src/main/res/layout/activity_health_macro_tracker.xml" value="0.358695652173913" />
         <entry key="..\:/Users/dkens/life_is_well/app/src/main/res/layout/activity_health_page_main.xml" value="0.358695652173913" />
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.30625" />
+        <entry key="app/src/main/res/layout/fragment_dashboard.xml" value="0.234375" />
+        <entry key="app/src/main/res/layout/fragment_notifications.xml" value="0.234375" />
       </map>
     </option>
   </component>
