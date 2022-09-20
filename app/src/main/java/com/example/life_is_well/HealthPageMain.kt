@@ -10,11 +10,11 @@ import androidx.core.content.ContextCompat.startActivity
 class HealthPageMain : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_main)
+        setContentView(R.layout.activity_health_page_main)
 
         val macrosButton = findViewById<Button>(R.id.macroTrackerButton)
         macrosButton.setOnClickListener {
-            val Intent = Intent(this, PhysicalMacroTracker::class.java)
+            val Intent = Intent(this, HealthMacroTracker::class.java)
             startActivity(Intent)
 
         }
