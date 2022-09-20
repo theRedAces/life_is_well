@@ -14,9 +14,12 @@
         android:theme="@style/Theme.Life_is_well"
         tools:targetApi="31">
         <activity
-            android:name=".FinanceAccountPageMain"
-            android:theme="@style/Theme.Life_is_well_home"
+            android:name=".HealthMacroTracker"
             android:exported="false" />
+        <activity
+            android:name=".FinanceAccountPageMain"
+            android:exported="false"
+            android:theme="@style/Theme.Life_is_well_home" />
         <activity
             android:name=".MentalPageMain"
             android:exported="false" />
