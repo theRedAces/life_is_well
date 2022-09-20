@@ -12,6 +12,7 @@ import fragments.ProfileFragment
 import fragments.SettingsFragment
 import kotlinx.android.synthetic.main.activity_main.*
 
+
 class MainActivity : AppCompatActivity() {
 
     private val homeFragment = HomeFragment()
