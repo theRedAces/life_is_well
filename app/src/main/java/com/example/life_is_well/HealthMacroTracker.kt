@@ -10,7 +10,11 @@ import java.text.SimpleDateFormat
 import java.util.*
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 class PhysicalMacroTracker : AppCompatActivity() {
+=======
+class HealthMacroTracker : AppCompatActivity() {
+>>>>>>> mimif10-MentalWellness
 =======
 class HealthMacroTracker : AppCompatActivity() {
 >>>>>>> mimif10-MentalWellness
