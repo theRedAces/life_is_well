@@ -1,5 +1,6 @@
 package com.example.life_is_well
 
+
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
