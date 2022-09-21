@@ -52,9 +52,9 @@ class HealthMacroTracker : AppCompatActivity() {
             month,
             day,
         )
-      /*  dpd.datePicker.maxDate = System.currentTimeMillis() - 86400000
+        dpd.datePicker.maxDate = System.currentTimeMillis() - 86400000
         dpd.show()
-    */
+
     }
 
 
