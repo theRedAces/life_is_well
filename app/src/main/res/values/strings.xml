@@ -1,3 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">life_is_well</string>
     <string name="add">Add</string>
@@ -5,10 +6,40 @@
     <string name="health">Health</string>
     <string name="finance">Finance</string>
     <string name="lifeiswell">LifeIsWell</string>
+
+    <string name="mentalpage">Mental Wellness</string>
+    <string name="title_activity_meditation_page">MeditationPageActivity</string>
+    <string name="meditations">Meditations</string>
+
+    <string name="gratitudeJournal">Gratitude Journal</string>
+    <string name="breathe">Breathing Exercise</string>
+    <string name="lists">TO DOs</string>
+
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="title_activity_meditation_page_main">MeditationPageMain</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="title_activity_breathing_exercixe">BreathingExercixe</string>
+    <string name="title_activity_breathing_exercise_mental_page">BreathingExerciseMentalPage</string>
+    <string name="defaultNavHost">nav_host</string>
+    <string name="navGraph">nav_graph</string>
+    <string name="nameofuser">Name</string>
+    <string name="nameOfUser">Name</string>
+    <string name="profile_photo_of_user">Profile Photo of User</string>
+    <string name="user_details">User Details</string>
+    <string name="user_stats">User Stats</string>
+    <string name="bio">Bio</string>
+    <string name="trophy_case">Trophy Case</string>
     <string name="account">Account 1</string>
     <string name="new_account">New Account</string>
-    <!-- TODO: Remove or change this placeholder text -->
-    <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="home">Home</string>
     <string name="profile">Profile</string>
     <string name="goals">Goals</string>
@@ -28,6 +59,6 @@
     <string name="sync_title">Sync email periodically</string>
     <string name="attachment_title">Download incoming attachments</string>
     <string name="attachment_summary_on">Automatically download attachments for incoming emails
-    </string>
+     </string>
     <string name="attachment_summary_off">Only download attachments when manually requested</string>
 </resources>
