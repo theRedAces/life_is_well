@@ -38,7 +38,6 @@
             app:layout_constraintTop_toBottomOf="@id/layoutHeaderHome"
             tools:layout_editor_absoluteX="10dp">
 
-
         </ScrollView>
 
         <TextView
@@ -57,9 +56,4 @@
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 
-
-
-
-
 </androidx.constraintlayout.widget.ConstraintLayout>
-

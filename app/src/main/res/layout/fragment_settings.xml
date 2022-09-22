@@ -14,4 +14,8 @@
         android:layout_height="match_parent"
         android:text="@string/settings" />
 
+<<<<<<< Updated upstream
 </FrameLayout>
+=======
+</FrameLayout>
+>>>>>>> Stashed changes

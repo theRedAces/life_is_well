@@ -8,8 +8,6 @@
     android:clickable="true"
     tools:context=".MentalPageMain">
 
-
-
     <androidx.constraintlayout.widget.ConstraintLayout
         android:id="@+id/layoutHeaderHome"
         android:layout_width="match_parent"
@@ -27,7 +25,6 @@
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintTop_toBottomOf="@id/layoutHeaderHome"
             tools:layout_editor_absoluteX="10dp">
-
 
         </ScrollView>
 
@@ -47,9 +44,4 @@
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 
-
-
-
-
 </androidx.constraintlayout.widget.ConstraintLayout>
-
