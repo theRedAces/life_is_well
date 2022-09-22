@@ -36,7 +36,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:gravity="center"
-            android:text="@string/mentalpage"
+            android:text="@string/mentalPage"
             android:textColor="@color/colorWhiteHome"
             android:textSize="25sp"
             app:layout_constraintBottom_toBottomOf="@+id/scrollView2"
@@ -149,7 +149,7 @@
         app:menu="@menu/bottom_nav_menu" />
 
     <FrameLayout
-        android:id="@+id/fragment_container"
+        android:id="@+id/toDo_container"
         android:layout_width="match_parent"
         android:layout_height="0dp"
         app:layout_constraintBottom_toTopOf="@id/home_bottom_nav"
@@ -164,7 +164,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:orientation="vertical"
-        app:layout_constraintGuide_begin="205dp" />
+        app:layout_constraintGuide_begin="246dp" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
 

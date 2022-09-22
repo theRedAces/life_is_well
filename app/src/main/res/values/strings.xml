@@ -7,9 +7,22 @@
     <string name="finance">Finance</string>
     <string name="lifeiswell">LifeIsWell</string>
 
-    <string name="mentalpage">Mental Wellness</string>
+    <!-- Strings used for Mental Page -->
+    <string name="mentalPage">Mental Wellness</string>
     <string name="title_activity_meditation_page">MeditationPageActivity</string>
     <string name="meditations">Meditations</string>
+
+    <!-- Strings used for Meditation Page -->
+    <string name="dailyMed">Daily Meditation</string>
+    <string name="openHeartMed">Open Your Heart Meditation</string>
+    <string name="letGo">Letting Go Meditation</string>
+    <string name="superPerformance">Super Performance Meditation</string>
+
+    <!-- Strings used for ToDoList Page -->
+    <string name="toDoList">To Do Lists</string>
+    <string name="ShoppingList">Shopping List</string>
+    <string name="WishList">Wish List</string>
+    <string name="AddNew">Add a New List</string>
 
     <string name="defaultNavHost">nav_host</string>
     <string name="navGraph">nav_graph</string>
@@ -30,7 +43,7 @@
     <string name="title_home">Home</string>
     <string name="title_dashboard">Dashboard</string>
     <string name="title_notifications">Notifications</string>
-    <string name="title_activity_breathing_exercixe">BreathingExercixe</string>
+    <string name="title_activity_breathing_exercise">Breathing Exercise</string>
     <string name="title_activity_breathing_exercise_mental_page">BreathingExerciseMentalPage</string>
 
     <string name="account">Account 1</string>

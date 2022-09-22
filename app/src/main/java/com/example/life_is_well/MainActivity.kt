@@ -3,7 +3,6 @@ package com.example.life_is_well
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import android.view.MenuItem
 import android.view.View
 import androidx.fragment.app.Fragment
 import fragments.GoalsFragment
@@ -39,7 +38,7 @@ class MainActivity : AppCompatActivity() {
     private fun replaceFragment(fragment: Fragment){
         if (fragment != null){
             val transaction = supportFragmentManager.beginTransaction()
-            transaction.replace(R.id.fragment_container, fragment)
+            transaction.replace(R.id.toDo_container, fragment)
             transaction.commit()
         }
     }

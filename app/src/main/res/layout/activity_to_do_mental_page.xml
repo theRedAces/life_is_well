@@ -47,26 +47,119 @@
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 
+    <Button
+        android:id="@+id/dailyMed"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginStart="70dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="120dp"
+        android:layout_marginBottom="5dp"
+        android:backgroundTint="@color/colorMeditationButtons"
+        android:text="@string/toDoList"
+        android:textAlignment="center"
+        android:textAllCaps="false"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        android:textColor="@color/colorOffWhite"
+        android:textSize="19sp"
+        android:textStyle="normal"
+        android:visibility="visible"
+        app:layout_constraintBottom_toTopOf="@+id/openHeart"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/layoutHeaderHome" />
+
+    <Button
+        android:id="@+id/openHeart"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginStart="70dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="120dp"
+        android:layout_marginBottom="5dp"
+        android:backgroundTint="#FCBD4684"
+        android:text="@string/ShoppingList"
+        android:textAlignment="center"
+        android:textAllCaps="false"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        android:textColor="@color/colorOffWhite"
+        android:textSize="19sp"
+        android:textStyle="normal"
+        app:layout_constraintBottom_toTopOf="@+id/letGo"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/dailyMed" />
+
+    <Button
+        android:id="@+id/letGo"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginStart="70dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="120dp"
+        android:layout_marginBottom="5dp"
+        android:backgroundTint="@color/colorMeditationButtons"
+        android:text="@string/WishList"
+        android:textAlignment="center"
+        android:textAllCaps="false"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        android:textColor="@color/colorOffWhite"
+        android:textSize="19sp"
+        android:textStyle="normal"
+        app:layout_constraintBottom_toTopOf="@+id/letGo2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/openHeart" />
+
+    <Button
+        android:id="@+id/letGo2"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginStart="70dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="120dp"
+        android:backgroundTint="@color/colorMeditationButtons"
+        android:text="@string/AddNew"
+        android:textAlignment="center"
+        android:textAllCaps="false"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        android:textColor="@color/colorOffWhite"
+        android:textSize="19sp"
+        android:textStyle="normal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/letGo" />
 
     // this is the bottom nav
+
     <com.google.android.material.bottomnavigation.BottomNavigationView
         android:id="@+id/home_bottom_nav"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:menu="@menu/bottom_nav_menu"
         android:background="@color/colorPrimaryHome"
         app:itemIconTint="@color/colorBlackHome"
-        app:itemTextColor="@color/colorBlackHome" />
+        app:itemTextColor="@color/colorBlackHome"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:menu="@menu/bottom_nav_menu" />
 
     <FrameLayout
-        android:id="@+id/fragment_container"
+        android:id="@+id/toDo_container"
         android:layout_width="match_parent"
         android:layout_height="0dp"
+        android:textAlignment="center"
+        app:layout_constraintBottom_toTopOf="@id/home_bottom_nav"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintBottom_toTopOf="@id/home_bottom_nav"/>
+        app:layout_constraintVertical_bias="0.0" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
