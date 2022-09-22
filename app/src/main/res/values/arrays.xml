@@ -21,7 +21,6 @@
         <item>Turn off</item>
     </string-array>
 
-
     <string-array name="HSval">
         <item>Scroll with sidebar</item>
         <item>Touch to scroll</item>
@@ -39,7 +38,5 @@
         <item>Metric</item>
         <item>Imperial A.K.A MERCAN</item>
     </string-array>
-
-
 
 </resources>
