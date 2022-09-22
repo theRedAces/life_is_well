@@ -1,0 +1,72 @@
+<PreferenceScreen xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <PreferenceCategory app:title="@string/app_name">
+
+
+        <ListPreference
+            app:defaultValue="reply"
+            app:entries="@array/Theme_layoutvals"
+            app:entryValues="@array/Theme_layoutvals"
+            app:key="key_theme"
+            app:title="Theme/Layout"
+            app:summary="This will change the color of app">
+
+        </ListPreference>
+
+        <ListPreference
+            app:defaultValue="reply"
+            app:entries="@array/HSval"
+            app:entryValues="@array/HSval"
+            app:key="key_home"
+            app:title="Home Screen"
+            app:summary="edit what your home screen has">
+
+        </ListPreference>
+
+
+
+        <ListPreference
+            app:defaultValue="reply"
+            app:entries="@array/reply_entries"
+            app:entryValues="@array/reply_entries"
+            app:key="key_notifications"
+            app:title="Notifications"
+            app:summary="can edit (add or turn off ) any alerts manually you can also use the volume bar to adjust the sound">
+        </ListPreference>
+
+
+        <SeekBarPreference
+            app:key="vol_notification">
+
+        </SeekBarPreference>
+
+
+        <ListPreference
+            app:defaultValue="reply"
+            app:entries="@array/reply_entries"
+            app:entryValues="@array/Langvals"
+            app:key="key_units_lang"
+            app:title="Language"
+            app:summary="Change to preferred language">
+
+        </ListPreference>
+        <ListPreference
+            app:defaultValue="reply"
+            app:entries="@array/Unitvals"
+            app:entryValues="@array/Unitvals"
+            app:key="key_units_lang"
+            app:title="Measurement System"
+            app:summary="Change the measurement units">
+
+        </ListPreference>
+        <ListPreference
+            app:defaultValue="reply"
+            app:entries="@array/reply_entries"
+            app:entryValues="@array/reply_entries"
+            app:key="key_sec_acc"
+            app:title="Security/Account"
+            app:summary="Edit all sensitive information">
+        </ListPreference>
+    </PreferenceCategory>
+
+</PreferenceScreen>

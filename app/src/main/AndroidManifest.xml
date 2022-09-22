@@ -13,29 +13,19 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Life_is_well"
         tools:targetApi="31">
-
         <activity
-            android:name=".HealthMacroTracker"
-            android:exported="false" />
+            android:name=".SettingsPageMain"
+            android:exported="true"
+            android:label="SettingPageMain"
+            android:parentActivityName=".MainActivity">
+
+        </activity>
         <activity
             android:name=".FinanceAccountPageMain"
             android:exported="false"
             android:theme="@style/Theme.Life_is_well_home" />
         <activity
             android:name=".MentalPageMain"
-            android:exported="false" />
-        <activity
-            android:name=".MeditationMentalPage"
-            android:exported="false" />
-        <activity
-            android:name=".GratitudeMentalPage"
-            android:exported="false" />
-        <activity
-            android:name=".BreathingExerciseMentalPage"
-            android:exported="false"
-            android:theme="@style/Theme.Life_is_well.NoActionBar" />
-        <activity
-            android:name=".ToDoMentalPage"
             android:exported="false" />
         <activity
             android:name=".HealthPageMain"
