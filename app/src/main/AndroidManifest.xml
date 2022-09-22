@@ -16,7 +16,8 @@
 
         <activity
             android:name=".HealthMacroTracker"
-            android:exported="false" />
+            android:exported="false"
+            android:theme="@style/Theme.Life_is_well_home"/>
         <activity
             android:name=".FinanceAccountPageMain"
             android:exported="false"
@@ -39,7 +40,8 @@
             android:exported="false" />
         <activity
             android:name=".HealthPageMain"
-            android:exported="false" />
+            android:exported="false"
+            android:theme="@style/Theme.Life_is_well_home"/>
         <activity
             android:name=".FinancePageMain"
             android:exported="false"
