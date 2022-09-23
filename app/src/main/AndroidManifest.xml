@@ -21,7 +21,7 @@
             android:name=".SettingsPageMain"
             android:exported="true"
             android:label="SettingPageMain"
-            android:parentActivityName=".MainActivity">
+            android:parentActivityName=".MainActivity"/>
 
         <activity
             android:name=".HealthMacroTracker"
@@ -33,6 +33,19 @@
             android:theme="@style/Theme.Life_is_well_home" />
         <activity
             android:name=".MentalPageMain"
+            android:exported="false" />
+        <activity
+            android:name=".MeditationMentalPage"
+            android:exported="false" />
+        <activity
+            android:name=".GratitudeMentalPage"
+            android:exported="false" />
+        <activity
+            android:name=".BreathingExerciseMentalPage"
+            android:exported="false"
+            android:theme="@style/Theme.Life_is_well.NoActionBar" />
+        <activity
+            android:name=".ToDoMentalPage"
             android:exported="false" />
         <activity
             android:name=".HealthPageMain"
