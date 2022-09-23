@@ -61,8 +61,7 @@
         android:backgroundTint="@color/white"
         android:padding="10dp"
         android:text="Select Date"
-        android:textColor="@color/colorFinanceHome"
-        />
+        android:textColor="@color/colorFinanceHome" />
 
     <TextView
         android:id="@+id/tvSelectedDate"
@@ -91,14 +90,14 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:hint="Breakfast"
-            android:autofillHints="What did you have for Breakfast?" />
+            android:autofillHints="What did you have for Breakfast?"
+            android:hint="Breakfast" />
 
         <EditText
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:hint="Calories"/>
+            android:hint="Calories" />
 
 
     </LinearLayout>
@@ -113,13 +112,13 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:hint="Lunch"/>
+            android:hint="Lunch" />
 
         <EditText
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:hint="Calories"/>
+            android:hint="Calories" />
 
 
     </LinearLayout>
@@ -133,13 +132,13 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:hint="Dinner"/>
+            android:hint="Dinner" />
 
         <EditText
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:hint="Calories"/>
+            android:hint="Calories" />
 
 
     </LinearLayout>
@@ -153,13 +152,13 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:hint="Snacks"/>
+            android:hint="Snacks" />
 
         <EditText
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:hint="Calories"/>
+            android:hint="Calories" />
 
 
     </LinearLayout>
@@ -173,13 +172,13 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:hint="Water"/>
+            android:hint="Water" />
 
         <EditText
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:hint="Ounces"/>
+            android:hint="Ounces" />
 
 
     </LinearLayout>
@@ -187,13 +186,43 @@
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Apply"/>
+        android:text="Apply" />
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/colorBackgroundHome"
+        tools:context=".MainActivity">
+
+        <com.google.android.material.bottomnavigation.BottomNavigationView
+            android:id="@+id/home_bottom_nav"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/colorPrimaryHome"
+            app:itemIconTint="@color/colorBlackHome"
+            app:itemTextColor="@color/colorBlackHome"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:menu="@menu/bottom_nav_menu" />
+
+        <FrameLayout
+            android:id="@+id/fragment_container"
+            android:layout_width="356dp"
+            android:layout_height="52dp"
+            android:layout_marginStart="11dp"
+            android:layout_marginEnd="12dp"
+            app:layout_constraintBottom_toTopOf="@id/home_bottom_nav"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.507" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
 
 </LinearLayout>
 
 
 
-
-
-</LinearLayout>
 
