@@ -16,7 +16,6 @@ import kotlinx.android.synthetic.main.activity_main.*
 class MainActivity : AppCompatActivity() {
 
 
-
     private val homeFragment = HomeFragment()
     private val profileFragment = ProfileFragment()
     private val goalsFragment = GoalsFragment()
@@ -32,7 +31,7 @@ class MainActivity : AppCompatActivity() {
 
 
         home_bottom_nav.setOnItemSelectedListener {
-            when(it.itemId){
+            when (it.itemId) {
                 R.id.profileBottomNav -> replaceFragment(profileFragment)
                 //R.id.settingsBottomNav -> replaceFragment(settingsFragment)
                 R.id.goalsBottomNav -> replaceFragment(goalsFragment)
@@ -40,7 +39,7 @@ class MainActivity : AppCompatActivity() {
 
 
                 //John's fix, The R.id separator needed to point towards the SettingPageMain
-                R.id.settingsBottomNav-> {
+                R.id.settingsBottomNav -> {
                     val intent = Intent(this, SettingsPageMain::class.java)
                     startActivity(intent)
                 }
@@ -49,22 +48,20 @@ class MainActivity : AppCompatActivity() {
         }
 
 
-
-
     }
- /*   //John's Fix, this is for the back botton once your in the settings page
-    override fun onOptionsItemSelected(item: MenuItem): Boolean {
-        when (item.itemId) {
-            android.R.id.home-> {
-                super.onBackPressed()
-                return true
-            }
-        }
-        return super.onOptionsItemSelected(item)
-    }*/
+    /*   //John's Fix, this is for the back botton once your in the settings page
+       override fun onOptionsItemSelected(item: MenuItem): Boolean {
+           when (item.itemId) {
+               android.R.id.home-> {
+                   super.onBackPressed()
+                   return true
+               }
+           }
+           return super.onOptionsItemSelected(item)
+       }*/
 
-    private fun replaceFragment(fragment: Fragment){
-        if (fragment != null){
+    private fun replaceFragment(fragment: Fragment) {
+        if (fragment != null) {
             val transaction = supportFragmentManager.beginTransaction()
             transaction.replace(R.id.toDo_container, fragment)
             transaction.commit()
@@ -72,26 +69,22 @@ class MainActivity : AppCompatActivity() {
     }
 
 
-
-
-
     /* HOME PAGE FUNCTIONS */
 
     fun financeBtn(view: View) {
-        val intent = Intent(this,FinancePageMain::class.java )
+        val intent = Intent(this, FinancePageMain::class.java)
         startActivity(intent)
     }
 
     fun healthBtn(view: View) {
-        val intent = Intent(this,HealthPageMain::class.java )
+        val intent = Intent(this, HealthPageMain::class.java)
         startActivity(intent)
     }
 
     fun mentalBtn(view: View) {
-        val intent = Intent(this,MentalPageMain::class.java )
+        val intent = Intent(this, MentalPageMain::class.java)
         startActivity(intent)
     }
-
 
 
     fun addBtn(view: View) {}
@@ -103,7 +96,6 @@ class MainActivity : AppCompatActivity() {
 
 
     /* SETTINGS PAGE FUNCTIONS */
-
 
 
 }
