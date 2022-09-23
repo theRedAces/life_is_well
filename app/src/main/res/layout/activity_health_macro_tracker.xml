@@ -62,7 +62,6 @@
         android:padding="10dp"
         android:text="Select Date"
         android:textColor="@color/colorFinanceHome"
-
         />
 
     <TextView
@@ -193,4 +192,8 @@
 </LinearLayout>
 
 
+
+
+
+</LinearLayout>
 

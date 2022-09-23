@@ -39,7 +39,6 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintTop_toBottomOf="@id/layoutHeaderHome">
 
-
         <androidx.constraintlayout.widget.ConstraintLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content">
@@ -76,7 +75,6 @@
                     android:textSize="20sp"
                     android:textStyle="bold" />
 
-
             </LinearLayout>
 
             <LinearLayout
@@ -110,7 +108,6 @@
                     android:textColor="@color/colorAccentHome"
                     android:textSize="20sp"
                     android:textStyle="bold" />
-
 
             </LinearLayout>
 
@@ -146,9 +143,7 @@
                     android:textSize="20sp"
                     android:textStyle="bold" />
 
-
             </LinearLayout>
-
 
             <LinearLayout
                 android:onClick="addBtn"
@@ -181,7 +176,6 @@
                     android:textColor="@color/colorAccentHome"
                     android:textSize="20sp"
                     android:textStyle="bold" />
-
 
             </LinearLayout>
 
