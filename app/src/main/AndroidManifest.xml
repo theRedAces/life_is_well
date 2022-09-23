@@ -27,9 +27,24 @@
         <activity
             android:name=".MentalPageMain"
             android:exported="false" />
+
+        <activity
+            android:name=".MeditationMentalPage"
+            android:exported="false" />
+        <activity
+            android:name=".GratitudeMentalPage"
+            android:exported="false" />
+        <activity
+            android:name=".BreathingExerciseMentalPage"
+            android:exported="false"
+            android:theme="@style/Theme.Life_is_well.NoActionBar" />
+        <activity
+            android:name=".ToDoMentalPage"
+            android:exported="false" />
         <activity
             android:name=".HealthPageMain"
-            android:exported="false" />
+            android:exported="false"
+            android:theme="@style/Theme.Life_is_well_home"/>
         <activity
             android:name=".FinancePageMain"
             android:exported="false"
