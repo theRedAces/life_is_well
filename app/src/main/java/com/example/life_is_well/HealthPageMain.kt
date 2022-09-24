@@ -18,6 +18,12 @@ class HealthPageMain : AppCompatActivity() {
             startActivity(intent)
 
         }
+
+        val bmiButton = findViewById<Button>(R.id.bmiCalc)
+        bmiButton.setOnClickListener {
+            val intent = Intent(this,BMICalc::class.java)
+            startActivity(intent)
+        }
     }
 }
     /*fun healthBackBtn(view: View) {
@@ -26,4 +32,6 @@ class HealthPageMain : AppCompatActivity() {
         startActivity(intent)
         }
     */
+
+
 
