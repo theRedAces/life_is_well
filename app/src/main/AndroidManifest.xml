@@ -21,7 +21,8 @@
             android:name=".SettingsPageMain"
             android:exported="true"
             android:label="SettingPageMain"
-            android:parentActivityName=".MainActivity"/>
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/PreferenceTheme"/>
 
         <activity
             android:name=".HealthMacroTracker"
@@ -30,20 +31,24 @@
         <activity
             android:name=".FinanceAccountPageMain"
             android:exported="false"
-            android:theme="@style/Theme.Life_is_well_home" />
+            android:theme="@style/Theme.Life_is_well_finance" />
         <activity
             android:name=".MentalPageMain"
-            android:exported="false" />
+            android:exported="false"
+            android:theme="@style/Theme.Life_is_well_mental"/>
+
         <activity
             android:name=".MeditationMentalPage"
-            android:exported="false" />
+            android:exported="false"
+            android:theme="@style/Theme.Life_is_well_mental"/>
         <activity
             android:name=".GratitudeMentalPage"
-            android:exported="false" />
+            android:exported="false"
+            android:theme="@style/Theme.Life_is_well_mental"/>
         <activity
             android:name=".BreathingExerciseMentalPage"
             android:exported="false"
-            android:theme="@style/Theme.Life_is_well.NoActionBar" />
+            android:theme="@style/Theme.Life_is_well_mental" />
         <activity
             android:name=".ToDoMentalPage"
             android:exported="false" />
@@ -54,7 +59,7 @@
         <activity
             android:name=".FinancePageMain"
             android:exported="false"
-            android:theme="@style/Theme.Life_is_well_home" />
+            android:theme="@style/Theme.Life_is_well_finance" />
         <activity
             android:name=".MainActivity"
             android:exported="true"

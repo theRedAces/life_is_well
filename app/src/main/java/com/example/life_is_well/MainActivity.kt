@@ -9,7 +9,7 @@ import androidx.fragment.app.Fragment
 import fragments.GoalsFragment
 import fragments.HomeFragment
 import fragments.ProfileFragment
-import fragments.SettingsFragment
+//import fragments.SettingsFragment
 import kotlinx.android.synthetic.main.activity_main.*
 
 
@@ -19,7 +19,7 @@ class MainActivity : AppCompatActivity() {
     private val homeFragment = HomeFragment()
     private val profileFragment = ProfileFragment()
     private val goalsFragment = GoalsFragment()
-    private val settingsFragment = SettingsFragment()
+    //private val settingsFragment = SettingsFragment()
 
 
     override fun onCreate(savedInstanceState: Bundle?) {
