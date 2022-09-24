@@ -1,8 +1,10 @@
 package com.example.life_is_well
 
 import android.app.DatePickerDialog
+import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.view.View
 import android.widget.Button
 import android.widget.TextView
 import android.widget.Toast
@@ -57,6 +59,15 @@ class HealthMacroTracker : AppCompatActivity() {
 
     }
 
+    fun macroBackBtn(view: View) {
+        val intent = Intent(this,HealthPageMain::class.java )
+        startActivity(intent)
+    }
+
+    fun macroHomeBtn(view: View) {
+        val intent = Intent(this,MainActivity::class.java )
+        startActivity(intent)
+    }
 
 
 }

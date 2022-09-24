@@ -3,6 +3,7 @@ package com.example.life_is_well
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.view.View
 import android.widget.ImageButton
 import com.example.life_is_well.databinding.ActivityMentalPageMainBinding
 
@@ -40,5 +41,12 @@ class MentalPageMain : AppCompatActivity() {
             val intent = Intent(this, ToDoMentalPage::class.java)
             startActivity(intent)
         }
+    }
+
+    fun mentalBackBtn(view: View) {
+
+        val intent = Intent(this, MainActivity::class.java )
+        startActivity(intent)
+
     }
 }

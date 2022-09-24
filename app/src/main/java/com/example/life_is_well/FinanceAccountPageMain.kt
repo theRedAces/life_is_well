@@ -5,6 +5,11 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.View
 
+
+
+
+
+
 class FinanceAccountPageMain : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -14,5 +19,12 @@ class FinanceAccountPageMain : AppCompatActivity() {
     fun accountBackBtn(view: View) {
         val intent = Intent(this,FinancePageMain::class.java )
         startActivity(intent)
+    }
+
+    fun accountHomeBtn(view: View) {
+
+        val intent = Intent(this,MainActivity::class.java )
+        startActivity(intent)
+
     }
 }

@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/colorHealthHome"
-    tools:context=".MainActivity">
+    tools:context=".HealthPageMain">
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:id="@+id/layoutHeaderAccountMain"
@@ -16,7 +16,7 @@
         app:layout_constraintTop_toTopOf="parent">
 
         <TextView
-            android:id="@+id/titleFinance"
+            android:id="@+id/titleHealth"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:gravity="center"
@@ -28,6 +28,19 @@
             app:layout_constraintStart_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageView
+            android:onClick="healthBackBtn"
+            android:id="@+id/backBtn"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginEnd="15dp"
+            android:contentDescription="@string/app_name"
+            android:src="@drawable/ic_baseline_arrow_back"
+            app:tint="@color/colorWhiteHome"
+            app:layout_constraintBottom_toBottomOf="@id/titleHealth"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@id/titleHealth" />
 
 
     </androidx.constraintlayout.widget.ConstraintLayout>

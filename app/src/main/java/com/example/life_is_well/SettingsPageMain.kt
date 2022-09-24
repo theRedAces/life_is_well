@@ -9,6 +9,10 @@ class SettingsPageMain : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.settings_activity)
+
+        val actionBar = supportActionBar
+        actionBar!!.title = ""
+
         if (savedInstanceState == null) {
             supportFragmentManager
                 .beginTransaction()

@@ -5,6 +5,8 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.View
 
+
+
 class FinancePageMain : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -23,6 +25,9 @@ class FinancePageMain : AppCompatActivity() {
         val intent = Intent(this,FinanceAccountPageMain::class.java )
         startActivity(intent)
     }
-    fun financeAddBtn(view: View) {}
+    fun financeAddBtn(view: View) {
+
+
+    }
 
 }
