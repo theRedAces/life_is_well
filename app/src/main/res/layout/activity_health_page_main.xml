@@ -20,7 +20,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:gravity="center"
-            android:text="Health Page"
+            android:text="@string/health"
             android:textColor="@color/colorWhiteHome"
             android:textSize="25sp"
             app:layout_constraintBottom_toBottomOf="parent"
@@ -53,7 +53,7 @@
         android:layout_marginTop="52dp"
         android:layout_marginEnd="40dp"
         android:backgroundTint="@color/colorFinanceHome"
-        android:text="Add +"
+        android:text="@string/add_plus"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toEndOf="@+id/button3"
         app:layout_constraintTop_toBottomOf="@+id/bmiCalc" />
@@ -65,7 +65,7 @@
         android:layout_marginStart="40dp"
         android:layout_marginTop="52dp"
         android:backgroundTint="@color/colorFinanceHome"
-        android:text="Workout"
+        android:text="@string/workout"
         app:layout_constraintEnd_toStartOf="@+id/button4"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/macroTrackerButton" />
@@ -78,7 +78,7 @@
         android:layout_marginTop="64dp"
         android:layout_marginEnd="40dp"
         android:backgroundTint="@color/colorFinanceHome"
-        android:text="BMI Calculator"
+        android:text="@string/bmi_calculator"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toEndOf="@+id/macroTrackerButton"
         app:layout_constraintTop_toBottomOf="@+id/layoutHeaderAccountMain" />
@@ -90,7 +90,7 @@
         android:layout_marginStart="40dp"
         android:layout_marginTop="64dp"
         android:backgroundTint="@color/colorFinanceHome"
-        android:text="Macro Tracker"
+        android:text="@string/macro_tracker"
         app:layout_constraintEnd_toStartOf="@+id/bmiCalc"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/layoutHeaderAccountMain" />

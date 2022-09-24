@@ -7,26 +7,10 @@
     <string name="finance">Finance</string>
     <string name="lifeiswell">LifeIsWell</string>
 
-    <!-- Strings used for Mental Page -->
-    <string name="mentalPage">Mental Wellness</string>
+    <string name="mentalpage">Mental Wellness</string>
     <string name="title_activity_meditation_page">MeditationPageActivity</string>
     <string name="meditations">Meditations</string>
 
-    <!-- Strings used for Meditation Page -->
-    <string name="dailyMed">Daily Meditation</string>
-    <string name="openHeartMed">Open Your Heart Meditation</string>
-    <string name="letGo">Letting Go Meditation</string>
-    <string name="superPerformance">Super Performance Meditation</string>
-
-    <!-- Strings used for ToDoList Page -->
-    <string name="toDoList">To Do Lists</string>
-    <string name="ShoppingList">Shopping List</string>
-    <string name="WishList">Wish List</string>
-    <string name="AddNew">Add a New List</string>
-
-    <string name="defaultNavHost">nav_host</string>
-    <string name="navGraph">nav_graph</string>
-    <string name="nameofuser">Name</string>
     <string name="gratitudeJournal">Gratitude Journal</string>
     <string name="breathe">Breathing Exercise</string>
     <string name="lists">TO DOs</string>
@@ -43,13 +27,19 @@
     <string name="title_home">Home</string>
     <string name="title_dashboard">Dashboard</string>
     <string name="title_notifications">Notifications</string>
-    <string name="title_activity_breathing_exercise">Breathing Exercise</string>
+    <string name="title_activity_breathing_exercixe">BreathingExercixe</string>
     <string name="title_activity_breathing_exercise_mental_page">BreathingExerciseMentalPage</string>
-
+    <string name="defaultNavHost">nav_host</string>
+    <string name="navGraph">nav_graph</string>
+    <string name="nameofuser">Name</string>
+    <string name="nameOfUser">Name</string>
+    <string name="profile_photo_of_user">Profile Photo of User</string>
+    <string name="user_details">User Details</string>
+    <string name="user_stats">User Stats</string>
+    <string name="bio">Bio</string>
+    <string name="trophy_case">Trophy Case</string>
     <string name="account">Account 1</string>
     <string name="new_account">New Account</string>
-    <!-- TODO: Remove or change this placeholder text -->
-    <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="home">Home</string>
     <string name="profile">Profile</string>
     <string name="goals">Goals</string>
@@ -72,12 +62,29 @@
      </string>
     <string name="attachment_summary_off">Only download attachments when manually requested</string>
     <string name="accountbtnnum"> 1 </string>
+    <string name="macro_tracker">Macro Tracker</string>
+    <string name="bmi_calculator">BMI Calculator</string>
+    <string name="workout">Workout</string>
+    <string name="select_date">Select Date</string>
+    <string name="daily_intake">Daily Intake</string>
+    <string name="calculate_your_macros">Calculate Your Macros</string>
+    <string name="selected_date">Selected Date</string>
+    <string name="breakfast">Breakfast</string>
+    <string name="calories">Calories</string>
+    <string name="lunch">Lunch</string>
+    <string name="dinner">Dinner</string>
+    <string name="snacks">Snacks</string>
+    <string name="water">Water</string>
+    <string name="ounces">Ounces</string>
+    <string name="apply">Apply</string>
+    <string name="add_plus">Add +</string>
+    <string name="_04_03_1992">04/03/1992</string>
+    <string name="daily_meditation">Daily Meditation</string>
+    <string name="open_heart_meditation">Open Heart Meditation</string>
+    <string name="let_go">Let Go</string>
+    <string name="super_performance">Super Performance</string>
+    <string name="to_do_list">To Do List</string>
+    <string name="shopping_list">Shopping List</string>
+    <string name="wish_list">Wish List</string>
+    <string name="add_new">Add New</string>
 </resources>
-    <string name="nameOfUser">NameOfUser</string>
-    <string name="profile_photo_of_user">Profile Photo of User</string>
-    <string name="user_details">User Details</string>
-    <string name="user_stats">User Stats</string>
-    <string name="bio">Bio</string>
-    <string name="trophy_case">Trophy Case</string>
-</resources>
-
