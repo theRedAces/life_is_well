@@ -62,4 +62,21 @@
      </string>
     <string name="attachment_summary_off">Only download attachments when manually requested</string>
     <string name="accountbtnnum"> 1 </string>
+    <string name="macro_tracker">Macro Tracker</string>
+    <string name="bmi_calculator">BMI Calculator</string>
+    <string name="workout">Workout</string>
+    <string name="select_date">Select Date</string>
+    <string name="daily_intake">Daily Intake</string>
+    <string name="calculate_your_macros">Calculate Your Macros</string>
+    <string name="selected_date">Selected Date</string>
+    <string name="breakfast">Breakfast</string>
+    <string name="calories">Calories</string>
+    <string name="lunch">Lunch</string>
+    <string name="dinner">Dinner</string>
+    <string name="snacks">Snacks</string>
+    <string name="water">Water</string>
+    <string name="ounces">Ounces</string>
+    <string name="apply">Apply</string>
+    <string name="add_plus">Add +</string>
+    <string name="_04_03_1992">04/03/1992</string>
 </resources>

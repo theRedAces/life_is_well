@@ -51,7 +51,8 @@
             android:theme="@style/Theme.Life_is_well_mental" />
         <activity
             android:name=".ToDoMentalPage"
-            android:exported="false" />
+            android:exported="false"
+            android:theme="@style/Theme.Life_is_well_mental"/>
         <activity
             android:name=".HealthPageMain"
             android:exported="false"
