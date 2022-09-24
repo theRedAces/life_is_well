@@ -16,6 +16,10 @@
 
     /*Custom style for home page */
 
+    <style name="Button.Meditations" parent="ThemeOverlay.AppCompat">
+        <item name="colorAccent">@color/colorMeditationButtons</item>
+    </style>
+
     <style name="Theme.Life_is_well_home" parent="Theme.MaterialComponents.DayNight.NoActionBar">
         <!-- Primary brand color. -->
         <item name="colorPrimary">@color/colorPrimaryHome</item>

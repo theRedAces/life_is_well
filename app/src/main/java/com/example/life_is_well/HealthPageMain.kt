@@ -14,8 +14,8 @@ class HealthPageMain : AppCompatActivity() {
 
         val macrosButton = findViewById<Button>(R.id.macroTrackerButton)
         macrosButton.setOnClickListener {
-            val Intent = Intent(this, HealthMacroTracker::class.java)
-            startActivity(Intent)
+            val intent = Intent(this, HealthMacroTracker::class.java)
+            startActivity(intent)
 
         }
 
