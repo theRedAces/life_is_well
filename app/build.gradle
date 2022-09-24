@@ -35,10 +35,10 @@ android {
         jvmTarget = '1.8'
     }
 
-    buildFeatures {
-        viewBinding true
-    }
-   namespace 'com.example.life_is_well'
+     buildFeatures {
+         viewBinding true
+     }
+    namespace 'com.example.life_is_well'
 }
 
 dependencies {
