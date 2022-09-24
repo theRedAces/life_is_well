@@ -5,6 +5,7 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.View
 import android.widget.Button
+import androidx.core.content.ContextCompat
 import androidx.core.content.ContextCompat.startActivity
 
 class HealthPageMain : AppCompatActivity() {
@@ -25,13 +26,15 @@ class HealthPageMain : AppCompatActivity() {
             startActivity(intent)
         }
     }
-}
-    /*fun healthBackBtn(view: View) {
 
-        val intent = Intent(this, MainActivity::class.java )
+    fun healthBackBtn(view: View) {
+
+        val intent = Intent(this,MainActivity::class.java )
         startActivity(intent)
-        }
-    */
+
+
+    }
+}
 
 
 
