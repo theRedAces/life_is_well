@@ -26,10 +26,9 @@
             android:exported="true"
             android:label="SettingPageMain"
             android:parentActivityName=".MainActivity"
-            android:theme="@style/PreferenceTheme"/>
-            android:parentActivityName=".MainActivity">
+            android:theme="@style/PreferenceTheme" />
 
-        </activity>
+
         <activity
             android:name=".FinanceAccountPageMain"
             android:exported="false"
