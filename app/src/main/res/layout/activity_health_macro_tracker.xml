@@ -10,7 +10,7 @@
     tools:context=".HealthMacroTracker">
 
     <androidx.constraintlayout.widget.ConstraintLayout
-        android:id="@+id/layoutHeaderAccountMain"
+        android:id="@+id/layoutHeaderMacroMain"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:background="@drawable/home_page_header_background"
@@ -22,7 +22,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:gravity="center"
-            android:text="Macro Tracker"
+            android:text="@string/macro_tracker"
             android:textColor="@color/colorWhiteHome"
             android:textSize="25sp"
             app:layout_constraintBottom_toBottomOf="parent"
@@ -63,7 +63,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="16dp"
-        android:text="Calculate Your Macros"
+        android:text="@string/calculate_your_macros"
         android:textColor="#4CAF50"
         android:textSize="25sp"
         android:textStyle="bold" />
@@ -74,7 +74,7 @@
         android:layout_marginTop="16dp"
         android:background="#4CAF50"
         android:padding="4dp"
-        android:text="Daily Intake"
+        android:text="@string/daily_intake"
         android:textColor="@color/white"
         android:textSize="20sp"
         android:textStyle="bold" />
@@ -87,7 +87,7 @@
         android:layout_marginStart="16dp"
         android:layout_marginEnd="16dp"
         android:padding="10dp"
-        android:text="Select Date"
+        android:text="@string/select_date"
         android:textColor="@color/colorFinanceHome" />
 
     <TextView
@@ -95,7 +95,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="16dp"
-        android:text="04/03/1992"
+        android:text="@string/_04_03_1992"
         android:textColor="#4CAF50"
         android:textSize="20sp"
         android:textStyle="bold" />
@@ -104,7 +104,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="16dp"
-        android:text="Selected Date"
+        android:text="@string/selected_date"
         android:textColor="@color/colorLightGrey"
         android:textSize="16sp" />
 
@@ -120,13 +120,13 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:autofillHints="What did you have for Breakfast?"
-            android:hint="Breakfast" />
+            android:hint="@string/breakfast" />
 
         <EditText
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:hint="Calories" />
+            android:hint="@string/calories" />
 
 
     </LinearLayout>
@@ -143,13 +143,13 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:hint="Lunch" />
+            android:hint="@string/lunch" />
 
         <EditText
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:hint="Calories" />
+            android:hint="@string/calories" />
 
 
     </LinearLayout>
@@ -165,13 +165,13 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:hint="Dinner" />
+            android:hint="@string/dinner" />
 
         <EditText
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:hint="Calories" />
+            android:hint="@string/calories" />
 
 
     </LinearLayout>
@@ -187,13 +187,13 @@
             android:layout_width="54dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:hint="Snacks" />
+            android:hint="@string/snacks" />
 
         <EditText
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:hint="Calories" />
+            android:hint="@string/calories" />
 
 
     </LinearLayout>
@@ -209,13 +209,13 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:hint="Water" />
+            android:hint="@string/water" />
 
         <EditText
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:hint="Ounces" />
+            android:hint="@string/ounces" />
 
 
     </LinearLayout>
@@ -223,7 +223,7 @@
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Apply" />
+        android:text="@string/apply" />
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
