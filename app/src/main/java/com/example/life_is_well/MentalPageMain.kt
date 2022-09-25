@@ -43,10 +43,17 @@ class MentalPageMain : AppCompatActivity() {
         }
     }
 
-    fun mentalBackBtn(view: View) {
 
-        val intent = Intent(this, MainActivity::class.java )
+    fun backBtn(view: View) {
+        val intent = Intent(this,MentalPageMain::class.java )
         startActivity(intent)
-
     }
+
+    fun homeBtn(view: View) {
+        val intent = Intent(this,MainActivity::class.java )
+        startActivity(intent)
+    }
+
+
+
 }

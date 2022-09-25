@@ -7,7 +7,7 @@
     <string name="finance">Finance</string>
     <string name="lifeiswell">LifeIsWell</string>
 
-    <string name="mentalpage">Mental Wellness</string>
+    <string name="mentalPage">Mental Wellness</string>
     <string name="title_activity_meditation_page">MeditationPageActivity</string>
     <string name="meditations">Meditations</string>
 
@@ -27,7 +27,6 @@
     <string name="title_home">Home</string>
     <string name="title_dashboard">Dashboard</string>
     <string name="title_notifications">Notifications</string>
-    <string name="title_activity_breathing_exercixe">BreathingExercixe</string>
     <string name="title_activity_breathing_exercise_mental_page">BreathingExerciseMentalPage</string>
     <string name="defaultNavHost">nav_host</string>
     <string name="navGraph">nav_graph</string>
@@ -87,4 +86,7 @@
     <string name="shopping_list">Shopping List</string>
     <string name="wish_list">Wish List</string>
     <string name="add_new">Add New</string>
+    <string name="start_your_day">Start your day with a grateful heart</string>
+    <string name="today_i_am_grateful_for">Today I am grateful for:</string>
+    <string name="LovingLife">What I am Loving about Life right now:</string>
 </resources>
