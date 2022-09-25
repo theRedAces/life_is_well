@@ -26,7 +26,6 @@
             android:overScrollMode="never"
             android:scrollbars="none"
             app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintTop_toBottomOf="@id/layoutHeaderHome"
             tools:layout_editor_absoluteX="10dp">
 
 
@@ -154,38 +153,15 @@
         android:layout_height="wrap_content"
         app:barrierDirection="top" />
 
-
-    // this is the bottom nav
-
-    <com.google.android.material.bottomnavigation.BottomNavigationView
-        android:id="@+id/home_bottom_nav"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:background="@color/colorPrimaryHome"
-        app:itemIconTint="@color/colorBlackHome"
-        app:itemTextColor="@color/colorBlackHome"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:menu="@menu/bottom_nav_menu" />
-
     <FrameLayout
         android:id="@+id/toDo_container"
         android:layout_width="match_parent"
         android:layout_height="0dp"
-        app:layout_constraintBottom_toTopOf="@id/home_bottom_nav"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.0" />
-
-    <androidx.constraintlayout.widget.Guideline
-        android:id="@+id/guideline3"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:orientation="vertical"
-        app:layout_constraintGuide_begin="246dp" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
 

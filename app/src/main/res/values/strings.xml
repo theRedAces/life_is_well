@@ -71,13 +71,16 @@
     <string name="attachment_summary_on">Automatically download attachments for incoming emails
      </string>
     <string name="attachment_summary_off">Only download attachments when manually requested</string>
-    <string name="accountbtnnum"> 1 </string>
-</resources>
+    <string name="accountbtnnum">  </string>
+
     <string name="nameOfUser">NameOfUser</string>
     <string name="profile_photo_of_user">Profile Photo of User</string>
     <string name="user_details">User Details</string>
     <string name="user_stats">User Stats</string>
     <string name="bio">Bio</string>
     <string name="trophy_case">Trophy Case</string>
+    <string name="start_your_day">Start your day with a grateful heart</string>
+    <string name="today_i_am_grateful_for">Today I am Grateful for:</string>
+    <string name="LovingLife">What I am loving about Life right now:</string>
 </resources>
 

@@ -14,7 +14,7 @@
         android:id="@+id/layoutHeaderHome"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:background="@drawable/home_page_header_background"
+        android:background="@drawable/home_page_mental_btn_background"
         android:padding="10dp"
         app:layout_constraintTop_toTopOf="parent">
 
@@ -28,7 +28,6 @@
             app:layout_constraintTop_toBottomOf="@id/layoutHeaderHome"
             tools:layout_editor_absoluteX="10dp">
 
-
         </ScrollView>
 
         <TextView
@@ -37,7 +36,7 @@
             android:layout_height="wrap_content"
             android:gravity="center"
             android:text="@string/meditations"
-            android:textColor="@color/colorWhiteHome"
+            android:textColor="@color/black"
             android:textSize="25sp"
             android:textStyle="bold"
             app:layout_constraintBottom_toBottomOf="parent"
