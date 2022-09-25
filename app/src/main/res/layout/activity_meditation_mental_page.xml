@@ -45,21 +45,33 @@
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
 
+        <ImageView
+            android:id="@+id/backBtn"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:contentDescription="@string/app_name"
+            android:onClick="backBtn"
+            android:src="@drawable/ic_baseline_arrow_back"
+            app:layout_constraintBottom_toBottomOf="@id/backBtn"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@id/backBtn"
+            app:tint="@color/black" />
+
+        <ImageView
+            android:id="@+id/HomeBtn"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginEnd="15dp"
+            android:contentDescription="@string/app_name"
+            android:onClick="homeBtn"
+            android:src="@drawable/ic_baseline_home"
+            app:layout_constraintBottom_toBottomOf="@id/HomeBtn"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="@id/HomeBtn"
+            app:tint="@color/black" />
+
     </androidx.constraintlayout.widget.ConstraintLayout>
 
-    // this is the bottom nav
-
-    <com.google.android.material.bottomnavigation.BottomNavigationView
-        android:id="@+id/home_bottom_nav"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:background="@color/colorPrimaryHome"
-        app:itemIconTint="@color/colorBlackHome"
-        app:itemTextColor="@color/colorBlackHome"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:menu="@menu/bottom_nav_menu" />
 
     <Button
         android:id="@+id/dailyMed"

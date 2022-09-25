@@ -1,8 +1,10 @@
 package com.example.life_is_well
 
 
+import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.view.View
 import com.example.life_is_well.databinding.ActivityToDoMentalPageBinding
 
 
@@ -14,5 +16,15 @@ class ToDoMentalPage : AppCompatActivity() {
 
         binding = ActivityToDoMentalPageBinding.inflate(layoutInflater)
         setContentView(binding.root)
+    }
+
+    fun backBtn(view: View) {
+        val intent = Intent(this,MentalPageMain::class.java )
+        startActivity(intent)
+    }
+
+    fun homeBtn(view: View) {
+        val intent = Intent(this,MainActivity::class.java )
+        startActivity(intent)
     }
 }

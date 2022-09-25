@@ -19,7 +19,7 @@ class GratitudeMentalPage : AppCompatActivity() {
         setContentView(binding.root)
     }
 
-    fun gratitudeBackBtn(view: View) {
+    fun backBtn(view: View) {
         val intent = Intent(this,MentalPageMain::class.java )
         startActivity(intent)
     }
