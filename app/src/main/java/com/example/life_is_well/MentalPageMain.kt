@@ -44,8 +44,8 @@ class MentalPageMain : AppCompatActivity() {
     }
 
 
-    fun backBtn(view: View) {
-        val intent = Intent(this,MentalPageMain::class.java )
+    fun mentalBackBtn(view: View) {
+        val intent = Intent(this,MainActivity::class.java )
         startActivity(intent)
     }
 
@@ -53,6 +53,7 @@ class MentalPageMain : AppCompatActivity() {
         val intent = Intent(this,MainActivity::class.java )
         startActivity(intent)
     }
+
 
 
 
