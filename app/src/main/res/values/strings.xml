@@ -92,4 +92,11 @@
     <string name="LovingLife">What I am Loving about Life right now:</string>
     <string name="social_media">Social Media</string>
     <string name="users_profile_picture">Users Profile Picture</string>
+    <string name="weight">Weight:</string>
+    <string name="_0">0</string>
+    <string name="pounds_lbs">Pounds (lbs)</string>
+    <string name="height">Height:</string>
+    <string name="inches">Inches</string>
+    <string name="calculate">Calculate</string>
+    <string name="normal_range">(Normal Range is 18.5 - 24.9)</string>
 </resources>
