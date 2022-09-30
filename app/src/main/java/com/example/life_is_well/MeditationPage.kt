@@ -5,10 +5,11 @@ import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.View
+import android.widget.Button
 import com.example.life_is_well.databinding.ActivityMeditationMentalPageBinding
 
 
-class MeditationMentalPage : AppCompatActivity() {
+class MeditationPage : AppCompatActivity() {
     private lateinit var binding: ActivityMeditationMentalPageBinding
 
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -16,6 +17,13 @@ class MeditationMentalPage : AppCompatActivity() {
 
         binding = ActivityMeditationMentalPageBinding.inflate(layoutInflater)
         setContentView(binding.root)
+
+        // DailyMeditation Button
+        val DailyMeditationButton = findViewById<Button>(R.id.dailyMed)
+        DailyMeditationButton.setOnClickListener {
+            val intent = Intent(this, DailyMeditationPage::class.java)
+            startActivity(intent)
+        }
     }
 
     fun backBtn(view: View) {

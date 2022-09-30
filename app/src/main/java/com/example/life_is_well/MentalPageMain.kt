@@ -20,7 +20,7 @@ class MentalPageMain : AppCompatActivity() {
 
        val meditateButton = findViewById<ImageButton>(R.id.imageButton6)
         meditateButton.setOnClickListener {
-            val intent = Intent(this, MeditationMentalPage::class.java)
+            val intent = Intent(this, MeditationPage::class.java)
             startActivity(intent)
         }
 
