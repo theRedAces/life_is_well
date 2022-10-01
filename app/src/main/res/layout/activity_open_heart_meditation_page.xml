@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     android:id="@+id/performance"
     android:background="@color/colorBackgroundHome"
-    tools:context=".DailyMeditationPage"
+    tools:context=".OpenHeartMeditationPage"
     android:orientation="vertical" >>
 
 
@@ -36,9 +36,9 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:gravity="center"
-            android:text="@string/daily_meditation"
+            android:text="@string/open_heart_meditation"
             android:textColor="@color/black"
-            android:textSize="25sp"
+            android:textSize="20sp"
             android:textStyle="bold"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
@@ -75,12 +75,12 @@
 
     <com.pierfrancescosoffritti.androidyoutubeplayer.core.player.views.YouTubePlayerView
 
-        android:id="@+id/dailyMed"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        android:id="@+id/open_heart" />
 
 </LinearLayout>

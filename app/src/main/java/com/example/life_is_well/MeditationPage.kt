@@ -24,12 +24,18 @@ class MeditationPage : AppCompatActivity() {
             val intent = Intent(this, DailyMeditationPage::class.java)
             startActivity(intent)
         }
+
+        val OpenHeartButton = findViewById<Button>(R.id.openHeart)
+        OpenHeartButton.setOnClickListener {
+            val intent = Intent(this, OpenHeartMeditationPage::class.java)
+            startActivity(intent)
+        }
     }
 
     fun backBtn(view: View) {
         val intent = Intent(this,MentalPageMain::class.java )
         startActivity(intent)
-    }
+        }
 
     fun homeBtn(view: View) {
         val intent = Intent(this,MainActivity::class.java )

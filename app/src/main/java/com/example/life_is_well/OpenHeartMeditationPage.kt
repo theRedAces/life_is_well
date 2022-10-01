@@ -5,19 +5,19 @@ import android.os.Bundle
 import android.view.View
 import android.view.Window
 import androidx.appcompat.app.AppCompatActivity
-import com.example.life_is_well.databinding.ActivityDailyMeditationPageBinding
+import com.example.life_is_well.databinding.ActivityOpenHeartMeditationPageBinding
 import com.pierfrancescosoffritti.androidyoutubeplayer.core.player.PlayerConstants
 import com.pierfrancescosoffritti.androidyoutubeplayer.core.player.YouTubePlayer
 import com.pierfrancescosoffritti.androidyoutubeplayer.core.player.listeners.AbstractYouTubePlayerListener
 import com.pierfrancescosoffritti.androidyoutubeplayer.core.player.views.YouTubePlayerView
 
 
-class DailyMeditationPage : AppCompatActivity() {
-    private lateinit var binding: ActivityDailyMeditationPageBinding
+class OpenHeartMeditationPage : AppCompatActivity() {
+    private lateinit var binding: ActivityOpenHeartMeditationPageBinding
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        binding = ActivityDailyMeditationPageBinding.inflate(layoutInflater)
+        binding = ActivityOpenHeartMeditationPageBinding.inflate(layoutInflater)
 
         // set screen orientation to landscape
         requestWindowFeature(Window.FEATURE_NO_TITLE)
@@ -26,11 +26,11 @@ class DailyMeditationPage : AppCompatActivity() {
         actionBar?.hide() // hide action bar
 
         // YouTube Player View - initiate View by Id
-        val youTubePlayerView = findViewById<YouTubePlayerView>(R.id.dailyMed)
+        val youTubePlayerView = findViewById<YouTubePlayerView>(R.id.open_heart)
         lifecycle.addObserver(youTubePlayerView) // getting observer for youtube player view.
 
         // setting full screen for YoutubePlayer view
-      //  youTubePlayerView.enterFullScreen()
+        //  youTubePlayerView.enterFullScreen()
         youTubePlayerView.toggleFullScreen()
 
 
@@ -38,7 +38,7 @@ class DailyMeditationPage : AppCompatActivity() {
         youTubePlayerView.addYouTubePlayerListener(object : AbstractYouTubePlayerListener() {
             override fun onReady(youTubePlayer: YouTubePlayer) {
                 // selected video
-                val videoId = "h7bJKdjZcOs"
+                val videoId = "hn6biky7D1g"
 
                 // load video into the YouTube Player
                 youTubePlayer.loadVideo(videoId, 0f)
