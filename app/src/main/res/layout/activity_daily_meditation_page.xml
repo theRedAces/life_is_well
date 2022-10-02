@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:id="@+id/performance"
+    android:id="@+id/medPage"
     android:background="@color/colorBackgroundHome"
     tools:context=".DailyMeditationPage"
     android:orientation="vertical" >>
@@ -12,7 +12,7 @@
 
     // Title
     <androidx.constraintlayout.widget.ConstraintLayout
-        android:id="@+id/layoutHeaderHome"
+        android:id="@+id/letGo"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:background="@drawable/home_page_mental_btn_background"
@@ -26,7 +26,7 @@
             android:overScrollMode="never"
             android:scrollbars="none"
             app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintTop_toBottomOf="@id/layoutHeaderHome"
+            app:layout_constraintTop_toBottomOf="@id/letGo"
             tools:layout_editor_absoluteX="10dp">
 
         </ScrollView>
@@ -75,7 +75,7 @@
 
     <com.pierfrancescosoffritti.androidyoutubeplayer.core.player.views.YouTubePlayerView
 
-        android:id="@+id/dailyMed"
+        android:id="@+id/lettingGo_layout"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         app:layout_constraintBottom_toBottomOf="parent"

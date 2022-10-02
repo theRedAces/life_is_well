@@ -15,17 +15,22 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Life_is_well"
         tools:targetApi="31">
-
+        <activity
+            android:name=".SuperPerformanceMeditationPage"
+            android:configChanges="orientation|screenSize|keyboardHidden|smallestScreenSize|screenLayout"
+            android:exported="false" />
+        <activity
+            android:name=".LettingGoMeditationPage"
+            android:configChanges="orientation|screenSize|keyboardHidden|smallestScreenSize|screenLayout"
+            android:exported="false" />
         <activity
             android:name=".OpenHeartMeditationPage"
             android:configChanges="orientation|screenSize|keyboardHidden|smallestScreenSize|screenLayout"
             android:exported="false" />
-
         <activity
             android:name=".DailyMeditationPage"
             android:configChanges="orientation|screenSize|keyboardHidden|smallestScreenSize|screenLayout"
             android:exported="false" />
-
         <activity
             android:name=".BMICalc"
             android:exported="false"

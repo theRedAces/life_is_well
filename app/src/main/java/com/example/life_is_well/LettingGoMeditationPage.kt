@@ -5,19 +5,19 @@ import android.os.Bundle
 import android.view.View
 import android.view.Window
 import androidx.appcompat.app.AppCompatActivity
-import com.example.life_is_well.databinding.ActivityOpenHeartMeditationPageBinding
+import com.example.life_is_well.databinding.ActivityLettingGoMeditationPageBinding
 import com.pierfrancescosoffritti.androidyoutubeplayer.core.player.PlayerConstants
 import com.pierfrancescosoffritti.androidyoutubeplayer.core.player.YouTubePlayer
 import com.pierfrancescosoffritti.androidyoutubeplayer.core.player.listeners.AbstractYouTubePlayerListener
 import com.pierfrancescosoffritti.androidyoutubeplayer.core.player.views.YouTubePlayerView
 
 
-class OpenHeartMeditationPage : AppCompatActivity() {
-    private lateinit var binding: ActivityOpenHeartMeditationPageBinding
+class LettingGoMeditationPage : AppCompatActivity() {
+    private lateinit var binding: ActivityLettingGoMeditationPageBinding
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        binding = ActivityOpenHeartMeditationPageBinding.inflate(layoutInflater)
+        binding = ActivityLettingGoMeditationPageBinding.inflate(layoutInflater)
 
         // set screen orientation to landscape
         requestWindowFeature(Window.FEATURE_NO_TITLE)
@@ -38,7 +38,7 @@ class OpenHeartMeditationPage : AppCompatActivity() {
         youTubePlayerView.addYouTubePlayerListener(object : AbstractYouTubePlayerListener() {
             override fun onReady(youTubePlayer: YouTubePlayer) {
                 // selected video
-                val videoId = "hn6biky7D1g"
+                val videoId = "Ds79Qm4162E"
 
                 // load video into the YouTube Player
                 youTubePlayer.loadVideo(videoId, 0f)

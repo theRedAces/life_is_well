@@ -26,7 +26,7 @@ class DailyMeditationPage : AppCompatActivity() {
         actionBar?.hide() // hide action bar
 
         // YouTube Player View - initiate View by Id
-        val youTubePlayerView = findViewById<YouTubePlayerView>(R.id.dailyMed)
+        val youTubePlayerView = findViewById<YouTubePlayerView>(R.id.lettingGo_layout)
         lifecycle.addObserver(youTubePlayerView) // getting observer for youtube player view.
 
         // setting full screen for YoutubePlayer view

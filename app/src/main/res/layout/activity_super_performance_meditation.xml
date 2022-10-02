@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     android:id="@+id/lettingGo_layout"
     android:background="@color/colorBackgroundHome"
-    tools:context=".OpenHeartMeditationPage"
+    tools:context=".SuperPerformanceMeditationPage"
     android:orientation="vertical" >>
 
 
@@ -26,7 +26,7 @@
             android:overScrollMode="never"
             android:scrollbars="none"
             app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintTop_toBottomOf="@id/letGo"
+            app:layout_constraintTop_toBottomOf="@id/scrollView2"
             tools:layout_editor_absoluteX="10dp">
 
         </ScrollView>
@@ -36,9 +36,9 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:gravity="center"
-            android:text="@string/open_heart_meditation"
+            android:text="@string/super_performance"
             android:textColor="@color/black"
-            android:textSize="20sp"
+            android:textSize="19sp"
             android:textStyle="bold"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
@@ -75,12 +75,12 @@
 
     <com.pierfrancescosoffritti.androidyoutubeplayer.core.player.views.YouTubePlayerView
 
+        android:id="@+id/superPerformance"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        android:id="@+id/openHeart_view" />
+        app:layout_constraintTop_toTopOf="parent" />
 
 </LinearLayout>

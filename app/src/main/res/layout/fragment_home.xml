@@ -8,7 +8,7 @@
     tools:context=".MainActivity">
 
     <androidx.constraintlayout.widget.ConstraintLayout
-        android:id="@+id/layoutHeaderHome"
+        android:id="@+id/letGo"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:background="@drawable/home_page_header_background"
@@ -38,7 +38,7 @@
         android:overScrollMode="never"
         android:scrollbars="none"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/layoutHeaderHome">
+        app:layout_constraintTop_toBottomOf="@id/letGo">
 
         <androidx.constraintlayout.widget.ConstraintLayout
             android:layout_width="match_parent"

@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     android:id="@+id/lettingGo_layout"
     android:background="@color/colorBackgroundHome"
-    tools:context=".OpenHeartMeditationPage"
+    tools:context=".LettingGoMeditationPage"
     android:orientation="vertical" >>
 
 
@@ -36,7 +36,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:gravity="center"
-            android:text="@string/open_heart_meditation"
+            android:text="@string/let_go"
             android:textColor="@color/black"
             android:textSize="20sp"
             android:textStyle="bold"

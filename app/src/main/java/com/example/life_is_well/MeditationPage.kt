@@ -19,17 +19,30 @@ class MeditationPage : AppCompatActivity() {
         setContentView(binding.root)
 
         // DailyMeditation Button
-        val DailyMeditationButton = findViewById<Button>(R.id.dailyMed)
+        val DailyMeditationButton = findViewById<Button>(R.id.link_dailyMed)
         DailyMeditationButton.setOnClickListener {
             val intent = Intent(this, DailyMeditationPage::class.java)
             startActivity(intent)
         }
 
-        val OpenHeartButton = findViewById<Button>(R.id.openHeart)
+        val OpenHeartButton = findViewById<Button>(R.id.openHeart_view)
         OpenHeartButton.setOnClickListener {
             val intent = Intent(this, OpenHeartMeditationPage::class.java)
             startActivity(intent)
         }
+
+        val LetGoButton = findViewById<Button>(R.id.link_letGo)
+        LetGoButton.setOnClickListener {
+            val intent = Intent(this, LettingGoMeditationPage::class.java)
+            startActivity(intent)
+        }
+
+        val SuperPerformanceButton = findViewById<Button>(R.id.link_super_performance)
+        SuperPerformanceButton.setOnClickListener {
+            val intent = Intent(this, SuperPerformanceMeditationPage::class.java)
+            startActivity(intent)
+        }
+
     }
 
     fun backBtn(view: View) {
