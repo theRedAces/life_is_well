@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/colorHealthHome"
+    android:background="@color/colorBackgroundHome"
     android:gravity="center_horizontal"
     android:orientation="vertical"
     tools:context=".HealthMacroTracker">
@@ -13,7 +13,7 @@
         android:id="@+id/layoutHeaderMacroMain"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:background="@drawable/home_page_header_background"
+        android:background="@drawable/health_page_header_background"
         android:padding="10dp"
         app:layout_constraintTop_toTopOf="parent">
 

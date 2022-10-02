@@ -15,17 +15,17 @@ import android.widget.ImageView
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.app.ActivityCompat
 import androidx.core.content.ContextCompat
-import com.example.life_is_well.databinding.ProfilePageBinding
+import com.example.life_is_well.databinding.ActivityProfilePageMainBinding
 
 class ProfilePageMain : AppCompatActivity() {
-    private lateinit var binding: ProfilePageBinding
+    private lateinit var binding: ActivityProfilePageMainBinding
     private lateinit var profilePhoto: ImageView
     private var pickedProfilePhoto: Uri? = null
     private var pickedProfileBitmap: Bitmap? = null
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        binding = ProfilePageBinding.inflate(layoutInflater)
+        binding = ActivityProfilePageMainBinding.inflate(layoutInflater)
         setContentView(binding.root)
 
         profilePhoto = findViewById(R.id.profile_photo)

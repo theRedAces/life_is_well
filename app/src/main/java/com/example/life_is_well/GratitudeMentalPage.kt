@@ -19,13 +19,15 @@ class GratitudeMentalPage : AppCompatActivity() {
         setContentView(binding.root)
     }
 
-    fun backBtn(view: View) {
-        val intent = Intent(this,MentalPageMain::class.java )
+
+
+    fun gratitudeHomeBtn(view: View) {
+        val intent = Intent(this,MainActivity::class.java )
         startActivity(intent)
     }
 
-    fun homeBtn(view: View) {
-        val intent = Intent(this,MainActivity::class.java )
+    fun gratitudeBackBtn(view: View) {
+        val intent = Intent(this,MentalPageMain::class.java )
         startActivity(intent)
     }
 }

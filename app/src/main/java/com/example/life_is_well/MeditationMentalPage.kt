@@ -18,12 +18,14 @@ class MeditationMentalPage : AppCompatActivity() {
         setContentView(binding.root)
     }
 
-    fun backBtn(view: View) {
+
+
+    fun meditationBackBtn(view: View) {
         val intent = Intent(this,MentalPageMain::class.java )
         startActivity(intent)
     }
 
-    fun homeBtn(view: View) {
+    fun meditationHomeBtn(view: View) {
         val intent = Intent(this,MainActivity::class.java )
         startActivity(intent)
     }
