@@ -139,7 +139,7 @@
             android:layout_width="match_parent"
             android:layout_height="22dp"
             android:background="@color/button_purple"
-            android:text="@string/trophy_case"
+            android:text="BLAH"
             android:textAlignment="center"
             android:textColor="#FFFFFF" />
     </androidx.cardview.widget.CardView>

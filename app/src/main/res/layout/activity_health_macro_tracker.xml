@@ -120,12 +120,14 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:autofillHints="What did you have for Breakfast?"
+            android:singleLine="true"
             android:hint="@string/breakfast" />
 
         <EditText
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
+            android:singleLine="true"
             android:hint="@string/calories" />
 
 
@@ -143,12 +145,14 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
+            android:singleLine="true"
             android:hint="@string/lunch" />
 
         <EditText
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
+            android:singleLine="true"
             android:hint="@string/calories" />
 
 
@@ -165,12 +169,14 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
+            android:singleLine="true"
             android:hint="@string/dinner" />
 
         <EditText
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
+            android:singleLine="true"
             android:hint="@string/calories" />
 
 
@@ -187,12 +193,14 @@
             android:layout_width="54dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
+            android:singleLine="true"
             android:hint="@string/snacks" />
 
         <EditText
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
+            android:singleLine="true"
             android:hint="@string/calories" />
 
 
@@ -209,12 +217,14 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:hint="@string/water" />
+            android:singleLine="true"
+            android:hint="Liquids" />
 
         <EditText
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
+            android:singleLine="true"
             android:hint="@string/ounces" />
 
 
