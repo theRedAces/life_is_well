@@ -1,17 +1,13 @@
 package com.example.life_is_well
 
-
 import android.content.Intent
 import android.os.Bundle
 import android.view.View
 import androidx.appcompat.app.AppCompatActivity
 import com.example.life_is_well.goals.GoalsPageMain
-
 import kotlinx.android.synthetic.main.activity_main.*
 
-
 class MainActivity : AppCompatActivity() {
-
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
@@ -28,7 +24,6 @@ class MainActivity : AppCompatActivity() {
                     startActivity(intent)
                 }
 
-
                 R.id.homeBotNav -> {
                     val intent = Intent(this, MainActivity::class.java)
                     startActivity(intent)
@@ -41,12 +36,7 @@ class MainActivity : AppCompatActivity() {
             }
             true
         }
-
-
     }
-
-
-
 
     fun financeBtn(view: View) {
         val intent = Intent(this, FinancePageMain::class.java)
@@ -63,8 +53,6 @@ class MainActivity : AppCompatActivity() {
         startActivity(intent)
     }
 
-
     fun addBtn(view: View) {}
-
 
 }

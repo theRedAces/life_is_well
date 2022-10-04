@@ -29,7 +29,6 @@ class GoalsPageMain : AppCompatActivity() {
 
         newArrayList = arrayListOf<GoalItem>()
         getUserdata()
-
     }
 
     private fun getUserdata() {
@@ -40,6 +39,5 @@ class GoalsPageMain : AppCompatActivity() {
         }
 
         newRecyclerView.adapter = GoalAdapter(newArrayList)
-
     }
 }

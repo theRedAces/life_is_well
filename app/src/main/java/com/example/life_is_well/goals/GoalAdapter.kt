@@ -1,6 +1,5 @@
 package com.example.life_is_well.goals
 
-import android.util.Log
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
@@ -9,10 +8,12 @@ import androidx.recyclerview.widget.RecyclerView
 import com.example.life_is_well.R
 import com.google.android.material.imageview.ShapeableImageView
 
-class GoalAdapter(private val goalsList: ArrayList<GoalItem>) : RecyclerView.Adapter<GoalAdapter.GoalViewHolder>() {
+class GoalAdapter(private val goalsList: ArrayList<GoalItem>) :
+    RecyclerView.Adapter<GoalAdapter.GoalViewHolder>() {
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): GoalViewHolder {
-        val itemView = LayoutInflater.from(parent.context).inflate(R.layout.goal_item, parent, false)
+        val itemView =
+            LayoutInflater.from(parent.context).inflate(R.layout.goal_item, parent, false)
 
         return GoalViewHolder(itemView)
     }
@@ -28,9 +29,7 @@ class GoalAdapter(private val goalsList: ArrayList<GoalItem>) : RecyclerView.Ada
     }
 
     class GoalViewHolder(itemView: View) : RecyclerView.ViewHolder(itemView) {
-
-        val goalIcon : ShapeableImageView = itemView.findViewById(R.id.goal_icon)
-        val goalTitle : TextView = itemView.findViewById(R.id.goal_title)
-
+        val goalIcon: ShapeableImageView = itemView.findViewById(R.id.goal_icon)
+        val goalTitle: TextView = itemView.findViewById(R.id.goal_title)
     }
 }
