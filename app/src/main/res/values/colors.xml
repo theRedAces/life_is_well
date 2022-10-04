@@ -28,6 +28,7 @@
     <color name="colorDividerHome">#D6D6D6</color>
     <color name="colorLightGrey">#b7b7a4</color>
     <color name="colorOffWhite">#EEEAEA</color>
+    <color name="inputBackground">#DEE0FF</color>
 
     <color name="colorUnderWeight">#FD5F2A</color>
     <color name="colorNormal">#00EC00</color>

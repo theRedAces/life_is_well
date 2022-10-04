@@ -4,7 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#1D5284">
+    android:background="#1D5284"
+    tools:context=".goals.GoalsPageMain">
 
     <androidx.cardview.widget.CardView
         android:id="@+id/profile_photo_container"

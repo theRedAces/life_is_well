@@ -19,9 +19,6 @@
             android:name=".ProfilePageMain"
             android:exported="false" />
         <activity
-            android:name=".goals.GoalsPageMain"
-            android:exported="false" />
-        <activity
             android:name=".BMICalc"
             android:exported="false"
             android:theme="@style/Theme.Life_is_well_health" />
@@ -35,6 +32,10 @@
             android:label="SettingPageMain"
             android:parentActivityName=".MainActivity"
             android:theme="@style/PreferenceTheme" />
+        <activity android:name=".goals.GoalsPageMain"
+            android:exported="true"
+            android:label="@string/goals"
+            android:parentActivityName=".goals.GoalsPageMain"/>
         <activity
             android:name=".FinanceAccountPageMain"
             android:exported="false"

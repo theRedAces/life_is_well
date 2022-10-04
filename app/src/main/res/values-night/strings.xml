@@ -63,4 +63,6 @@
     <string name="attachment_summary_off">Only download attachments when manually requested</string>
     <string name="social_media">Social Media</string>
     <string name="users_profile_picture">Users Profile Picture</string>
+    <string name="finance_goals">Finance Goals</string>
+    <string name="goal_description">Goal Description</string>
 </resources>
