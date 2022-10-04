@@ -31,7 +31,6 @@
     <string name="title_activity_breathing_exercise_mental_page">BreathingExerciseMentalPage</string>
     <string name="defaultNavHost">nav_host</string>
     <string name="navGraph">nav_graph</string>
-    <string name="nameofuser">Name</string>
     <string name="nameOfUser">Name</string>
     <string name="profile_photo_of_user">Profile Photo of User</string>
     <string name="user_details">User Details</string>
@@ -99,4 +98,5 @@
     <string name="calculate">Calculate</string>
     <string name="normal_range">(Normal Range is 18.5 - 24.9)</string>
     <string name="goal_description">Goal Description</string>
+    <string name="finance_goals">Finance Goals</string>
 </resources>

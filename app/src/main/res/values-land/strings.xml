@@ -1,7 +1,102 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <string name="app_name">life_is_well</string>
+    <string name="add">Add</string>
+    <string name="mental">Mental</string>
+    <string name="health">Health</string>
+    <string name="finance">Finance</string>
+    <string name="lifeiswell">LifeIsWell</string>
+
+    <string name="mentalPage">Mental Wellness</string>
+    <string name="title_activity_meditation_page">MeditationPageActivity</string>
+    <string name="meditations">Meditations</string>
+
+    <string name="gratitudeJournal">Gratitude Journal</string>
+    <string name="breathe">Breathing Exercise</string>
+    <string name="lists">TO DOs</string>
+
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="title_activity_meditation_page_main">MeditationPageMain</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="title_activity_breathing_exercise">BreathingExercise</string>
+    <string name="title_activity_breathing_exercise_mental_page">BreathingExerciseMentalPage</string>
+    <string name="defaultNavHost">nav_host</string>
+    <string name="navGraph">nav_graph</string>
+    <string name="nameOfUser">Name</string>
+    <string name="profile_photo_of_user">Profile Photo of User</string>
+    <string name="user_details">User Details</string>
+    <string name="user_stats">User Stats</string>
+    <string name="bio">Bio</string>
+    <string name="trophy_case">Trophy Case</string>
+    <string name="account">Account 1</string>
+    <string name="new_account">New Account</string>
+    <string name="home">Home</string>
+    <string name="profile">Profile</string>
+    <string name="goals">Goals</string>
+    <string name="settings">Settings</string>
+    <string name="account_1">Account 1</string>
+    <string name="title_activity_settings">SettingsActivity</string>
+
+    <!-- Preference Titles -->
+    <string name="messages_header">Messages</string>
+    <string name="sync_header">Sync</string>
+
+    <!-- Messages Preferences -->
+    <string name="signature_title">Your signature</string>
+    <string name="reply_title">Default reply action</string>
+
+    <!-- Sync Preferences -->
+    <string name="sync_title">Sync email periodically</string>
+    <string name="attachment_title">Download incoming attachments</string>
+    <string name="attachment_summary_on">Automatically download attachments for incoming emails</string>
+    <string name="attachment_summary_off">Only download attachments when manually requested</string>
+    <string name="accountbtnnum"> 1 </string>
+    <string name="macro_tracker">Macro Tracker</string>
+    <string name="bmi_calculator">BMI Calculator</string>
+    <string name="workout">Workout</string>
+    <string name="select_date">Select Date</string>
+    <string name="daily_intake">Daily Intake</string>
+    <string name="calculate_your_macros">Calculate Your Macros</string>
+    <string name="selected_date">Selected Date</string>
+    <string name="breakfast">Breakfast</string>
+    <string name="calories">Calories</string>
+    <string name="lunch">Lunch</string>
+    <string name="dinner">Dinner</string>
+    <string name="snacks">Snacks</string>
+    <string name="water">Water</string>
+    <string name="ounces">Ounces</string>
+    <string name="apply">Apply</string>
+    <string name="add_plus">Add +</string>
+    <string name="_04_03_1992">04/03/1992</string>
+    <string name="daily_meditation">Daily Meditation</string>
+    <string name="open_heart_meditation">Open Heart Meditation</string>
+    <string name="let_go">Let Go</string>
+    <string name="super_performance">Super Performance</string>
+    <string name="to_do_list">To Do List</string>
+    <string name="shopping_list">Shopping List</string>
+    <string name="wish_list">Wish List</string>
+    <string name="add_new">Add New</string>
+    <string name="start_your_day">Start your day with a grateful heart</string>
+    <string name="today_i_am_grateful_for">Today I am grateful for:</string>
+    <string name="LovingLife">What I am Loving about Life right now:</string>
     <string name="social_media">Social Media</string>
     <string name="users_profile_picture">Users Profile Picture</string>
-    <string name="finance_goals">Finance Goals</string>
+    <string name="weight">Weight:</string>
+    <string name="_0">0</string>
+    <string name="pounds_lbs">Pounds (lbs)</string>
+    <string name="height">Height:</string>
+    <string name="inches">Inches</string>
+    <string name="calculate">Calculate</string>
+    <string name="normal_range">(Normal Range is 18.5 - 24.9)</string>
     <string name="goal_description">Goal Description</string>
+    <string name="finance_goals">Finance Goals</string>
 </resources>
