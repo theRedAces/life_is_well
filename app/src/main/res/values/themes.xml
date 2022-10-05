@@ -75,7 +75,10 @@
         <!-- Status bar color. -->
         <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
         <!-- Customize your theme here. -->
+
+        <!--this attribute is to change the theme of the normal FAB-->
     </style>
+
 
     /*Custom style for health page */
 
