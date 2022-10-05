@@ -10,9 +10,10 @@ import com.example.life_is_well.databinding.ActivityGoalsPageMainBinding
 
 class GoalsPageMain : AppCompatActivity() {
     private lateinit var binding: ActivityGoalsPageMainBinding
-
     private lateinit var newRecyclerView: RecyclerView
+
     private lateinit var goalList: ArrayList<GoalItem>
+
     private lateinit var imageIds: Array<Int>
     private lateinit var titles: Array<String>
     private lateinit var descriptions: Array<String>
@@ -34,6 +35,7 @@ class GoalsPageMain : AppCompatActivity() {
         getUserdata()
     }
 
+    // TODO: Implement onClick logic. Needs to depend on something to distinguish between an always changing dynamic list of buttons and then set the listener.
     private fun onGoalListItemClick(position: Int) : Unit {
         Toast.makeText(this, goalList[position].goalTitle, Toast.LENGTH_SHORT).show()
     }
