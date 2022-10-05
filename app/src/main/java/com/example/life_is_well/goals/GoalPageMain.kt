@@ -13,7 +13,8 @@ class GoalsPageMain : AppCompatActivity() {
     private lateinit var newRecyclerView: RecyclerView
     private lateinit var newArrayList: ArrayList<GoalItem>
     lateinit var imageId: Array<Int>
-    lateinit var heading: Array<String>
+    lateinit var title: Array<String>
+    lateinit var descriptions: Array<String>
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -22,19 +23,21 @@ class GoalsPageMain : AppCompatActivity() {
 
         newRecyclerView = findViewById(R.id.recycler_view)
         imageId = arrayOf(R.drawable.finance, R.drawable.health, R.drawable.mental)
-        heading = arrayOf("Financial Health", "Physical Health", "Mental Health")
+        title = arrayOf("Financial", "Physical Health", "Mental Health")
+        descriptions = arrayOf("Default Financial Goals", "Default Physical Health Goals", "Default Mental Health Goals")
 
-        newRecyclerView.layoutManager = GridLayoutManager(this, 2)
+        newRecyclerView.layoutManager = GridLayoutManager(this, 2, RecyclerView.VERTICAL,false)
         newRecyclerView.setHasFixedSize(true)
 
         newArrayList = arrayListOf<GoalItem>()
         getUserdata()
     }
 
+
     private fun getUserdata() {
 
         for (i in imageId.indices) {
-            val goal = GoalItem(heading[i], imageId[i])
+            val goal = GoalItem(title[i], imageId[i], descriptions[i])
             newArrayList.add(goal)
         }
 

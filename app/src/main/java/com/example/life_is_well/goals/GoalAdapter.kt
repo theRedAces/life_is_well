@@ -12,9 +12,7 @@ class GoalAdapter(private val goalsList: ArrayList<GoalItem>) :
     RecyclerView.Adapter<GoalAdapter.GoalViewHolder>() {
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): GoalViewHolder {
-        val itemView =
-            LayoutInflater.from(parent.context).inflate(R.layout.goal_item, parent, false)
-
+        val itemView = LayoutInflater.from(parent.context).inflate(R.layout.goal_item, parent, false)
         return GoalViewHolder(itemView)
     }
 
@@ -22,6 +20,7 @@ class GoalAdapter(private val goalsList: ArrayList<GoalItem>) :
         val currentGoal = goalsList[position]
         holder.goalIcon.setImageResource(currentGoal.goalIcon)
         holder.goalTitle.text = currentGoal.goalTitle
+        holder.goalDescription.text = currentGoal.goalDescription
     }
 
     override fun getItemCount(): Int {
@@ -31,5 +30,6 @@ class GoalAdapter(private val goalsList: ArrayList<GoalItem>) :
     class GoalViewHolder(itemView: View) : RecyclerView.ViewHolder(itemView) {
         val goalIcon: ShapeableImageView = itemView.findViewById(R.id.goal_icon)
         val goalTitle: TextView = itemView.findViewById(R.id.goal_title)
+        val goalDescription: TextView = itemView.findViewById(R.id.goal_description)
     }
 }
