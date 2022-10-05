@@ -11,7 +11,7 @@
 
 
     <androidx.constraintlayout.widget.ConstraintLayout
-        android:id="@+id/layoutHeaderHome"
+        android:id="@+id/letGo"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:background="@drawable/mental_page_header_background"
@@ -25,7 +25,7 @@
             android:overScrollMode="never"
             android:scrollbars="none"
             app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintTop_toBottomOf="@id/layoutHeaderHome"
+            app:layout_constraintTop_toBottomOf="@id/letGo"
             tools:layout_editor_absoluteX="10dp">
 
 
@@ -74,7 +74,7 @@
     </androidx.constraintlayout.widget.ConstraintLayout>
 
     <Button
-        android:id="@+id/dailyMed"
+        android:id="@+id/lettingGo_layout"
         android:layout_width="match_parent"
         android:layout_height="50dp"
         android:layout_marginStart="80dp"
@@ -90,14 +90,14 @@
         android:textSize="19sp"
         android:textStyle="normal"
         android:visibility="visible"
-        app:layout_constraintBottom_toTopOf="@+id/openHeart"
+        app:layout_constraintBottom_toTopOf="@+id/openheart"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/layoutHeaderHome" />
+        app:layout_constraintTop_toBottomOf="@+id/letGo" />
 
     <Button
-        android:id="@+id/openHeart"
+        android:id="@+id/openheart"
         android:layout_width="match_parent"
         android:layout_height="50dp"
         android:layout_marginStart="80dp"
@@ -112,14 +112,14 @@
         android:textColor="@color/colorOffWhite"
         android:textSize="19sp"
         android:textStyle="normal"
-        app:layout_constraintBottom_toTopOf="@+id/letGo"
+        app:layout_constraintBottom_toTopOf="@+id/link_letGo"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/dailyMed" />
+        app:layout_constraintTop_toBottomOf="@+id/lettingGo_layout" />
 
     <Button
-        android:id="@+id/letGo"
+        android:id="@+id/link_letGo"
         android:layout_width="match_parent"
         android:layout_height="50dp"
         android:layout_marginStart="80dp"
@@ -134,14 +134,14 @@
         android:textColor="@color/colorOffWhite"
         android:textSize="19sp"
         android:textStyle="normal"
-        app:layout_constraintBottom_toTopOf="@+id/letGo2"
+        app:layout_constraintBottom_toTopOf="@+id/newList"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/openHeart" />
+        app:layout_constraintTop_toBottomOf="@+id/openheart" />
 
     <Button
-        android:id="@+id/letGo2"
+        android:id="@+id/newList"
         android:layout_width="match_parent"
         android:layout_height="50dp"
         android:layout_marginStart="80dp"
@@ -158,7 +158,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/letGo" />
+        app:layout_constraintTop_toBottomOf="@+id/link_letGo" />
 
 
 

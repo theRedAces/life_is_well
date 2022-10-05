@@ -2,19 +2,19 @@
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    android:id="@+id/performance"
+    android:id="@+id/medPage"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/colorBackgroundHome"
     android:clickable="true"
-    tools:context=".MeditationMentalPage">
+    tools:context=".MeditationPage">
 
 
     <androidx.constraintlayout.widget.ConstraintLayout
-        android:id="@+id/layoutHeaderHome"
+        android:id="@+id/letGo"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:background="@drawable/mental_page_header_background"
+        android:background="@drawable/home_page_mental_btn_background"
         android:padding="10dp"
         app:layout_constraintTop_toTopOf="parent">
 
@@ -25,7 +25,7 @@
             android:overScrollMode="never"
             android:scrollbars="none"
             app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintTop_toBottomOf="@id/layoutHeaderHome"
+            app:layout_constraintTop_toBottomOf="@id/letGo"
             tools:layout_editor_absoluteX="10dp">
 
         </ScrollView>
@@ -50,7 +50,7 @@
             android:layout_width="30dp"
             android:layout_height="30dp"
             android:contentDescription="@string/app_name"
-            android:onClick="meditationBackBtn"
+            android:onClick="backBtn"
             android:src="@drawable/ic_baseline_arrow_back"
             app:layout_constraintBottom_toBottomOf="@id/backBtn"
             app:layout_constraintStart_toStartOf="parent"
@@ -58,29 +58,28 @@
             app:tint="@color/black" />
 
         <ImageView
-            android:id="@+id/meditationHomeBtn"
+            android:id="@+id/HomeBtn"
             android:layout_width="30dp"
             android:layout_height="30dp"
             android:layout_marginEnd="15dp"
             android:contentDescription="@string/app_name"
-            android:onClick="meditationHomeBtn"
+            android:onClick="homeBtn"
             android:src="@drawable/ic_baseline_home"
-            app:layout_constraintBottom_toBottomOf="@id/meditationHomeBtn"
+            app:layout_constraintBottom_toBottomOf="@id/HomeBtn"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintTop_toTopOf="@id/meditationHomeBtn"
+            app:layout_constraintTop_toTopOf="@id/HomeBtn"
             app:tint="@color/black" />
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 
 
     <Button
-        android:id="@+id/dailyMed"
+        android:id="@+id/link_dailyMed"
         android:layout_width="match_parent"
         android:layout_height="50dp"
         android:layout_marginStart="10dp"
-        android:layout_marginTop="20dp"
         android:layout_marginEnd="80dp"
-        android:layout_marginBottom="5dp"
+        android:layout_marginBottom="490dp"
         android:backgroundTint="@color/colorMeditationButtons"
         android:text="@string/daily_meditation"
         android:textAlignment="textStart"
@@ -90,21 +89,22 @@
         android:textSize="19sp"
         android:textStyle="normal"
         android:visibility="visible"
-        app:layout_constraintBottom_toTopOf="@+id/openHeart"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/layoutHeaderHome" />
+        app:layout_constraintTop_toBottomOf="@+id/letGo"
+        app:layout_constraintVertical_bias="0.166" />
 
     <Button
-        android:id="@+id/openHeart"
+        android:id="@+id/openHeart_view"
         android:layout_width="match_parent"
         android:layout_height="50dp"
         android:layout_marginStart="10dp"
         android:layout_marginTop="5dp"
         android:layout_marginEnd="80dp"
         android:layout_marginBottom="5dp"
-        android:backgroundTint="#FCBD4684"
+        android:backgroundTint="@color/colorMeditationButtons"
         android:text="@string/open_heart_meditation"
         android:textAlignment="textStart"
         android:textAllCaps="false"
@@ -112,20 +112,20 @@
         android:textColor="@color/colorOffWhite"
         android:textSize="19sp"
         android:textStyle="normal"
-        app:layout_constraintBottom_toTopOf="@+id/letGo"
+        android:visibility="visible"
+        app:layout_constraintBottom_toTopOf="@+id/link_letGo"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/dailyMed" />
+        app:layout_constraintTop_toBottomOf="@+id/link_dailyMed" />
 
     <Button
-        android:id="@+id/letGo"
+        android:id="@+id/link_letGo"
         android:layout_width="match_parent"
         android:layout_height="50dp"
         android:layout_marginStart="10dp"
         android:layout_marginTop="5dp"
         android:layout_marginEnd="80dp"
-        android:layout_marginBottom="5dp"
         android:backgroundTint="@color/colorMeditationButtons"
         android:text="@string/let_go"
         android:textAlignment="textStart"
@@ -134,19 +134,20 @@
         android:textColor="@color/colorOffWhite"
         android:textSize="19sp"
         android:textStyle="normal"
-        app:layout_constraintBottom_toTopOf="@+id/letGo2"
+        android:visibility="visible"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/openHeart" />
+        app:layout_constraintTop_toBottomOf="@+id/openHeart_view" />
 
     <Button
-        android:id="@+id/letGo2"
+        android:id="@+id/link_super_performance"
         android:layout_width="match_parent"
         android:layout_height="50dp"
         android:layout_marginStart="10dp"
-        android:layout_marginTop="5dp"
+        android:layout_marginTop="64dp"
         android:layout_marginEnd="80dp"
+        android:layout_marginBottom="354dp"
         android:backgroundTint="@color/colorMeditationButtons"
         android:text="@string/super_performance"
         android:textAlignment="textStart"
@@ -155,11 +156,13 @@
         android:textColor="@color/colorOffWhite"
         android:textSize="19sp"
         android:textStyle="normal"
+        android:visibility="visible"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/letGo" />
-
+        app:layout_constraintTop_toBottomOf="@+id/openHeart_view"
+        app:layout_constraintVertical_bias="0.0" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
 
