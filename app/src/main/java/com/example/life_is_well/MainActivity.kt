@@ -1,27 +1,15 @@
 package com.example.life_is_well
 
 
-import android.app.Activity
 import android.content.Intent
-import android.content.pm.PackageManager
-import android.graphics.Bitmap
-import android.graphics.ImageDecoder
-import android.net.Uri
-import android.os.Build
 import android.os.Bundle
-import android.provider.MediaStore
 import android.view.View
-import android.widget.ImageView
 import androidx.appcompat.app.AppCompatActivity
-import androidx.core.app.ActivityCompat
-import androidx.core.content.ContextCompat
 import androidx.fragment.app.Fragment
 import fragments.GoalsFragment
 import fragments.HomeFragment
 import fragments.ProfileFragment
-//import fragments.SettingsFragment
 import kotlinx.android.synthetic.main.activity_main.*
-import kotlinx.coroutines.newFixedThreadPoolContext
 
 class MainActivity : AppCompatActivity() {
     private val homeFragment = HomeFragment()
