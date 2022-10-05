@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:id="@+id/medPage"
     android:background="@color/colorBackgroundHome"
-    android:clickable="true"
-    tools:context=".BreathingExerciseMentalPage">
+    tools:context=".DailyMeditationPage"
+    android:orientation="vertical" >>
 
 
+    // Title
     <androidx.constraintlayout.widget.ConstraintLayout
         android:id="@+id/letGo"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:background="@drawable/mental_page_header_background"
+        android:background="@drawable/home_page_mental_btn_background"
         android:padding="10dp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent">
 
         <ScrollView
@@ -29,7 +29,6 @@
             app:layout_constraintTop_toBottomOf="@id/letGo"
             tools:layout_editor_absoluteX="10dp">
 
-
         </ScrollView>
 
         <TextView
@@ -37,7 +36,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:gravity="center"
-            android:text="@string/breathe"
+            android:text="@string/daily_meditation"
             android:textColor="@color/black"
             android:textSize="25sp"
             android:textStyle="bold"
@@ -48,16 +47,14 @@
             app:layout_constraintTop_toTopOf="parent" />
 
         <ImageView
-            android:id="@+id/breathingBackBtn"
+            android:id="@+id/backBtn"
             android:layout_width="30dp"
             android:layout_height="30dp"
-            android:layout_marginEnd="60dp"
-            android:contentDescription="@string/app_name"
-            android:onClick="breathingBackBtn"
+            android:onClick="backBtn"
             android:src="@drawable/ic_baseline_arrow_back"
-            app:layout_constraintBottom_toBottomOf="@id/breathingBackBtn"
+            app:layout_constraintBottom_toBottomOf="@id/backBtn"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="@id/breathingBackBtn"
+            app:layout_constraintTop_toTopOf="@id/backBtn"
             app:tint="@color/black" />
 
         <ImageView
@@ -65,26 +62,25 @@
             android:layout_width="30dp"
             android:layout_height="30dp"
             android:layout_marginEnd="15dp"
-            android:contentDescription="@string/app_name"
-            android:onClick="breathingHomeBtn"
+            android:onClick="homeBtn"
             android:src="@drawable/ic_baseline_home"
             app:layout_constraintBottom_toBottomOf="@id/HomeBtn"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintTop_toTopOf="@id/HomeBtn"
             app:tint="@color/black" />
+
     </androidx.constraintlayout.widget.ConstraintLayout>
 
+    // Call YouTube Player
 
+    <com.pierfrancescosoffritti.androidyoutubeplayer.core.player.views.YouTubePlayerView
 
-
-
-    <FrameLayout
-        android:id="@+id/breathe_container"
+        android:id="@+id/lettingGo_layout"
         android:layout_width="match_parent"
-        android:layout_height="0dp"
+        android:layout_height="match_parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.0" />
+        app:layout_constraintTop_toTopOf="parent" />
 
-</androidx.constraintlayout.widget.ConstraintLayout>
-
+</LinearLayout>
