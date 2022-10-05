@@ -77,6 +77,22 @@
         <!-- Customize your theme here. -->
     </style>
 
+    /*Custom style for health page */
+
+    <style name="Theme.Life_is_well_health" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/colorHealthHome</item>
+        <item name="colorPrimaryVariant">@color/colorHealthHome</item>
+        <item name="colorOnPrimary">@color/colorWhiteHome</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/colorAccentHome</item>
+        <item name="colorSecondaryVariant">@color/colorAccentHome</item>
+        <item name="colorOnSecondary">@color/colorBlackHome</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
+        <!-- Customize your theme here. -->
+    </style>
+
     <style name="PreferenceTheme" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
         <item name="android:colorBackground">@color/colorBackgroundHome</item>
 
