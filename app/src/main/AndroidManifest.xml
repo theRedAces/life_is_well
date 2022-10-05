@@ -16,16 +16,36 @@
         android:theme="@style/Theme.Life_is_well"
         tools:targetApi="31">
         <activity
+             android:name=".BMICalc"
+             android:exported="false"
+             android:theme="@style/Theme.Life_is_well_home"/>
+         <activity
+             android:name=".HealthMacroTracker"
+             android:exported="false"
+             android:theme="@style/Theme.Life_is_well_home" />
+        <activity
+            android:name=".SettingsPageMain"
+            android:exported="true"
+            android:label="SettingPageMain"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/PreferenceTheme"/>
+        <activity
             android:name=".ProfilePageMain"
             android:exported="false" />
         <activity
             android:name=".BMICalc"
             android:exported="false"
             android:theme="@style/Theme.Life_is_well_health" />
+            android:name=".goals.GoalsPageMain"
+            android:exported="false" />
         <activity
-            android:name=".HealthMacroTracker"
-            android:exported="false"
-            android:theme="@style/Theme.Life_is_well_health" />
+            android:name=".SuperPerformanceMeditationPage"
+            android:configChanges="orientation|screenSize|keyboardHidden|smallestScreenSize|screenLayout"
+            android:exported="false" />
+        <activity
+            android:name=".LettingGoMeditationPage"
+            android:configChanges="orientation|screenSize|keyboardHidden|smallestScreenSize|screenLayout"
+            android:exported="false" />
         <activity
             android:name=".SettingsPageMain"
             android:exported="true"
@@ -37,6 +57,13 @@
             android:label="@string/goals"
             android:parentActivityName=".goals.GoalsPageMain"
             android:theme="@style/GoalPageMain"/>
+            android:name=".OpenHeartMeditationPage"
+            android:configChanges="orientation|screenSize|keyboardHidden|smallestScreenSize|screenLayout"
+            android:exported="false" />
+        <activity
+            android:name=".DailyMeditationPage"
+            android:configChanges="orientation|screenSize|keyboardHidden|smallestScreenSize|screenLayout"
+            android:exported="false" />
         <activity
             android:name=".FinanceAccountPageMain"
             android:exported="false"
@@ -44,15 +71,16 @@
         <activity
             android:name=".MentalPageMain"
             android:exported="false"
-            android:theme="@style/Theme.Life_is_well_mental" />
+            android:theme="@style/Theme.Life_is_well_mental"/> 
+
         <activity
             android:name=".MeditationMentalPage"
             android:exported="false"
-            android:theme="@style/Theme.Life_is_well_mental" />
+            android:theme="@style/Theme.Life_is_well_mental"/>
         <activity
             android:name=".GratitudeMentalPage"
             android:exported="false"
-            android:theme="@style/Theme.Life_is_well_mental" />
+            android:theme="@style/Theme.Life_is_well_mental"/>
         <activity
             android:name=".BreathingExerciseMentalPage"
             android:exported="false"
@@ -60,11 +88,11 @@
         <activity
             android:name=".ToDoMentalPage"
             android:exported="false"
-            android:theme="@style/Theme.Life_is_well_mental" />
+            android:theme="@style/Theme.Life_is_well_mental"/>
         <activity
             android:name=".HealthPageMain"
             android:exported="false"
-            android:theme="@style/Theme.Life_is_well_health" />
+            android:theme="@style/Theme.Life_is_well_health"/>
         <activity
             android:name=".FinancePageMain"
             android:exported="false"
