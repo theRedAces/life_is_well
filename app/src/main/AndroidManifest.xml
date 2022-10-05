@@ -33,6 +33,9 @@
             android:name=".ProfilePageMain"
             android:exported="false" />
         <activity
+            android:name=".BMICalc"
+            android:exported="false"
+            android:theme="@style/Theme.Life_is_well_health" />
             android:name=".goals.GoalsPageMain"
             android:exported="false" />
         <activity
@@ -44,6 +47,16 @@
             android:configChanges="orientation|screenSize|keyboardHidden|smallestScreenSize|screenLayout"
             android:exported="false" />
         <activity
+            android:name=".SettingsPageMain"
+            android:exported="true"
+            android:label="SettingPageMain"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/PreferenceTheme" />
+        <activity android:name=".goals.GoalsPageMain"
+            android:exported="true"
+            android:label="@string/goals"
+            android:parentActivityName=".goals.GoalsPageMain"
+            android:theme="@style/GoalPageMain"/>
             android:name=".OpenHeartMeditationPage"
             android:configChanges="orientation|screenSize|keyboardHidden|smallestScreenSize|screenLayout"
             android:exported="false" />
@@ -51,8 +64,6 @@
             android:name=".DailyMeditationPage"
             android:configChanges="orientation|screenSize|keyboardHidden|smallestScreenSize|screenLayout"
             android:exported="false" />
-
-
         <activity
             android:name=".FinanceAccountPageMain"
             android:exported="false"
