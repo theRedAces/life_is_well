@@ -1,6 +1,7 @@
 package com.example.life_is_well.goals
 
 import android.os.Bundle
+import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
 import androidx.recyclerview.widget.GridLayoutManager
 import androidx.recyclerview.widget.RecyclerView
@@ -12,9 +13,9 @@ class GoalsPageMain : AppCompatActivity() {
 
     private lateinit var newRecyclerView: RecyclerView
     private lateinit var goalList: ArrayList<GoalItem>
-    lateinit var imageId: Array<Int>
-    lateinit var title: Array<String>
-    lateinit var descriptions: Array<String>
+    private lateinit var imageIds: Array<Int>
+    private lateinit var titles: Array<String>
+    private lateinit var descriptions: Array<String>
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -22,25 +23,32 @@ class GoalsPageMain : AppCompatActivity() {
         setContentView(binding.root)
 
         newRecyclerView = findViewById(R.id.recycler_view)
-        imageId = arrayOf(R.drawable.finance, R.drawable.health, R.drawable.mental)
-        title = arrayOf("Financial", "Physical Health", "Mental Health")
+        imageIds = arrayOf(R.drawable.finance, R.drawable.health, R.drawable.mental)
+        titles = arrayOf("Financial", "Physical Health", "Mental Health")
         descriptions = arrayOf("Default Financial Goals", "Default Physical Health Goals", "Default Mental Health Goals")
 
         newRecyclerView.layoutManager = GridLayoutManager(this, 2, RecyclerView.VERTICAL,false)
-        newRecyclerView.setHasFixedSize(false)
+        newRecyclerView.setHasFixedSize(true)
 
-        goalList = arrayListOf<GoalItem>()
+        goalList = arrayListOf()
         getUserdata()
     }
 
+    private fun onGoalListItemClick(position: Int) : Unit {
+        Toast.makeText(this, goalList[position].goalTitle, Toast.LENGTH_SHORT).show()
+    }
 
     private fun getUserdata() {
 
-        for (i in imageId.indices) {
-            val goal = GoalItem(title[i], imageId[i], descriptions[i])
+        for (i in imageIds.indices) {
+            val goal = GoalItem(titles[i], imageIds[i], descriptions[i])
             goalList.add(goal)
         }
 
-        newRecyclerView.adapter = GoalAdapter(goalList)
+        newRecyclerView.adapter = GoalAdapter(this, goalList) { position: Int ->
+            onGoalListItemClick(
+                position
+            )
+        }
     }
 }

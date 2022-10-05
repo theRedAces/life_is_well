@@ -3,7 +3,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     package="com.example.life_is_well">
 
-    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"></uses-permission>
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
 
     <application
         android:allowBackup="true"
@@ -33,12 +33,6 @@
             android:name=".ProfilePageMain"
             android:exported="false" />
         <activity
-            android:name=".BMICalc"
-            android:exported="false"
-            android:theme="@style/Theme.Life_is_well_health" />
-            android:name=".goals.GoalsPageMain"
-            android:exported="false" />
-        <activity
             android:name=".SuperPerformanceMeditationPage"
             android:configChanges="orientation|screenSize|keyboardHidden|smallestScreenSize|screenLayout"
             android:exported="false" />
@@ -46,17 +40,12 @@
             android:name=".LettingGoMeditationPage"
             android:configChanges="orientation|screenSize|keyboardHidden|smallestScreenSize|screenLayout"
             android:exported="false" />
-        <activity
-            android:name=".SettingsPageMain"
-            android:exported="true"
-            android:label="SettingPageMain"
-            android:parentActivityName=".MainActivity"
-            android:theme="@style/PreferenceTheme" />
         <activity android:name=".goals.GoalsPageMain"
             android:exported="true"
             android:label="@string/goals"
             android:parentActivityName=".goals.GoalsPageMain"
             android:theme="@style/GoalPageMain"/>
+        <activity
             android:name=".OpenHeartMeditationPage"
             android:configChanges="orientation|screenSize|keyboardHidden|smallestScreenSize|screenLayout"
             android:exported="false" />
