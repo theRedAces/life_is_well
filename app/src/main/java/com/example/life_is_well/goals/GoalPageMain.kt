@@ -5,20 +5,20 @@ import androidx.appcompat.app.AppCompatActivity
 import androidx.recyclerview.widget.GridLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 import com.example.life_is_well.R
-import com.example.life_is_well.databinding.FragmentGoalsBinding
+import com.example.life_is_well.databinding.ActivityGoalsPageMainBinding
 
 class GoalsPageMain : AppCompatActivity() {
-    private lateinit var binding: FragmentGoalsBinding
+    private lateinit var binding: ActivityGoalsPageMainBinding
 
     private lateinit var newRecyclerView: RecyclerView
-    private lateinit var newArrayList: ArrayList<GoalItem>
+    private lateinit var goalList: ArrayList<GoalItem>
     lateinit var imageId: Array<Int>
     lateinit var title: Array<String>
     lateinit var descriptions: Array<String>
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        binding = FragmentGoalsBinding.inflate(layoutInflater)
+        binding = ActivityGoalsPageMainBinding.inflate(layoutInflater)
         setContentView(binding.root)
 
         newRecyclerView = findViewById(R.id.recycler_view)
@@ -27,9 +27,9 @@ class GoalsPageMain : AppCompatActivity() {
         descriptions = arrayOf("Default Financial Goals", "Default Physical Health Goals", "Default Mental Health Goals")
 
         newRecyclerView.layoutManager = GridLayoutManager(this, 2, RecyclerView.VERTICAL,false)
-        newRecyclerView.setHasFixedSize(true)
+        newRecyclerView.setHasFixedSize(false)
 
-        newArrayList = arrayListOf<GoalItem>()
+        goalList = arrayListOf<GoalItem>()
         getUserdata()
     }
 
@@ -38,9 +38,9 @@ class GoalsPageMain : AppCompatActivity() {
 
         for (i in imageId.indices) {
             val goal = GoalItem(title[i], imageId[i], descriptions[i])
-            newArrayList.add(goal)
+            goalList.add(goal)
         }
 
-        newRecyclerView.adapter = GoalAdapter(newArrayList)
+        newRecyclerView.adapter = GoalAdapter(goalList)
     }
 }

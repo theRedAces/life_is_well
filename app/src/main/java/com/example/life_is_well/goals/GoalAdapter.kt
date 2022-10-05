@@ -18,6 +18,7 @@ class GoalAdapter(private val goalsList: ArrayList<GoalItem>) :
 
     override fun onBindViewHolder(holder: GoalViewHolder, position: Int) {
         val currentGoal = goalsList[position]
+        holder
         holder.goalIcon.setImageResource(currentGoal.goalIcon)
         holder.goalTitle.text = currentGoal.goalTitle
         holder.goalDescription.text = currentGoal.goalDescription

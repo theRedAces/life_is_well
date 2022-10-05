@@ -35,7 +35,8 @@
         <activity android:name=".goals.GoalsPageMain"
             android:exported="true"
             android:label="@string/goals"
-            android:parentActivityName=".goals.GoalsPageMain"/>
+            android:parentActivityName=".goals.GoalsPageMain"
+            android:theme="@style/GoalPageMain"/>
         <activity
             android:name=".FinanceAccountPageMain"
             android:exported="false"
