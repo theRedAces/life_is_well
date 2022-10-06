@@ -74,7 +74,7 @@
     </androidx.constraintlayout.widget.ConstraintLayout>
 
     <Button
-        android:id="@+id/lettingGo_layout"
+        android:id="@+id/DailyMed_layout"
         android:layout_width="match_parent"
         android:layout_height="50dp"
         android:layout_marginStart="80dp"
@@ -116,7 +116,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/lettingGo_layout" />
+        app:layout_constraintTop_toBottomOf="@+id/DailyMed_layout" />
 
     <Button
         android:id="@+id/link_letGo"

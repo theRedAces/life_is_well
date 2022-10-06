@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:id="@+id/lettingGo_layout"
+    android:id="@+id/DailyMed_layout"
     android:background="@color/colorBackgroundHome"
     tools:context=".SuperPerformanceMeditationPage"
     android:orientation="vertical" >>
@@ -75,7 +75,7 @@
 
     <com.pierfrancescosoffritti.androidyoutubeplayer.core.player.views.YouTubePlayerView
 
-        android:id="@+id/superPerformance"
+        android:id="@+id/superPerformanceView"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         app:layout_constraintBottom_toBottomOf="parent"
