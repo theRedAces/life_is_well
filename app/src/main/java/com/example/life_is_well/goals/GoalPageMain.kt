@@ -35,7 +35,7 @@ class GoalsPageMain : AppCompatActivity() {
         getUserdata()
     }
 
-    // TODO: Implement onClick logic. Needs to depend on something to distinguish between an always changing dynamic list of buttons and then set the listener.
+    // TODO: Implement onClick logic. Needs to depend on something to distinguish between an always changing dynamic list of buttons and then set the listener. Issue: #52.
     private fun onGoalListItemClick(position: Int) : Unit {
         Toast.makeText(this, goalList[position].goalTitle, Toast.LENGTH_SHORT).show()
     }
