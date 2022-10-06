@@ -26,7 +26,7 @@ class OpenHeartMeditationPage : AppCompatActivity() {
         actionBar?.hide() // hide action bar
 
         // YouTube Player View - initiate View by Id
-        val youTubePlayerView = findViewById<YouTubePlayerView>(R.id.openHeart_view)
+        val youTubePlayerView = findViewById<YouTubePlayerView>(R.id.openHeartView)
         lifecycle.addObserver(youTubePlayerView) // getting observer for youtube player view.
 
         // setting full screen for YoutubePlayer view
