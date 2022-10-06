@@ -99,4 +99,6 @@
     <string name="normal_range">(Normal Range is 18.5 - 24.9)</string>
     <string name="goal_description">Goal Description</string>
     <string name="finance_goals">Finance Goals</string>
+    <string name="adds_new_goal_card">Adds new goal card</string>
+    <string name="addNewGoalButtonText">Add New Goal</string>
 </resources>
