@@ -21,6 +21,7 @@ class FinancePageMain : AppCompatActivity() {
     private lateinit var finRecv:RecyclerView
     private lateinit var userList:ArrayList<FinanceUserData>
     private lateinit var userAdapter: UserAdapter
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_finance_page_main)

@@ -1,6 +1,10 @@
 package com.example.life_is_well.home
 
+import android.provider.ContactsContract
+
 data class HomeUserData (
-    val buttonName: String
+    var homeBtnTitle: String,
+    val homeBtnIcon: Int,
+    val homeBtnBackground: Int,
 
 )
