@@ -99,4 +99,5 @@
     <string name="inches">Inches</string>
     <string name="calculate">Calculate</string>
     <string name="normal_range">(Normal Range is 18.5 - 24.9)</string>
+    <string name="start_exercise">Start Exercise</string>
 </resources>

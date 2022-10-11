@@ -7,7 +7,7 @@
     android:id="@+id/lettingGo_layout"
     android:background="@color/colorBackgroundHome"
     tools:context=".SuperPerformanceMeditationPage"
-    android:orientation="vertical" >>
+    android:orientation="vertical" >
 
 
     // Title
