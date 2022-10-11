@@ -1,8 +1,10 @@
 package com.example.life_is_well
 
 import android.content.Context
+import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.view.View
 import android.widget.Button
 import android.widget.EditText
 import android.widget.TextView
@@ -79,5 +81,11 @@ class BMICalc : AppCompatActivity() {
         }
         resultDescription.setTextColor(ContextCompat.getColor(this,color))
         resultDescription.text = resultText
+    }
+
+    fun bmiBackBtn(view: View) {
+        val intent = Intent(this,HealthPageMain::class.java )
+        startActivity(intent)
+
     }
 }
