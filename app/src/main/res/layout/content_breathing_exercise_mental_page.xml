@@ -6,14 +6,14 @@
     android:layout_height="match_parent"
     android:background="@color/colorBackgroundHome"
     android:clickable="true"
-    tools:context=".MentalPageMain">
+    tools:context=".BreathingExerciseMentalPage">
 
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:id="@+id/letGo"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:background="@drawable/home_page_mental_btn_background"
+        android:background="@drawable/mental_page_header_background"
         android:padding="10dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -48,16 +48,16 @@
             app:layout_constraintTop_toTopOf="parent" />
 
         <ImageView
-            android:id="@+id/gratitudeBackBtn"
+            android:id="@+id/breathingBackBtn"
             android:layout_width="30dp"
             android:layout_height="30dp"
             android:layout_marginEnd="60dp"
             android:contentDescription="@string/app_name"
-            android:onClick="backBtn"
+            android:onClick="breathingBackBtn"
             android:src="@drawable/ic_baseline_arrow_back"
-            app:layout_constraintBottom_toBottomOf="@id/backBtn"
+            app:layout_constraintBottom_toBottomOf="@id/breathingBackBtn"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="@id/gratitudeBackBtn"
+            app:layout_constraintTop_toTopOf="@id/breathingBackBtn"
             app:tint="@color/black" />
 
         <ImageView
@@ -66,7 +66,7 @@
             android:layout_height="30dp"
             android:layout_marginEnd="15dp"
             android:contentDescription="@string/app_name"
-            android:onClick="homeBtn"
+            android:onClick="breathingHomeBtn"
             android:src="@drawable/ic_baseline_home"
             app:layout_constraintBottom_toBottomOf="@id/HomeBtn"
             app:layout_constraintEnd_toEndOf="parent"

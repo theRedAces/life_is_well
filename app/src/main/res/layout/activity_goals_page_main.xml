@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/goal_relative_layout"
+    android:layout_width="match_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/colorBackgroundHome"
+    android:orientation="vertical"
+    tools:context=".goals.GoalsPageMain">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/layoutHeaderGoals"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/goal_page_header"
+        android:foregroundGravity="top"
+        android:padding="10dp"
+        android:layout_alignParentTop="true">
+
+        <TextView
+            android:id="@+id/appTitleHome"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/goals"
+            android:textColor="@color/colorPrimaryHome"
+            android:textSize="25sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recycler_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="0dp"
+        android:layout_alignStart="@id/layoutHeaderGoals"
+        android:layout_alignEnd="@id/layoutHeaderGoals"
+        android:foregroundGravity="center_horizontal"
+        android:layout_below="@id/layoutHeaderGoals"/>
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/home_bottom_nav"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="@color/inputBackground"
+        app:itemIconTint="@color/colorPrimaryHome"
+        app:itemTextColor="@color/colorPrimaryHome"
+        app:menu="@menu/bottom_nav_menu" />
+
+</RelativeLayout>

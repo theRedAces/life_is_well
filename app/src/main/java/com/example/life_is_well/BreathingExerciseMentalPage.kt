@@ -18,12 +18,13 @@ class BreathingExerciseMentalPage : AppCompatActivity() {
         binding = ActivityBreathingExerciseMentalPageBinding.inflate(layoutInflater)
         setContentView(binding.root)
     }
-    fun backBtn(view: View) {
+    fun breathingBackBtn(view: View) {
         val intent = Intent(this,MentalPageMain::class.java )
         startActivity(intent)
     }
 
-    fun homeBtn(view: View) {
+
+    fun breathingHomeBtn(view: View) {
         val intent = Intent(this,MainActivity::class.java )
         startActivity(intent)
     }
