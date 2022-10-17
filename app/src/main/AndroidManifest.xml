@@ -15,6 +15,24 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Life_is_well"
         tools:targetApi="31">
+
+        <activity
+            android:name=".todo.ToDoListPageMain"
+            android:exported="false"
+            android:theme="@style/Theme.Life_is_well.NoActionBar" />
+        <activity
+            android:name=".ItemActivity"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true"
+            android:theme="@style/Theme.Life_is_well_home">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
         <activity
             android:name=".DailyMeditationPage"
             android:configChanges="orientation|screenSize|keyboardHidden|smallestScreenSize|screenLayout"
@@ -36,7 +54,6 @@
         <activity
             android:name=".ProfilePageMain"
             android:exported="false" />
-
         <activity
             android:name=".SuperPerformanceMeditationPage"
             android:configChanges="orientation|screenSize|keyboardHidden|smallestScreenSize|screenLayout"
@@ -45,13 +62,12 @@
             android:name=".LettingGoMeditationPage"
             android:configChanges="orientation|screenSize|keyboardHidden|smallestScreenSize|screenLayout"
             android:exported="false" />
-
-        <activity android:name=".goals.GoalsPageMain"
+        <activity
+            android:name=".goals.GoalsPageMain"
             android:exported="true"
             android:label="@string/goals"
             android:parentActivityName=".goals.GoalsPageMain"
-            android:theme="@style/GoalPageMain"/>
-
+            android:theme="@style/GoalPageMain" />
         <activity
             android:name=".OpenHeartMeditationPage"
             android:configChanges="orientation|screenSize|keyboardHidden|smallestScreenSize|screenLayout"
@@ -77,7 +93,7 @@
             android:exported="false"
             android:theme="@style/Theme.Life_is_well_mental" />
         <activity
-            android:name=".ToDoMentalPage"
+            android:name=".TodoMentalPage"
             android:exported="false"
             android:theme="@style/Theme.Life_is_well_mental" />
         <activity
@@ -88,16 +104,7 @@
             android:name=".FinancePageMain"
             android:exported="false"
             android:theme="@style/Theme.Life_is_well_finance" />
-        <activity
-            android:name=".MainActivity"
-            android:exported="true"
-            android:theme="@style/Theme.Life_is_well_home">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
 
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
-        </activity>
     </application>
 
 </manifest>
