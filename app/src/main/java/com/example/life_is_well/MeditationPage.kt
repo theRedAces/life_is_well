@@ -6,26 +6,26 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.View
 import android.widget.Button
-import com.example.life_is_well.databinding.ActivityMeditationMentalPageBinding
+import com.example.life_is_well.databinding.ActivityMeditationPageBinding
 
 
 class MeditationPage : AppCompatActivity() {
-    private lateinit var binding: ActivityMeditationMentalPageBinding
+    private lateinit var binding: ActivityMeditationPageBinding
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
 
-        binding = ActivityMeditationMentalPageBinding.inflate(layoutInflater)
+        binding = ActivityMeditationPageBinding.inflate(layoutInflater)
         setContentView(binding.root)
 
         // DailyMeditation Button
-        val DailyMeditationButton = findViewById<Button>(R.id.link_dailyMed)
-        DailyMeditationButton.setOnClickListener {
+        val DailyMeditationBtn = findViewById<Button>(R.id.link_dailyMed)
+        DailyMeditationBtn.setOnClickListener {
             val intent = Intent(this, DailyMeditationPage::class.java)
             startActivity(intent)
         }
 
-        val OpenHeartButton = findViewById<Button>(R.id.openHeart_view)
+        val OpenHeartButton = findViewById<Button>(R.id.openHeartView)
         OpenHeartButton.setOnClickListener {
             val intent = Intent(this, OpenHeartMeditationPage::class.java)
             startActivity(intent)

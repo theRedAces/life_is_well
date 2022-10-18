@@ -99,9 +99,6 @@
     <string name="normal_range">(Normal Range is 18.5 - 24.9)</string>
     <string name="goal_description">Goal Description</string>
     <string name="finance_goals">Finance Goals</string>
-    <string name="enter_navigation_button_name">Enter Navigation Button Name</string>
-    <string name="enter_number_for_icon_1_finance_2_health_3_mental">Enter Number for Icon (1 = finance, 2 = health, 3 = mental)</string>
-    <string name="number_1_3">Number 1 - 3</string>
-    <string name="enter_number_for_background_1_green_2_orange_3_blue">Enter Number for Background (1 = Green, 2 = Orange, 3 = Blue)</string>
-    <string name="liquids">Liquids</string>
+    <string name="adds_new_goal_card">Adds new goal card</string>
+    <string name="addNewGoalButtonText">Add New Goal</string>
 </resources>
