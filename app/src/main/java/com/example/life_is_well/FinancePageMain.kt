@@ -87,7 +87,7 @@ class FinancePageMain : AppCompatActivity() {
         addDialog.setPositiveButton("Ok"){
                 dialog,_->
 
-            val names = userName.text.toString()
+            val names = userName.text
             userList.add(FinanceUserData("$names"))
             userAdapter.notifyDataSetChanged()
             Toast.makeText(this,"Account Creation Success",Toast.LENGTH_SHORT).show()

@@ -134,8 +134,9 @@
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent" />
 
+
         <com.google.android.material.bottomnavigation.BottomNavigationView
-            android:id="@+id/home_bottom_nav"
+            android:id="@+id/health_macro_bottom_nav"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:background="@color/colorHealthHome"

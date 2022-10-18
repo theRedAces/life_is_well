@@ -7,6 +7,8 @@ import android.view.View
 import android.widget.Button
 import androidx.core.content.ContextCompat
 import androidx.core.content.ContextCompat.startActivity
+import com.example.life_is_well.goals.GoalsPageMain
+import kotlinx.android.synthetic.main.activity_health_macro_tracker.*
 import kotlinx.android.synthetic.main.activity_health_page_main.*
 
 class HealthPageMain : AppCompatActivity() {
@@ -31,6 +33,32 @@ class HealthPageMain : AppCompatActivity() {
         workoutButton.setOnClickListener {
             val intent = Intent(this,WorkoutPage::class.java)
             startActivity(intent)
+        }
+
+        health_main_bottom_nav.setOnItemSelectedListener {
+            when (it.itemId) {
+                R.id.profileBottomNav -> {
+                    val intent = Intent(this, ProfilePageMain::class.java)
+                    startActivity(intent)
+                }
+
+                R.id.goalsBottomNav -> {
+                    val intent = Intent(this, GoalsPageMain::class.java)
+                    startActivity(intent)
+                }
+
+
+                R.id.homeBotNav -> {
+                    val intent = Intent(this, MainActivity::class.java)
+                    startActivity(intent)
+                }
+
+                R.id.settingsBottomNav -> {
+                    val intent = Intent(this, SettingsPageMain::class.java)
+                    startActivity(intent)
+                }
+            }
+            true
         }
     }
 
