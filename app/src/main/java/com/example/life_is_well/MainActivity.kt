@@ -29,7 +29,6 @@ class MainActivity : AppCompatActivity() {
 
     private lateinit var bindingMain: ActivityMainBinding
 
-
     private lateinit var homeRecyclerView: RecyclerView
 
     private lateinit var homeList: ArrayList<HomeUserData>
@@ -95,9 +94,6 @@ class MainActivity : AppCompatActivity() {
             }
             true
         }
-
-
-
     }
 
     private fun onHomeListItemClick(position: Int) : Unit {
