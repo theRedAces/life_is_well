@@ -6,7 +6,7 @@ import android.os.Bundle
 import android.view.View
 import android.widget.ImageButton
 import com.example.life_is_well.databinding.ActivityMentalPageMainBinding
-import com.example.life_is_well.goals.GoalsPageMain
+import com.example.life_is_well.goalsPages.GoalsPageMain
 import kotlinx.android.synthetic.main.activity_health_macro_tracker.*
 import kotlinx.android.synthetic.main.activity_mental_page_main.*
 

@@ -5,7 +5,7 @@ import android.os.Bundle
 import android.view.View
 import androidx.appcompat.app.AppCompatActivity
 import com.example.life_is_well.databinding.ActivityBreathingExerciseMentalPageBinding
-import com.example.life_is_well.goals.GoalsPageMain
+import com.example.life_is_well.goalsPages.GoalsPageMain
 import kotlinx.android.synthetic.main.activity_mental_page_main.*
 import kotlinx.android.synthetic.main.content_breathing_exercise_mental_page.*
 

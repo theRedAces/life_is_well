@@ -101,6 +101,10 @@
     <string name="finance_goals">Finance Goals</string>
     <string name="adds_new_goal_card">Adds new goal card</string>
     <string name="addNewGoalButtonText">Add New Goal</string>
+    <string name="button_to_add_new_goal">Button to add new goal</string>
+    <string name="task_name">Task Name</string>
+    <string name="description_of_task">Description of task</string>
+    <string name="allows_tasks_to_be_edited">Allows tasks to be edited</string>
     <string name="number_1_3">Number 1-3</string>
     <string name="enter_number_for_background_1_green_2_orange_3_blue">Enter number for background(1-Green, 2-Orange, 3-Blue)</string>
     <string name="enter_number_for_icon_1_finance_2_fitness_3_mental">Enter number for icon(1-Finance,2-Fitness, 3-Mental)</string>
