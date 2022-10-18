@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    package="com.example.life_is_well">
+    package="com.example.life_is_well" >
 
     <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
 
@@ -14,48 +14,41 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.Life_is_well"
-        tools:targetApi="31">
+        tools:targetApi="31" >
+
         <activity
-            android:name=".DailyMeditationPage"
-            android:configChanges="orientation|screenSize|keyboardHidden|smallestScreenSize|screenLayout"
+            android:name="youtube.EachItem"
             android:exported="false" />
+        <activity
+            android:name=".WorkoutNonBinary"
+            android:exported="false"
+            android:theme="@style/Theme.Life_is_well_health" />
+        <activity
+            android:name=".WorkoutFemale"
+            android:exported="false"
+            android:theme="@style/Theme.Life_is_well_health" />
+        <activity
+            android:name=".WorkoutMale"
+            android:exported="false"
+            android:theme="@style/Theme.Life_is_well_health" />
+        <activity
+            android:name=".WorkoutPage"
+            android:exported="false"
+            android:theme="@style/Theme.Life_is_well_health" />
         <activity
             android:name=".BMICalc"
             android:exported="false"
-            android:theme="@style/Theme.Life_is_well_home" />
+            android:theme="@style/Theme.Life_is_well_health" />
         <activity
             android:name=".HealthMacroTracker"
             android:exported="false"
-            android:theme="@style/Theme.Life_is_well_home" />
+            android:theme="@style/Theme.Life_is_well_health" />
         <activity
             android:name=".SettingsPageMain"
             android:exported="true"
             android:label="SettingPageMain"
             android:parentActivityName=".MainActivity"
             android:theme="@style/PreferenceTheme" />
-        <activity
-            android:name=".ProfilePageMain"
-            android:exported="false" />
-
-        <activity
-            android:name=".SuperPerformanceMeditationPage"
-            android:configChanges="orientation|screenSize|keyboardHidden|smallestScreenSize|screenLayout"
-            android:exported="false" />
-        <activity
-            android:name=".LettingGoMeditationPage"
-            android:configChanges="orientation|screenSize|keyboardHidden|smallestScreenSize|screenLayout"
-            android:exported="false" />
-
-        <activity android:name=".goals.GoalsPageMain"
-            android:exported="true"
-            android:label="@string/goals"
-            android:parentActivityName=".goals.GoalsPageMain"
-            android:theme="@style/GoalPageMain"/>
-
-        <activity
-            android:name=".OpenHeartMeditationPage"
-            android:configChanges="orientation|screenSize|keyboardHidden|smallestScreenSize|screenLayout"
-            android:exported="false" />
         <activity
             android:name=".FinanceAccountPageMain"
             android:exported="false"
@@ -78,8 +71,7 @@
             android:theme="@style/Theme.Life_is_well_mental" />
         <activity
             android:name=".ToDoMentalPage"
-            android:exported="false"
-            android:theme="@style/Theme.Life_is_well_mental" />
+            android:exported="false" />
         <activity
             android:name=".HealthPageMain"
             android:exported="false"
@@ -91,7 +83,7 @@
         <activity
             android:name=".MainActivity"
             android:exported="true"
-            android:theme="@style/Theme.Life_is_well_home">
+            android:theme="@style/Theme.Life_is_well_home" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

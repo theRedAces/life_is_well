@@ -65,7 +65,7 @@
     <string name="workout">Workout</string>
     <string name="select_date">Select Date</string>
     <string name="daily_intake">Daily Intake</string>
-    <string name="calculate_your_macros">Calculate Your Macros</string>
+    <string name="calculate_your_daily_intake">Calculate Your Daily Intake</string>
     <string name="selected_date">Selected Date</string>
     <string name="breakfast">Breakfast</string>
     <string name="calories">Calories</string>
@@ -101,4 +101,5 @@
     <string name="finance_goals">Finance Goals</string>
     <string name="adds_new_goal_card">Adds new goal card</string>
     <string name="addNewGoalButtonText">Add New Goal</string>
+    <string name="youtube_video_title">YouTube Video Title</string>
 </resources>
