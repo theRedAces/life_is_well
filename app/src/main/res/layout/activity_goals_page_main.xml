@@ -45,7 +45,7 @@
         android:layout_below="@id/layoutHeaderGoals"/>
 
     <com.google.android.material.bottomnavigation.BottomNavigationView
-        android:id="@+id/goalsBottomNav"
+        android:id="@+id/goals_bot_nav"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"

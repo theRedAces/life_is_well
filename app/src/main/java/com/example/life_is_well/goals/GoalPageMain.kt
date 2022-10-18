@@ -42,7 +42,7 @@ class GoalsPageMain : AppCompatActivity() {
 
 
 
-        goalsBottomNav.setOnItemSelectedListener {
+        goals_bot_nav.setOnItemSelectedListener {
             when (it.itemId) {
                 R.id.profileBottomNav -> {
                     val intent = Intent(this, ProfilePageMain::class.java)
