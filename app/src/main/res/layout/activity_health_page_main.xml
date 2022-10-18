@@ -95,6 +95,18 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/layoutHeaderAccountMain" />
 
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/health_main_bottom_nav"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorHealthHome"
+        app:itemIconTint="@color/colorBlackHome"
+        app:itemTextColor="@color/colorBlackHome"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:menu="@menu/bottom_nav_menu" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
 
 

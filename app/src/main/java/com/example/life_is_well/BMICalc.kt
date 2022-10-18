@@ -11,6 +11,9 @@ import android.widget.TextView
 import android.widget.Toast
 import androidx.core.app.NotificationCompat.getColor
 import androidx.core.content.ContextCompat
+import com.example.life_is_well.goals.GoalsPageMain
+import kotlinx.android.synthetic.main.activity_bmicalc.*
+import kotlinx.android.synthetic.main.activity_health_macro_tracker.*
 
 class BMICalc : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -32,6 +35,33 @@ class BMICalc : AppCompatActivity() {
                 displayResult(bmi2Decimals)
             }
         }
+
+        health_bmi_bottom_nav.setOnItemSelectedListener {
+            when (it.itemId) {
+                R.id.profileBottomNav -> {
+                    val intent = Intent(this, ProfilePageMain::class.java)
+                    startActivity(intent)
+                }
+
+                R.id.goalsBottomNav -> {
+                    val intent = Intent(this, GoalsPageMain::class.java)
+                    startActivity(intent)
+                }
+
+
+                R.id.homeBotNav -> {
+                    val intent = Intent(this, MainActivity::class.java)
+                    startActivity(intent)
+                }
+
+                R.id.settingsBottomNav -> {
+                    val intent = Intent(this, SettingsPageMain::class.java)
+                    startActivity(intent)
+                }
+            }
+            true
+        }
+
     }
 
     private fun validateInput(weight:String?, height:String?):Boolean{

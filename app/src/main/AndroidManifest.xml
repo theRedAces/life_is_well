@@ -18,11 +18,11 @@
         <activity
              android:name=".BMICalc"
              android:exported="false"
-             android:theme="@style/Theme.Life_is_well_home"/>
+             android:theme="@style/Theme.Life_is_well_health"/>
          <activity
              android:name=".HealthMacroTracker"
              android:exported="false"
-             android:theme="@style/Theme.Life_is_well_home" />
+             android:theme="@style/Theme.Life_is_well_health" />
         <activity
             android:name=".SettingsPageMain"
             android:exported="true"
@@ -62,8 +62,7 @@
         <activity
             android:name=".MentalPageMain"
             android:exported="false"
-            android:theme="@style/Theme.Life_is_well_mental"/> 
-
+            android:theme="@style/Theme.Life_is_well_mental"/>
         <activity
             android:name=".MeditationMentalPage"
             android:exported="false"
