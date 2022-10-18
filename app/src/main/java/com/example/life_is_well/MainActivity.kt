@@ -8,6 +8,7 @@ import android.widget.EditText
 import android.widget.Toast
 import androidx.appcompat.app.AlertDialog
 import androidx.appcompat.app.AppCompatActivity
+import androidx.core.view.get
 import androidx.recyclerview.widget.GridLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 import com.example.life_is_well.R
@@ -20,13 +21,14 @@ import kotlinx.android.synthetic.main.activity_main.*
 import kotlinx.android.synthetic.main.home_add_item_prompt.*
 
 class MainActivity : AppCompatActivity() {
-    private lateinit var financeBtn: FloatingActionButton
-    private lateinit var healthBtn: FloatingActionButton
-    private lateinit var mentalBtn: FloatingActionButton
     private lateinit var addsBtn: FloatingActionButton
 
+    private lateinit var finIntent: Intent
+    private lateinit var healthIntent: Intent
+    private lateinit var mentalIntent: Intent
 
-    private lateinit var binding: ActivityMainBinding
+    private lateinit var bindingMain: ActivityMainBinding
+
     private lateinit var homeRecyclerView: RecyclerView
 
     private lateinit var homeList: ArrayList<HomeUserData>
@@ -39,16 +41,21 @@ class MainActivity : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        binding = ActivityMainBinding.inflate(layoutInflater)
-        setContentView(binding.root)
+
+        bindingMain = ActivityMainBinding.inflate(layoutInflater)
+
+        setContentView(bindingMain.root)
 
         addsBtn = findViewById(R.id.homeAddingBtn)
-        financeBtn = findViewById(R.id.financeBtn)
-        healthBtn = findViewById(R.id.healthBtn)
-        mentalBtn = findViewById(R.id.mentalBtn)
 
 
         homeRecyclerView = findViewById(R.id.homeRecycler)
+
+        finIntent = Intent(this,FinancePageMain::class.java)
+        healthIntent = Intent(this,HealthPageMain::class.java)
+        mentalIntent = Intent(this,MentalPageMain::class.java)
+
+
         imageId = arrayOf(R.drawable.finance, R.drawable.health, R.drawable.mental)
         title = arrayOf("Finance", "Health", "Mental")
         backgroundColor = arrayOf(R.drawable.home_page_finance_btn_background,R.drawable.home_page_health_btn_background,R.drawable.home_page_mental_btn_background)
@@ -58,9 +65,6 @@ class MainActivity : AppCompatActivity() {
 
         homeList = arrayListOf()
         addsBtn.setOnClickListener { addInfo() }
-        financeBtn.setOnClickListener { financeBtn() }
-        healthBtn.setOnClickListener { healthBtn() }
-        mentalBtn.setOnClickListener { mentalBtn() }
         homeButtonAdapter = HomeButtonAdapter(this, homeList){position: Int -> onHomeListItemClick(position)}
         getUserdata()
 
@@ -90,13 +94,16 @@ class MainActivity : AppCompatActivity() {
             }
             true
         }
-
-
-
     }
 
     private fun onHomeListItemClick(position: Int) : Unit {
-        Toast.makeText(this, homeList[position].homeBtnTitle, Toast.LENGTH_SHORT).show()
+        when(position){
+            0 -> startActivity(finIntent)
+            1 -> startActivity(healthIntent)
+            2 -> startActivity(mentalIntent)
+
+        }
+
     }
 
 
@@ -113,18 +120,7 @@ class MainActivity : AppCompatActivity() {
     }
 
 
-    private fun financeBtn(){
-        val intent = Intent(this, FinancePageMain::class.java)
-        startActivity(intent)
-    }
-    private fun healthBtn(){
-        val intent = Intent(this, HealthPageMain::class.java)
-        startActivity(intent)
-    }
-    private fun mentalBtn(){
-        val intent = Intent(this, MentalPageMain::class.java)
-        startActivity(intent)
-    }
+
 
 
     private fun addInfo() {

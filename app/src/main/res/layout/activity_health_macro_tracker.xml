@@ -218,7 +218,7 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:singleLine="true"
-            android:hint="Liquids" />
+            android:hint="@string/liquids" />
 
         <EditText
             android:layout_width="wrap_content"
@@ -242,7 +242,7 @@
         tools:context=".MainActivity">
 
         <com.google.android.material.bottomnavigation.BottomNavigationView
-            android:id="@+id/home_bottom_nav"
+            android:id="@+id/health_macro_bottom_nav"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:background="@color/colorHealthHome"
@@ -259,7 +259,7 @@
             android:layout_height="52dp"
             android:layout_marginStart="11dp"
             android:layout_marginEnd="12dp"
-            app:layout_constraintBottom_toTopOf="@id/home_bottom_nav"
+            app:layout_constraintBottom_toTopOf="@id/health_macro_bottom_nav"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"

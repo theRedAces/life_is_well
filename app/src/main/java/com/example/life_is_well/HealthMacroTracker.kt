@@ -8,6 +8,8 @@ import android.view.View
 import android.widget.Button
 import android.widget.TextView
 import android.widget.Toast
+import com.example.life_is_well.goals.GoalsPageMain
+import kotlinx.android.synthetic.main.activity_health_macro_tracker.*
 import java.text.SimpleDateFormat
 import java.util.*
 
@@ -26,6 +28,33 @@ class HealthMacroTracker : AppCompatActivity() {
 
             clickDateClicker()
         }
+
+        health_macro_bottom_nav.setOnItemSelectedListener {
+            when (it.itemId) {
+                R.id.profileBottomNav -> {
+                    val intent = Intent(this, ProfilePageMain::class.java)
+                    startActivity(intent)
+                }
+
+                R.id.goalsBottomNav -> {
+                    val intent = Intent(this, GoalsPageMain::class.java)
+                    startActivity(intent)
+                }
+
+
+                R.id.homeBotNav -> {
+                    val intent = Intent(this, MainActivity::class.java)
+                    startActivity(intent)
+                }
+
+                R.id.settingsBottomNav -> {
+                    val intent = Intent(this, SettingsPageMain::class.java)
+                    startActivity(intent)
+                }
+            }
+            true
+        }
+
     }
 
     private fun clickDateClicker(){
@@ -58,6 +87,8 @@ class HealthMacroTracker : AppCompatActivity() {
         dpd.show()
 
     }
+
+
 
     fun macroBackBtn(view: View) {
         val intent = Intent(this,HealthPageMain::class.java )

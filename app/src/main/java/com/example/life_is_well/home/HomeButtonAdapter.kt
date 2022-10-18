@@ -36,6 +36,10 @@ class HomeButtonAdapter(private val c: Context, private var homeList: ArrayList<
         val homeBtnName: TextView = itemView.findViewById(R.id.home_Btn_Title)
         val homeBtnBackground: ImageView = itemView.findViewById(R.id.home_Btn_Background)
 
+        init {
+            itemView.setOnClickListener(this)
+        }
+
         override fun onClick(v: View?) {
             val position = absoluteAdapterPosition
             onHomeItemClicked(position)
