@@ -3,7 +3,6 @@ package com.example.life_is_well
 import android.content.Intent
 import android.os.Bundle
 import android.view.LayoutInflater
-import android.view.View
 import android.widget.EditText
 import android.widget.Toast
 import androidx.appcompat.app.AlertDialog
@@ -11,9 +10,8 @@ import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.get
 import androidx.recyclerview.widget.GridLayoutManager
 import androidx.recyclerview.widget.RecyclerView
-import com.example.life_is_well.R
 import com.example.life_is_well.databinding.ActivityMainBinding
-import com.example.life_is_well.goals.GoalsPageMain
+import com.example.life_is_well.goalsPages.GoalsPageMain
 import com.example.life_is_well.home.HomeButtonAdapter
 import com.example.life_is_well.home.HomeUserData
 import com.google.android.material.floatingactionbutton.FloatingActionButton

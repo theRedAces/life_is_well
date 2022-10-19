@@ -80,7 +80,6 @@
         <activity
             android:name=".ProfilePageMain"
             android:exported="false" />
-
         <activity
             android:name=".SuperPerformanceMeditationPage"
             android:configChanges="orientation|screenSize|keyboardHidden|smallestScreenSize|screenLayout"
@@ -89,13 +88,16 @@
             android:name=".LettingGoMeditationPage"
             android:configChanges="orientation|screenSize|keyboardHidden|smallestScreenSize|screenLayout"
             android:exported="false" />
-
-        <activity android:name=".goals.GoalsPageMain"
+        <activity android:name=".goalsPages.GoalsPageMain"
             android:exported="true"
             android:label="@string/goals"
-            android:parentActivityName=".goals.GoalsPageMain"
+            android:parentActivityName=".goalsPages.GoalsPageMain"
             android:theme="@style/GoalPageMain"/>
-
+        <activity android:name=".goalsPages.goalsScreens.GoalTaskPageMain"
+            android:exported="true"
+            android:label="@string/goals"
+            android:parentActivityName=".goalsPages.goalsScreens.GoalTaskPageMain"
+            android:theme="@style/GoalPageMain"/>
         <activity
             android:name=".OpenHeartMeditationPage"
             android:configChanges="orientation|screenSize|keyboardHidden|smallestScreenSize|screenLayout"

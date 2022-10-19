@@ -11,12 +11,12 @@ import android.widget.Button
 import android.widget.EditText
 import android.widget.TextView
 import android.widget.Toast
+import com.example.life_is_well.goalsPages.GoalsPageMain
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 import com.google.android.material.floatingactionbutton.FloatingActionButton
 import macros.MealAdapter
 import macros.MealData
-import com.example.life_is_well.goals.GoalsPageMain
 import kotlinx.android.synthetic.main.activity_health_macro_tracker.*
 import java.text.SimpleDateFormat
 import java.util.*
