@@ -30,20 +30,20 @@
             app:layout_constraintTop_toTopOf="parent" />
 
         <ImageView
-            android:onClick="healthBackBtn"
             android:id="@+id/backBtn"
             android:layout_width="30dp"
             android:layout_height="30dp"
             android:layout_marginEnd="15dp"
             android:contentDescription="@string/app_name"
+            android:onClick="healthBackBtn"
             android:src="@drawable/ic_baseline_arrow_back"
-            app:tint="@color/colorWhiteHome"
             app:layout_constraintBottom_toBottomOf="@id/titleHealth"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="@id/titleHealth" />
-
-
+            app:layout_constraintTop_toTopOf="@id/titleHealth"
+            app:tint="@color/colorWhiteHome" />
     </androidx.constraintlayout.widget.ConstraintLayout>
+
+
 
     <Button
         android:id="@+id/button4"
@@ -54,18 +54,22 @@
         android:layout_marginEnd="40dp"
         android:backgroundTint="@color/colorHealthHome"
         android:text="@string/add_plus"
+        android:textColor="@color/colorFinanceHome"
+        android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toEndOf="@+id/button3"
+        app:layout_constraintStart_toEndOf="@+id/btnWorkout"
         app:layout_constraintTop_toBottomOf="@+id/bmiCalc" />
 
     <Button
-        android:id="@+id/button3"
+        android:id="@+id/btnWorkout"
         android:layout_width="137dp"
         android:layout_height="156dp"
         android:layout_marginStart="40dp"
         android:layout_marginTop="52dp"
         android:backgroundTint="@color/colorHealthHome"
         android:text="@string/workout"
+        android:textColor="@color/colorFinanceHome"
+        android:textStyle="bold"
         app:layout_constraintEnd_toStartOf="@+id/button4"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/macroTrackerButton" />
@@ -79,6 +83,8 @@
         android:layout_marginEnd="40dp"
         android:backgroundTint="@color/colorHealthHome"
         android:text="@string/bmi_calculator"
+        android:textColor="@color/colorFinanceHome"
+        android:textStyle="normal"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toEndOf="@+id/macroTrackerButton"
         app:layout_constraintTop_toBottomOf="@+id/layoutHeaderAccountMain" />
@@ -91,6 +97,8 @@
         android:layout_marginTop="64dp"
         android:backgroundTint="@color/colorHealthHome"
         android:text="@string/macro_tracker"
+        android:textColor="@color/colorFinanceHome"
+        android:textStyle="bold"
         app:layout_constraintEnd_toStartOf="@+id/bmiCalc"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/layoutHeaderAccountMain" />
@@ -108,7 +116,4 @@
         app:menu="@menu/bottom_nav_menu" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
-
-
-
 

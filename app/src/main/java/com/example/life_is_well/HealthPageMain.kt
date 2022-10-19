@@ -29,6 +29,12 @@ class HealthPageMain : AppCompatActivity() {
             startActivity(intent)
         }
 
+        val workoutButton = findViewById<Button>(R.id.btnWorkout)
+        workoutButton.setOnClickListener {
+            val intent = Intent(this,WorkoutPage::class.java)
+            startActivity(intent)
+        }
+
         health_main_bottom_nav.setOnItemSelectedListener {
             when (it.itemId) {
                 R.id.profileBottomNav -> {
@@ -54,7 +60,6 @@ class HealthPageMain : AppCompatActivity() {
             }
             true
         }
-
     }
 
     fun healthBackBtn(view: View) {

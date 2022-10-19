@@ -65,7 +65,7 @@
     <string name="workout">Workout</string>
     <string name="select_date">Select Date</string>
     <string name="daily_intake">Daily Intake</string>
-    <string name="calculate_your_macros">Calculate Your Macros</string>
+    <string name="calculate_your_daily_intake">Calculate Your Daily Intake</string>
     <string name="selected_date">Selected Date</string>
     <string name="breakfast">Breakfast</string>
     <string name="calories">Calories</string>
@@ -101,9 +101,11 @@
     <string name="finance_goals">Finance Goals</string>
     <string name="adds_new_goal_card">Adds new goal card</string>
     <string name="addNewGoalButtonText">Add New Goal</string>
+    <string name="youtube_video_title">YouTube Video Title</string>
     <string name="number_1_3">Number 1-3</string>
     <string name="enter_number_for_background_1_green_2_orange_3_blue">Enter number for background(1-Green, 2-Orange, 3-Blue)</string>
     <string name="enter_number_for_icon_1_finance_2_fitness_3_mental">Enter number for icon(1-Finance,2-Fitness, 3-Mental)</string>
     <string name="enter_navigation_button_name">Enter navigation button name</string>
     <string name="liquids">Liquids</string>
+
 </resources>
