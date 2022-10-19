@@ -63,20 +63,9 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="16dp"
-        android:text="@string/calculate_your_macros"
+        android:text="@string/calculate_your_daily_intake"
         android:textColor="#4CAF50"
         android:textSize="25sp"
-        android:textStyle="bold" />
-
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="16dp"
-        android:background="#4CAF50"
-        android:padding="4dp"
-        android:text="@string/daily_intake"
-        android:textColor="@color/white"
-        android:textSize="20sp"
         android:textStyle="bold" />
 
     <Button
@@ -108,138 +97,43 @@
         android:textColor="@color/colorLightGrey"
         android:textSize="16sp" />
 
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="16dp"
-        android:layout_marginEnd="16dp"
-        android:orientation="horizontal">
-
-        <EditText
-            android:layout_width="53dp"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:autofillHints="What did you have for Breakfast?"
-            android:singleLine="true"
-            android:hint="@string/breakfast" />
-
-        <EditText
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:singleLine="true"
-            android:hint="@string/calories" />
-
-
-    </LinearLayout>
-
-
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="16dp"
-        android:layout_marginEnd="16dp"
-        android:orientation="horizontal">
-
-        <EditText
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:singleLine="true"
-            android:hint="@string/lunch" />
-
-        <EditText
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:singleLine="true"
-            android:hint="@string/calories" />
-
-
-    </LinearLayout>
-
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="16dp"
-        android:layout_marginEnd="16dp"
-        android:orientation="horizontal">
-
-        <EditText
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:singleLine="true"
-            android:hint="@string/dinner" />
-
-        <EditText
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:singleLine="true"
-            android:hint="@string/calories" />
-
-
-    </LinearLayout>
-
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="16dp"
-        android:layout_marginEnd="16dp"
-        android:orientation="horizontal">
-
-        <EditText
-            android:layout_width="54dp"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:singleLine="true"
-            android:hint="@string/snacks" />
-
-        <EditText
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:singleLine="true"
-            android:hint="@string/calories" />
-
-
-    </LinearLayout>
-
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="16dp"
-        android:layout_marginEnd="16dp"
-        android:orientation="horizontal">
-
-        <EditText
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:singleLine="true"
-            android:hint="@string/liquids" />
-
-        <EditText
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:singleLine="true"
-            android:hint="@string/ounces" />
-
-
-    </LinearLayout>
-
-    <Button
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/apply" />
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:background="@color/colorBackgroundHome"
-        tools:context=".MainActivity">
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            app:layout_constraintEnd_toEndOf="parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <androidx.recyclerview.widget.RecyclerView
+                    android:id="@+id/macroRecycler"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent" />
+            </LinearLayout>
+
+        </RelativeLayout>
+
+
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:id="@+id/healthAddBtn"
+            android:layout_width="198dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="15dp"
+            android:backgroundTint="@color/colorHealthHome"
+            android:src="@drawable/ic_baseline_add"
+            android:tint="@color/colorWhiteHome"
+            app:layout_constraintBottom_toTopOf="@id/home_bottom_nav"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent" />
+
 
         <com.google.android.material.bottomnavigation.BottomNavigationView
             android:id="@+id/health_macro_bottom_nav"
@@ -253,17 +147,6 @@
             app:layout_constraintRight_toRightOf="parent"
             app:menu="@menu/bottom_nav_menu" />
 
-        <FrameLayout
-            android:id="@+id/fragment_container"
-            android:layout_width="356dp"
-            android:layout_height="52dp"
-            android:layout_marginStart="11dp"
-            android:layout_marginEnd="12dp"
-            app:layout_constraintBottom_toTopOf="@id/health_macro_bottom_nav"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.507" />
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 
