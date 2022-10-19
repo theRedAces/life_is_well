@@ -77,6 +77,33 @@
             android:exported="false"
             android:theme="@style/Theme.Life_is_well_health" />
         <activity
+            android:name=".ProfilePageMain"
+            android:exported="false" />
+
+        <activity
+            android:name=".SuperPerformanceMeditationPage"
+            android:configChanges="orientation|screenSize|keyboardHidden|smallestScreenSize|screenLayout"
+            android:exported="false" />
+        <activity
+            android:name=".LettingGoMeditationPage"
+            android:configChanges="orientation|screenSize|keyboardHidden|smallestScreenSize|screenLayout"
+            android:exported="false" />
+
+        <activity android:name=".goals.GoalsPageMain"
+            android:exported="true"
+            android:label="@string/goals"
+            android:parentActivityName=".goals.GoalsPageMain"
+            android:theme="@style/GoalPageMain"/>
+
+        <activity
+            android:name=".OpenHeartMeditationPage"
+            android:configChanges="orientation|screenSize|keyboardHidden|smallestScreenSize|screenLayout"
+            android:exported="false" />
+        <activity
+            android:name=".DailyMeditationPage"
+            android:configChanges="orientation|screenSize|keyboardHidden|smallestScreenSize|screenLayout"
+            android:exported="false" />
+        <activity
             android:name=".FinancePageMain"
             android:exported="false"
             android:theme="@style/Theme.Life_is_well_finance" />
