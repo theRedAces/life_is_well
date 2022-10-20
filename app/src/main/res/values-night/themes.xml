@@ -1,16 +1,87 @@
-<resources xmlns:tools="http://schemas.android.com/tools">
-    <!-- Base application theme. -->
-    <style name="Theme.Life_is_well" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
-        <!-- Primary brand color. -->
-        <item name="colorPrimary">@color/purple_200</item>
-        <item name="colorPrimaryVariant">@color/purple_700</item>
-        <item name="colorOnPrimary">@color/black</item>
-        <!-- Secondary brand color. -->
-        <item name="colorSecondary">@color/teal_200</item>
-        <item name="colorSecondaryVariant">@color/teal_200</item>
-        <item name="colorOnSecondary">@color/black</item>
-        <!-- Status bar color. -->
-        <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
-        <!-- Customize your theme here. -->
-    </style>
-</resources>
+
+    <resources xmlns:tools="http://schemas.android.com/tools">
+  <!--              Base application theme.
+        <style name="DarkTheme" parent="Theme.MaterialComponents.DayNight">
+                 Primary brand color.
+            <item name="colorPrimary">@color/colorAccentHome</item>
+            <item name="colorPrimaryVariant">@color/colorAccentHome</item>
+            <item name="colorOnPrimary">@color/colorAccentHome</item>
+                 Secondary brand color.
+            <item name="colorSecondary">@color/colorAccentHome</item>
+            <item name="colorSecondaryVariant">@color/colorAccentHome</item>
+            <item name="colorOnSecondary">@color/white</item>
+                     Status bar color.
+            <item name="android:statusBarColor" tools:targetApi="l">@color/colorAccentHome</item>
+                 Customize your theme here.
+        </style>
+
+        /*Custom style for home page */
+
+        <style name="Button.Meditations" parent="ThemeOverlay.AppCompat">
+            <item name="colorAccent">@color/colorAccentHome</item>
+        </style>
+
+        <style name="DarkTheme_home" parent="Theme.MaterialComponents.DayNight">
+                 Primary brand color.
+            <item name="colorPrimary">@color/colorAccentHome</item>
+            <item name="colorPrimaryVariant">@color/colorAddBtnHome</item>
+            <item name="colorOnPrimary">@color/colorWhiteHome</item>
+                     Secondary brand color.
+            <item name="colorSecondary">@color/colorAccentHome</item>
+            <item name="colorSecondaryVariant">@color/colorAccentHome</item>
+            <item name="colorOnSecondary">@color/colorBlackHome</item>
+                     Status bar color.
+            <item name="android:statusBarColor" tools:targetApi="l">@color/colorDividerHome</item>
+                     Customize your theme here.
+        </style>
+
+        /*Custom style for ??? page */
+
+        <style name="Theme.Life_is_well.NoActionBar">
+            <item name="windowActionBar">false</item>
+            <item name="windowNoTitle">true</item>
+        </style>
+
+        <style name="ThemeDark" parent="ThemeOverlay.AppCompat.Dark" />
+
+        <style name="Theme.Life_is_well.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+        /*Custom style for mental page */
+
+        <style name="DarkTheme_mental" parent="Theme.MaterialComponents.DayNight">
+               Primary brand color.
+            <item name="colorPrimary">@color/colorMentalHome</item>
+            <item name="colorPrimaryVariant">@color/colorMentalHome</item>
+            <item name="colorOnPrimary">@color/white</item>
+                 Secondary brand color.
+            <item name="colorSecondary">@color/colorAccentHome</item>
+            <item name="colorSecondaryVariant">@color/colorAccentHome</item>
+            <item name="colorOnSecondary">@color/colorBlackHome</item>
+                 Status bar color.
+            <item name="android:statusBarColor" tools:targetApi="l">@color/colorBackgroundHome</item>
+                 Customize your theme here.
+        </style>
+
+        /*Custom style for finance page */
+
+        <style name="DarkTheme_finance" parent="Theme.MaterialComponents.DayNight">
+                     Primary brand color.
+            <item name="colorPrimary">@color/colorBlackHome</item>
+            <item name="colorPrimaryVariant">@color/colorAccentHome</item>
+            <item name="colorOnPrimary">@color/colorWhiteHome</item>
+                     Secondary brand color.
+            <item name="colorSecondary">@color/colorAccentHome</item>
+            <item name="colorSecondaryVariant">@color/colorAccentHome</item>
+            <item name="colorOnSecondary">@color/colorBlackHome</item>
+                     Status bar color.
+            <item name="android:statusBarColor" tools:targetApi="l">@color/colorAccentHome</item>
+                Customize your theme here.
+        </style>
+
+-->
+
+    </resources>
+
+
+
+

@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+
+
+<resources xmlns:tools="http://schemas.android.com/tools">
+<!--  Base application theme.
+     <style name="DarkTheme1" parent="Theme.MaterialComponents.DayNight">
+        Primary brand color.
+         <item name="colorPrimary">#210C3F</item>
+         <item name="colorPrimaryVariant">@color/purple_700</item>
+         <item name="colorOnPrimary">@color/colorAddBtnHome</item>
+        Secondary brand color.
+         <item name="colorSecondary">@color/colorBackgroundHome</item>
+         <item name="colorSecondaryVariant">@color/colorBackgroundHome</item>
+         <item name="colorOnSecondary">@color/white</item>
+         Status bar color.
+         <item name="android:statusBarColor" tools:targetApi="l">@color/purple_700</item>
+        Customize your theme here.
+     </style>
+-->
+
+ <!--
+     /*Custom style for home page */
+
+     <style name="Button.Meditations" parent="ThemeOverlay.AppCompat">
+         <item name="colorAccent">@color/colorAccentHome</item>
+     </style>
+
+     <style name="DarkTheme_home" parent="Theme.MaterialComponents.DayNight">
+         &lt;!&ndash; Primary brand color. &ndash;&gt;
+         <item name="colorPrimary">@color/purple_700</item>
+         <item name="colorPrimaryVariant">@color/purple_500</item>
+         <item name="colorOnPrimary">@color/colorWhiteHome</item>
+         &lt;!&ndash; Secondary brand color. &ndash;&gt;
+         <item name="colorSecondary">@color/colorAccentHome</item>
+         <item name="colorSecondaryVariant">@color/colorAccentHome</item>
+         <item name="colorOnSecondary">@color/colorBlackHome</item>
+         &lt;!&ndash; Status bar color. &ndash;&gt;
+         <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
+         &lt;!&ndash; Customize your theme here. &ndash;&gt;
+     </style>
+
+     /*Custom style for ??? page */
+
+     <style name="Theme.Life_is_well.NoActionBar">
+         <item name="windowActionBar">false</item>
+         <item name="windowNoTitle">true</item>
+     </style>
+
+     <style name="Theme.Life_is_well.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark" />
+
+     <style name="Theme.Life_is_well.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+     /*Custom style for mental page */
+
+     <style name="DarkTheme_mental" parent="Theme.MaterialComponents.DayNight">
+         &lt;!&ndash; Primary brand color. &ndash;&gt;
+         <item name="colorPrimary">@color/colorMentalHome</item>
+         <item name="colorPrimaryVariant">@color/colorMentalHome</item>
+         <item name="colorOnPrimary">@color/white</item>
+         &lt;!&ndash; Secondary brand color. &ndash;&gt;
+         <item name="colorSecondary">@color/colorAccentHome</item>
+         <item name="colorSecondaryVariant">@color/colorAccentHome</item>
+         <item name="colorOnSecondary">@color/colorBlackHome</item>
+         &lt;!&ndash; Status bar color. &ndash;&gt;
+         <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
+         &lt;!&ndash; Customize your theme here. &ndash;&gt;
+     </style>
+
+     /*Custom style for finance page */
+
+     <style name="DarkTheme_finance" parent="Theme.MaterialComponents.DayNight">
+         &lt;!&ndash; Primary brand color. &ndash;&gt;
+         <item name="colorPrimary">@color/colorFinanceHome</item>
+         <item name="colorPrimaryVariant">@color/colorFinanceHome</item>
+         <item name="colorOnPrimary">@color/colorWhiteHome</item>
+         &lt;!&ndash; Secondary brand color. &ndash;&gt;
+         <item name="colorSecondary">@color/colorAccentHome</item>
+         <item name="colorSecondaryVariant">@color/colorAccentHome</item>
+         <item name="colorOnSecondary">@color/colorBlackHome</item>
+         &lt;!&ndash; Status bar color. &ndash;&gt;
+         <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
+         &lt;!&ndash; Customize your theme here. &ndash;&gt;
+     </style>
+ -->
+
+
+</resources>
+
+
+
+
+
+
+
+

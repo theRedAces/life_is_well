@@ -1,89 +1,91 @@
-<PreferenceScreen xmlns:app="http://schemas.android.com/apk/res-auto">
+<PreferenceScreen xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
 
 
-    <PreferenceCategory app:title="Settings">
+    <PreferenceCategory app:title="Settings" app:icon="@drawable/ic_baseline_settings">
 
 
-        <ListPreference
-            app:defaultValue="reply"
-            app:entries="@array/Theme_layoutvals"
-            app:entryValues="@array/Theme_layoutvals"
-            app:key="key_theme"
-            app:title="Theme/Layout"
-            app:summary="This will change the color of app"
-            app:allowDividerBelow="true"
-            app:allowDividerAbove="true">
+        <!--Theme Setup-->
 
-        </ListPreference>
-
-
-
-        <ListPreference
-            app:defaultValue="reply"
-            app:entries="@array/HSval"
-            app:entryValues="@array/HSval"
-            app:key="key_home"
-            app:title="Home Screen"
-            app:summary="edit what your home screen has"
-            app:allowDividerBelow="true"
-            app:allowDividerAbove="true">
-
-        </ListPreference>
+      <ListPreference
+        app:key="key_theme"
+        app:defaultValue=" "
+        app:entries="@array/Theme_Entries"
+        app:entryValues="@array/Themes_Values"
+          app:enabled="true"
+        app:useSimpleSummaryProvider="true"
+        app:title="Theme/Layout"
+        app:summary="This will change the color of app" />
 
 
+<!--Measurement Setup-->
+    <ListPreference
+        app:defaultValue="reply"
+        app:entries="@array/Unitvals"
+        app:entryValues="@array/Unitvals_value"
+        app:key="key_units"
+        app:title="Measurement System"
+        app:summary="Change the measurement units"
+        app:allowDividerBelow="true"
+        app:allowDividerAbove="true"
+        android:defaultValue="Metric"
+        android:entries="@array/Unitvals"
+        android:entryValues="@array/Unitvals_value"
 
-        <ListPreference
-            app:defaultValue="reply"
-            app:entries="@array/reply_entries"
-            app:entryValues="@array/reply_entries"
-            app:key="key_notifications"
-            app:title="Notifications"
-            app:summary="can edit (add or turn off ) any alerts manually you can also use the volume bar to adjust the sound"
-            app:allowDividerBelow="true"
-            app:allowDividerAbove="true">
-        </ListPreference>
+        />
 
-
-        <SeekBarPreference
-            app:key="vol_notification"
-            app:allowDividerBelow="true"
-            app:allowDividerAbove="true">
-
-        </SeekBarPreference>
-
+<!--Langauge Setup-->
 
         <ListPreference
             app:defaultValue="reply"
-            app:entries="@array/reply_entries"
+            app:entries="@array/Langvals"
             app:entryValues="@array/Langvals"
             app:key="key_lang"
             app:title="Language"
             app:summary="Change to preferred language"
             app:allowDividerBelow="true"
-            app:allowDividerAbove="true">
+            app:allowDividerAbove="true"/>
 
-        </ListPreference>
-        <ListPreference
-            app:defaultValue="reply"
-            app:entries="@array/Unitvals"
-            app:entryValues="@array/Unitvals"
-            app:key="key_units"
-            app:title="Measurement System"
-            app:summary="Change the measurement units"
-            app:allowDividerBelow="true"
-            app:allowDividerAbove="true">
 
-        </ListPreference>
         <ListPreference
-            app:defaultValue="reply"
-            app:entries="@array/reply_entries"
-            app:entryValues="@array/reply_entries"
-            app:key="key_sec_acc"
-            app:title="Security/Account"
-            app:summary="Edit all sensitive information"
-            app:allowDividerBelow="true"
-            app:allowDividerAbove="true">
-        </ListPreference>
+            app:title="Visit our GitHub!"
+            app:summary="Website">
+        <intent
+            android:action="android.intent.action.VIEW"
+            android:data="https://github.com/theRedAces/life_is_well"/>
+    </ListPreference>
+
+
+
+
     </PreferenceCategory>
 
+
+    <!--Notification Setup-->
+<PreferenceCategory app:title="Messages"
+    app:icon="@drawable/ic_notifications_black_24dp">
+    <SwitchPreferenceCompat
+        app:key="Messages"
+        app:title="Notifications"
+        app:summaryOn="All notifications are 'Off!'"
+        app:summaryOff="All notification are 'ON!' "/>
+
+    <SeekBarPreference
+        app:dependency="Messages"
+        app:title="Volume"
+        app:shouldDisableView="true"
+        app:summaryOff="Noftifications needs to be 'ON!'"
+        app:showSeekBarValue="true"/>
+
+
+    <!--Security and Account Setup-->
+
+
+</PreferenceCategory>
+
+
+
+
+
 </PreferenceScreen>
+

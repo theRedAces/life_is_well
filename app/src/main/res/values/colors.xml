@@ -30,6 +30,19 @@
     <color name="colorOffWhite">#EEEAEA</color>
     <color name="inputBackground">#DEE0FF</color>
 
+<!--
+    <color name="primary">@color/purple_700</color>
+    <color name="primaryDark">@color/colorAccentHome</color>
+    <color name="primaryLight">@color/primary</color>
+    <color name="accent">#FF03DAC5</color>
+    <color name="primaryDarktext">#FF018786</color>
+    <color name="secondaryDarktext">#FF000000</color>
+    <color name="icons">#FFFFFFFF</color>
+    <color name="divider">#8A37B1</color>
+-->
+
+
+
     <color name="colorUnderWeight">#FD5F2A</color>
     <color name="colorNormal">#00EC00</color>
     <color name="colorOverWeight">#FF0505</color>
