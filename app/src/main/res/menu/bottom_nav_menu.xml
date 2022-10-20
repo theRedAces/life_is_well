@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/homeBotNav"
+        android:icon="@drawable/ic_baseline_home"
+        android:title="@string/home"/>
+
+    <item
+        android:id="@+id/profileBottomNav"
+        android:icon="@drawable/ic_baseline_account_circle"
+        android:title="@string/profile"/>
+
+    <item
+        android:id="@+id/goalsBottomNav"
+        android:icon="@drawable/ic_baseline_rule"
+        android:title="@string/goals"/>
+
+    <item
+        android:id="@+id/settingsBottomNav"
+        android:icon="@drawable/ic_baseline_settings"
+        android:title="@string/settings"/>
+
+</menu>
