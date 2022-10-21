@@ -9,7 +9,7 @@
 
       <ListPreference
         app:key="key_theme"
-        app:defaultValue=" "
+        app:defaultValue="1"
         app:entries="@array/Theme_Entries"
         app:entryValues="@array/Themes_Values"
           app:enabled="true"
@@ -33,18 +33,6 @@
         android:entryValues="@array/Unitvals_value"
 
         />
-
-<!--Langauge Setup-->
-
-        <ListPreference
-            app:defaultValue="reply"
-            app:entries="@array/Langvals"
-            app:entryValues="@array/Langvals"
-            app:key="key_lang"
-            app:title="Language"
-            app:summary="Change to preferred language"
-            app:allowDividerBelow="true"
-            app:allowDividerAbove="true"/>
 
 
         <ListPreference
@@ -87,5 +75,18 @@
 
 
 
+
 </PreferenceScreen>
 
+<!--
+    &lt;!&ndash;Langauge Setup&ndash;&gt;
+
+<ListPreference
+app:defaultValue="reply"
+app:entries="@array/Langvals"
+app:entryValues="@array/Langvals"
+app:key="key_lang"
+app:title="Language"
+app:summary="Change to preferred language"
+app:allowDividerBelow="true"
+app:allowDividerAbove="true"/>-->

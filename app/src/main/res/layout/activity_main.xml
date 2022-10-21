@@ -12,9 +12,14 @@
         android:id="@+id/layoutHeaderHome"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:background="@drawable/home_page_header_background"
+        android:accessibilityLiveRegion="polite"
+        android:accessibilityTraversalAfter="@id/home_bottom_nav"
+        android:alwaysDrawnWithCache="true"
+        android:animateLayoutChanges="true"
+        android:background="@color/button_purple"
         android:padding="10dp"
-        app:layout_constraintTop_toTopOf="parent"
+        android:theme="@style/Theme.Life_is_well"
+
         tools:layout_editor_absoluteX="0dp">
 
         <TextView

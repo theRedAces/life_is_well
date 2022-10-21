@@ -12,14 +12,13 @@
 
     <string-array name="Theme_Entries">
         <item>App Original Theme</item>
-        <item>Light Theme</item>
         <item>Dark Theme</item>
 
     </string-array>
     <string-array name="Themes_Values">
         <item>1</item>
         <item>2</item>
-        <item>3</item>
+
 
     </string-array>
 
