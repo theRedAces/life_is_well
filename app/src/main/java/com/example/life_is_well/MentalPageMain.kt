@@ -6,6 +6,9 @@ import android.os.Bundle
 import android.view.View
 import android.widget.ImageButton
 import com.example.life_is_well.databinding.ActivityMentalPageMainBinding
+import com.example.life_is_well.goalsPages.GoalsPageMain
+import kotlinx.android.synthetic.main.activity_health_macro_tracker.*
+import kotlinx.android.synthetic.main.activity_mental_page_main.*
 
 class MentalPageMain : AppCompatActivity() {
     private lateinit var binding: ActivityMentalPageMainBinding
@@ -41,6 +44,33 @@ class MentalPageMain : AppCompatActivity() {
             val intent = Intent(this, ToDoMentalPage::class.java)
             startActivity(intent)
         }
+
+        mental_main_bottom_nav.setOnItemSelectedListener {
+            when (it.itemId) {
+                R.id.profileBottomNav -> {
+                    val intent = Intent(this, ProfilePageMain::class.java)
+                    startActivity(intent)
+                }
+
+                R.id.goalsBottomNav -> {
+                    val intent = Intent(this, GoalsPageMain::class.java)
+                    startActivity(intent)
+                }
+
+
+                R.id.homeBotNav -> {
+                    val intent = Intent(this, MainActivity::class.java)
+                    startActivity(intent)
+                }
+
+                R.id.settingsBottomNav -> {
+                    val intent = Intent(this, SettingsPageMain::class.java)
+                    startActivity(intent)
+                }
+            }
+            true
+        }
+
     }
 
     class ToDoMentalPage {

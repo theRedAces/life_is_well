@@ -12,7 +12,7 @@ import androidx.recyclerview.widget.GridLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 import com.example.life_is_well.finance.FinanceUserData
 import com.example.life_is_well.finance.UserAdapter
-import com.example.life_is_well.goals.GoalsPageMain
+import com.example.life_is_well.goalsPages.GoalsPageMain
 import com.google.android.material.floatingactionbutton.FloatingActionButton
 import kotlinx.android.synthetic.main.activity_finance_page_main.*
 
@@ -87,7 +87,7 @@ class FinancePageMain : AppCompatActivity() {
         addDialog.setPositiveButton("Ok"){
                 dialog,_->
 
-            val names = userName.text.toString()
+            val names = userName.text
             userList.add(FinanceUserData("$names"))
             userAdapter.notifyDataSetChanged()
             Toast.makeText(this,"Account Creation Success",Toast.LENGTH_SHORT).show()

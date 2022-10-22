@@ -31,7 +31,6 @@
     <string name="title_activity_breathing_exercise_mental_page">BreathingExerciseMentalPage</string>
     <string name="defaultNavHost">nav_host</string>
     <string name="navGraph">nav_graph</string>
-    <string name="nameofuser">Name</string>
     <string name="nameOfUser">Name</string>
     <string name="profile_photo_of_user">Profile Photo of User</string>
     <string name="user_details">User Details</string>
@@ -58,8 +57,7 @@
     <!-- Sync Preferences -->
     <string name="sync_title">Sync email periodically</string>
     <string name="attachment_title">Download incoming attachments</string>
-    <string name="attachment_summary_on">Automatically download attachments for incoming emails
-     </string>
+    <string name="attachment_summary_on">Automatically download attachments for incoming emails</string>
     <string name="attachment_summary_off">Only download attachments when manually requested</string>
     <string name="accountbtnnum"> 1 </string>
     <string name="macro_tracker">Macro Tracker</string>
@@ -99,5 +97,8 @@
     <string name="inches">Inches</string>
     <string name="calculate">Calculate</string>
     <string name="normal_range">(Normal Range is 18.5 - 24.9)</string>
-    <string name="start_exercise">Start Exercise</string>
+    <string name="goal_description">Goal Description</string>
+    <string name="finance_goals">Finance Goals</string>
+    <string name="adds_new_goal_card">Adds new goal card</string>
+    <string name="addNewGoalButtonText">Add New Goal</string>
 </resources>

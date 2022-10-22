@@ -7,7 +7,6 @@ import android.view.View
 import android.view.ViewGroup
 import android.widget.ImageView
 import android.widget.TextView
-import androidx.cardview.widget.CardView
 import androidx.recyclerview.widget.RecyclerView
 import com.example.life_is_well.R
 import com.google.android.material.imageview.ShapeableImageView
@@ -35,6 +34,10 @@ class HomeButtonAdapter(private val c: Context, private var homeList: ArrayList<
         val homeBtnIcon: ShapeableImageView = itemView.findViewById(R.id.home_Btn_Icon)
         val homeBtnName: TextView = itemView.findViewById(R.id.home_Btn_Title)
         val homeBtnBackground: ImageView = itemView.findViewById(R.id.home_Btn_Background)
+
+        init {
+            itemView.setOnClickListener(this)
+        }
 
         override fun onClick(v: View?) {
             val position = absoluteAdapterPosition

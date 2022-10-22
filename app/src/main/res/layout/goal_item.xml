@@ -3,7 +3,7 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/goal_item_layout"
-    tools:context=".goals.GoalsPageMain"
+    tools:context=".goalsPages.GoalsPageMain"
     android:layout_width="180dp"
     android:layout_height="180dp"
     android:layout_marginStart="8dp"
