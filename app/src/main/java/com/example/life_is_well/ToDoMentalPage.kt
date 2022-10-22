@@ -20,7 +20,7 @@ class TodoMentalPage : AppCompatActivity() {
         setContentView(binding.root)
         // setContentView(R.layout.activity_to_do_list_page_main)
 
-        val ToDoButton = findViewById<Button>(R.id.ToDo_Button)
+        val ToDoButton = findViewById<Button>(R.id.todo_button)
         ToDoButton.setOnClickListener {
             val intent = Intent(this, ToDoListPageMain::class.java)
             startActivity(intent)

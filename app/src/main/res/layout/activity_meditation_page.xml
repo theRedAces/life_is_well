@@ -113,14 +113,14 @@
         android:textSize="19sp"
         android:textStyle="normal"
         android:visibility="visible"
-        app:layout_constraintBottom_toTopOf="@+id/link_letGo"
+        app:layout_constraintBottom_toTopOf="@+id/wishlist_button"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/link_dailyMed" />
 
     <Button
-        android:id="@+id/link_letGo"
+        android:id="@+id/wishlist_button"
         android:layout_width="match_parent"
         android:layout_height="50dp"
         android:layout_marginStart="10dp"

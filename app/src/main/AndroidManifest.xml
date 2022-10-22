@@ -21,9 +21,6 @@
             android:exported="false"
             android:theme="@style/Theme.Life_is_well.NoActionBar" />
         <activity
-            android:name=".ItemActivity"
-            android:exported="false" />
-        <activity
             android:name=".MainActivity"
             android:exported="true"
             android:theme="@style/Theme.Life_is_well_home">
@@ -68,6 +65,7 @@
             android:label="@string/goals"
             android:parentActivityName=".goals.GoalsPageMain"
             android:theme="@style/GoalPageMain" />
+
         <activity
             android:name=".OpenHeartMeditationPage"
             android:configChanges="orientation|screenSize|keyboardHidden|smallestScreenSize|screenLayout"

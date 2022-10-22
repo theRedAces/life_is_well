@@ -43,6 +43,10 @@ class MentalPageMain : AppCompatActivity() {
         }
     }
 
+    class ToDoMentalPage {
+
+    }
+
 
     fun mentalBackBtn(view: View) {
         val intent = Intent(this,MainActivity::class.java )

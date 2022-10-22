@@ -31,7 +31,7 @@ class MeditationPage : AppCompatActivity() {
             startActivity(intent)
         }
 
-        val LetGoButton = findViewById<Button>(R.id.link_letGo)
+        val LetGoButton = findViewById<Button>(R.id.wishlist_button)
         LetGoButton.setOnClickListener {
             val intent = Intent(this, LettingGoMeditationPage::class.java)
             startActivity(intent)
