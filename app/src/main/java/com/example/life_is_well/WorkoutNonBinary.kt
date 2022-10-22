@@ -1,9 +1,11 @@
 package com.example.life_is_well
 
+import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
+import com.example.life_is_well.home.YoutubeSelector
 import youtube.YouTubeVideoAdapter
 import youtube.YouTubeVideos
 
@@ -31,5 +33,11 @@ class WorkoutNonBinary : AppCompatActivity() {
 
         videoAdapter = YouTubeVideoAdapter(videoList)
         recyclerView.adapter = videoAdapter
+        videoAdapter.onItemClick = {
+            val intent = Intent(this, YoutubeSelector::class.java)
+            intent.putExtra("video", it)
+
+            startActivity(intent)
+        }
     }
 }

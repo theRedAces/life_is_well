@@ -74,7 +74,7 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="16dp"
         android:layout_marginEnd="16dp"
-        android:backgroundTint="@color/white"
+        android:backgroundTint="@color/colorHealthHome"
         android:padding="10dp"
         android:text="@string/select_date"
         android:textColor="@color/colorFinanceHome" />
@@ -130,7 +130,7 @@
             android:backgroundTint="@color/colorHealthHome"
             android:src="@drawable/ic_baseline_add"
             android:tint="@color/colorWhiteHome"
-            app:layout_constraintBottom_toTopOf="@id/home_bottom_nav"
+            app:layout_constraintBottom_toTopOf="@id/health_macro_bottom_nav"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent" />
 
