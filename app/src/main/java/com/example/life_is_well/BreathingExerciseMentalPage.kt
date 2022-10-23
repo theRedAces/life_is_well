@@ -6,12 +6,10 @@ import android.view.View
 import androidx.appcompat.app.AppCompatActivity
 import com.example.life_is_well.databinding.ActivityBreathingExerciseMentalPageBinding
 import com.example.life_is_well.goalsPages.GoalsPageMain
-import kotlinx.android.synthetic.main.activity_mental_page_main.*
 import kotlinx.android.synthetic.main.content_breathing_exercise_mental_page.*
 
 
 class BreathingExerciseMentalPage : AppCompatActivity() {
-
 
     private lateinit var binding: ActivityBreathingExerciseMentalPageBinding
 
@@ -48,14 +46,15 @@ class BreathingExerciseMentalPage : AppCompatActivity() {
         }
 
     }
+
     fun breathingBackBtn(view: View) {
-        val intent = Intent(this,MentalPageMain::class.java )
+        val intent = Intent(this, MentalPageMain::class.java)
         startActivity(intent)
     }
 
 
-    fun breathingHomeBtn(view: View) {
-        val intent = Intent(this,MainActivity::class.java )
+    fun homeBtn(view: View) {
+        val intent = Intent(this, MainActivity::class.java)
         startActivity(intent)
     }
 }

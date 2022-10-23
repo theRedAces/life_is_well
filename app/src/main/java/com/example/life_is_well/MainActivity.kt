@@ -99,7 +99,6 @@ class MainActivity : AppCompatActivity() {
             0 -> startActivity(finIntent)
             1 -> startActivity(healthIntent)
             2 -> startActivity(mentalIntent)
-
         }
 
     }

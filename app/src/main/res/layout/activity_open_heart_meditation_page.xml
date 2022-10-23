@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:id="@+id/todo_button"
+    android:id="@+id/button_todo"
     android:background="@color/colorBackgroundHome"
     tools:context=".OpenHeartMeditationPage"
     android:orientation="vertical" >>

@@ -115,7 +115,7 @@
         android:layout_marginStart="52dp"
         android:layout_marginTop="24dp"
         android:layout_marginEnd="36dp"
-        android:contentDescription="@string/lists"
+        android:contentDescription="@string/to_do_list"
         android:scaleType="fitCenter"
         android:scaleX="1"
         app:layout_constraintEnd_toEndOf="parent"
