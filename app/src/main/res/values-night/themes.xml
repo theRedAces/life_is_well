@@ -13,4 +13,73 @@
         <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
         <!-- Customize your theme here. -->
     </style>
+
+    <style name="Theme.Life_is_well_home" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!-- Primary brand color. -->
+        <item name="android:windowBackground">#242F6E</item>
+        <item name="colorSurface">#2B5C23</item>
+        <item name="colorOnSurface">#AC5D15</item>
+        <item name="colorSurfaceInverse">#6D8997</item>
+        <item name="colorPrimary">@color/colorAccentHome</item>
+        <item name="colorPrimaryVariant">@color/colorAccentHome</item>
+        <item name="colorOnPrimary">@color/colorWhiteHome</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/colorAccentHome</item>
+        <item name="colorSecondaryVariant">@color/colorAccentHome</item>
+        <item name="colorOnSecondary">@color/colorBlackHome</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor">?attr/colorPrimaryVariant</item>
+        <!-- Customize your theme here. -->
+    </style>
+
+    <style name="Theme.Life_is_well_finance" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!-- Primary brand color. -->
+        <item name="android:windowBackground">#242F6E</item>
+        <item name="colorSurface">#2B5C23</item>
+        <item name="colorPrimary">#2B5C23</item>
+        <item name="colorPrimaryVariant">#2B5C23</item>
+        <item name="colorOnPrimary">@color/colorWhiteHome</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/colorAccentHome</item>
+        <item name="colorSecondaryVariant">@color/colorAccentHome</item>
+        <item name="colorOnSecondary">@color/colorBlackHome</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor">?attr/colorPrimaryVariant</item>
+        <!-- Customize your theme here. -->
+
+        <!--this attribute is to change the theme of the normal FAB-->
+    </style>
+
+    <style name="Theme.Life_is_well_mental" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!-- Primary brand color. -->
+        <item name="android:windowBackground">#242F6E</item>
+        <item name="colorSurfaceInverse">#6D8997</item>
+        <item name="colorPrimary">#6D8997</item>
+        <item name="colorPrimaryVariant">#6D8997</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/colorAccentHome</item>
+        <item name="colorSecondaryVariant">@color/colorAccentHome</item>
+        <item name="colorOnSecondary">@color/colorBlackHome</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor">?attr/colorPrimaryVariant</item>
+        <!-- Customize your theme here. -->
+    </style>
+
+    <style name="Theme.Life_is_well_health" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!-- Primary brand color. -->
+        <item name="android:windowBackground">#242F6E</item>
+        <item name="colorOnSurface">#AC5D15</item>
+        <item name="colorPrimary">#AC5D15</item>
+        <item name="colorPrimaryVariant">#AC5D15</item>
+        <item name="colorOnPrimary">@color/colorWhiteHome</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/colorAccentHome</item>
+        <item name="colorSecondaryVariant">@color/colorAccentHome</item>
+        <item name="colorOnSecondary">@color/colorBlackHome</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor">?attr/colorPrimaryVariant</item>
+        <!-- Customize your theme here. -->
+    </style>
+
 </resources>

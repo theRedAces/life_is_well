@@ -111,5 +111,12 @@
     <string name="enter_number_for_icon_1_finance_2_fitness_3_mental">Enter number for icon(1-Finance,2-Fitness, 3-Mental)</string>
     <string name="enter_navigation_button_name">Enter navigation button name</string>
     <string name="liquids">Liquids</string>
+    <string name="main_account">Main Account</string>
+    <string name="current_balance">Current Balance:</string>
+    <string name="balance">$999.99</string>
+    <string name="income_date">10/21/2022</string>
+    <string name="income_total">$999.99</string>
+    <string name="future_income">Future Income:</string>
+    <string name="future_expenses">Future Expenses:</string>
 
 </resources>
