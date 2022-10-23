@@ -64,7 +64,7 @@ dependencies {
     implementation 'com.pierfrancescosoffritti.androidyoutubeplayer:core:11.1.0'
     implementation 'pl.droidsonroids.gif:android-gif-drawable:1.2.19'
 
-//John's Theme Dependency
+    //John's Theme Dependency
     implementation 'com.google.android.material:material:1.2.1'
     androidTestImplementation 'junit:junit:4.12'
 

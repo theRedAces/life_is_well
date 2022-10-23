@@ -35,7 +35,7 @@ class HealthMacroTracker : AppCompatActivity() {
     private lateinit var mealList:ArrayList<MealData>
     private lateinit var mealAdapter: MealAdapter
 
-    val sharepref = getSharedPreferences("Messages", Context.MODE_PRIVATE)
+    //val sharepref = getSharedPreferences("Messages", Context.MODE_PRIVATE)
 
     override fun onCreate(savedInstanceState: Bundle?) {
 
