@@ -117,4 +117,5 @@
     <string name="delete">Delete</string>
     <string name="mark_as_completed">Mark as completed</string>
     <string name="reset">Reset</string>
+    <string name="List_Dashboard">List Dashboard</string>
 </resources>

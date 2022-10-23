@@ -19,31 +19,7 @@ class BreathingExerciseMentalPage : AppCompatActivity() {
         binding = ActivityBreathingExerciseMentalPageBinding.inflate(layoutInflater)
         setContentView(binding.root)
 
-        mental_breath_bottom_nav.setOnItemSelectedListener {
-            when (it.itemId) {
-                R.id.profileBottomNav -> {
-                    val intent = Intent(this, ProfilePageMain::class.java)
-                    startActivity(intent)
-                }
 
-                R.id.goalsBottomNav -> {
-                    val intent = Intent(this, GoalsPageMain::class.java)
-                    startActivity(intent)
-                }
-
-
-                R.id.homeBotNav -> {
-                    val intent = Intent(this, MainActivity::class.java)
-                    startActivity(intent)
-                }
-
-                R.id.settingsBottomNav -> {
-                    val intent = Intent(this, SettingsPageMain::class.java)
-                    startActivity(intent)
-                }
-            }
-            true
-        }
 
     }
 
