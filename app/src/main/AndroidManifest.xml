@@ -16,9 +16,6 @@
         android:theme="@style/Theme.Life_is_well"
         tools:targetApi="31">
         <activity
-            android:name="com.example.life_is_well.todo.TodoListPageMain"
-            android:exported="false" />
-        <activity
             android:name="youtube.EachItem"
             android:exported="false" />
         <activity

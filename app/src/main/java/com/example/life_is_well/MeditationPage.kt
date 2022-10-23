@@ -6,6 +6,7 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.View
 import android.widget.Button
+import android.widget.ImageButton
 import com.example.life_is_well.databinding.ActivityMeditationPageBinding
 
 
@@ -17,6 +18,12 @@ class MeditationPage : AppCompatActivity() {
 
         binding = ActivityMeditationPageBinding.inflate(layoutInflater)
         setContentView(binding.root)
+
+        val breathingExButton = findViewById<Button>(R.id.link_breathingExercise)
+        breathingExButton.setOnClickListener {
+            val intent = Intent(this, BreathingExerciseMentalPage::class.java)
+            startActivity(intent)
+        }
 
         // DailyMeditation Button
         val DailyMeditationBtn = findViewById<Button>(R.id.link_dailyMed)
@@ -42,6 +49,7 @@ class MeditationPage : AppCompatActivity() {
             val intent = Intent(this, SuperPerformanceMeditationPage::class.java)
             startActivity(intent)
         }
+
 
     }
 
