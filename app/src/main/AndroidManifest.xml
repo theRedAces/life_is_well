@@ -85,6 +85,9 @@
             android:exported="false"
             android:theme="@style/Theme.Life_is_well_home"/>
         <activity
+            android:name="youtube.EachItem"
+            android:exported="false" />
+        <activity
             android:name=".WorkoutNonBinary"
             android:exported="false"
             android:theme="@style/Theme.Life_is_well_health" />
