@@ -43,6 +43,8 @@ class FinancePageMain : AppCompatActivity() {
     private lateinit var userList:ArrayList<FinanceUserData>
 
     private lateinit var title: Array<String>
+    private lateinit var titles: Array<String>
+
 
     private lateinit var userAdapter: UserAdapter
 
@@ -69,6 +71,7 @@ class FinancePageMain : AppCompatActivity() {
         account10Intent = Intent(this, AccountActivity10::class.java)
 
         title = arrayOf("Main")
+        titles = arrayOf()
 
         finRecv.layoutManager = GridLayoutManager(this, 2, RecyclerView.VERTICAL,false)
 
@@ -146,6 +149,7 @@ class FinancePageMain : AppCompatActivity() {
         val inflter = LayoutInflater.from(this)
         val v = inflter.inflate(R.layout.finance_add_item_prompt, null)
 
+
         val userName = v.findViewById<EditText>(R.id.financeAccountName)
 
         val addDialog = AlertDialog.Builder(this)
@@ -154,6 +158,7 @@ class FinancePageMain : AppCompatActivity() {
                 dialog,_->
 
             val names = userName.text
+            titles.plus("$names")
             userList.add(FinanceUserData("$names"))
             userAdapter.notifyDataSetChanged()
             Toast.makeText(this,"Account Creation Success",Toast.LENGTH_SHORT).show()
