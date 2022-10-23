@@ -71,8 +71,8 @@
 
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/rv_dashboard"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
+        android:layout_width="410dp"
+        android:layout_height="477dp"
         android:layout_below="@+id/dashboard_toolbar"
         android:layout_marginTop="60dp"
         android:layout_marginBottom="127dp"
@@ -84,7 +84,6 @@
         app:layout_constraintTop_toBottomOf="@+id/dashboard_toolbar"
         app:layout_constraintVertical_bias="1.0" />
 
-
     <com.google.android.material.floatingactionbutton.FloatingActionButton
         android:id="@+id/fab_dashboard"
         android:layout_width="wrap_content"
@@ -92,14 +91,14 @@
         android:layout_alignParentEnd="true"
         android:layout_alignParentRight="true"
         android:layout_alignParentBottom="true"
-        android:layout_marginStart="336dp"
+        android:layout_marginStart="176dp"
         android:layout_marginBottom="65dp"
         android:src="@drawable/ic_baseline_add"
         app:backgroundTint="@color/colorMentalHome"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/rv_dashboard"
-        app:layout_constraintVertical_bias="1.0" />
+        app:layout_constraintVertical_bias="0.0" />
 
     <com.google.android.material.bottomnavigation.BottomNavigationView
         android:id="@+id/mental_toDo_bottom_nav"
