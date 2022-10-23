@@ -100,4 +100,9 @@
     <string name="goal_description">Goal Description</string>
     <string name="finance_goals">Finance Goals</string>
     <string name="addNewGoalButtonText">Add New Goal</string>
+    <string name="edit">Edit</string>
+    <string name="delete">Delete</string>
+    <string name="mark_as_completed">Mark as completed</string>
+    <string name="reset">Reset</string>
+
 </resources>
