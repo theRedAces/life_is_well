@@ -122,6 +122,7 @@ class MainActivity : AppCompatActivity() {
             0 -> startActivity(finIntent)
             1 -> startActivity(healthIntent)
             2 -> startActivity(mentalIntent)
+
             3 -> startActivity(misc1Intent)
             4 -> startActivity(misc2Intent)
             5 -> startActivity(misc3Intent)

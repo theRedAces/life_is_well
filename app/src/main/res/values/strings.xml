@@ -65,7 +65,7 @@
     <string name="workout">Workout</string>
     <string name="select_date">Select Date</string>
     <string name="daily_intake">Daily Intake</string>
-    <string name="calculate_your_daily_intake">Calculate Your Daily Intake</string>
+    <string name="calculate_your_macros">Calculate Your Macros</string>
     <string name="selected_date">Selected Date</string>
     <string name="breakfast">Breakfast</string>
     <string name="calories">Calories</string>
@@ -111,6 +111,14 @@
     <string name="enter_number_for_icon_1_finance_2_fitness_3_mental">Enter number for icon(1-Finance,2-Fitness, 3-Mental)</string>
     <string name="enter_navigation_button_name">Enter navigation button name</string>
     <string name="liquids">Liquids</string>
+    <string name="calculate_your_daily_intake">Calculate Your Daily Intake</string>
+    <string name="start_exercise">Start Exercise</string>
+    <string name="edit">Edit</string>
+    <string name="delete">Delete</string>
+    <string name="mark_as_completed">Mark as completed</string>
+    <string name="reset">Reset</string>
+    <string name="List_Dashboard">List Dashboard</string>
+    <string name="Createnewlist">Add a New List</string>
     <string name="main_account">Main Account</string>
     <string name="current_balance">Current Balance:</string>
     <string name="balance">$999.99</string>

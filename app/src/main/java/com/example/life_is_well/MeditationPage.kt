@@ -18,6 +18,12 @@ class MeditationPage : AppCompatActivity() {
         binding = ActivityMeditationPageBinding.inflate(layoutInflater)
         setContentView(binding.root)
 
+        val breathingExButton = findViewById<Button>(R.id.link_breathingExercise)
+        breathingExButton.setOnClickListener {
+            val intent = Intent(this, BreathingExerciseMentalPage::class.java)
+            startActivity(intent)
+        }
+
         // DailyMeditation Button
         val DailyMeditationBtn = findViewById<Button>(R.id.link_dailyMed)
         DailyMeditationBtn.setOnClickListener {
@@ -31,7 +37,7 @@ class MeditationPage : AppCompatActivity() {
             startActivity(intent)
         }
 
-        val LetGoButton = findViewById<Button>(R.id.link_letGo)
+        val LetGoButton = findViewById<Button>(R.id.wishlist_button)
         LetGoButton.setOnClickListener {
             val intent = Intent(this, LettingGoMeditationPage::class.java)
             startActivity(intent)
@@ -42,6 +48,7 @@ class MeditationPage : AppCompatActivity() {
             val intent = Intent(this, SuperPerformanceMeditationPage::class.java)
             startActivity(intent)
         }
+
 
     }
 

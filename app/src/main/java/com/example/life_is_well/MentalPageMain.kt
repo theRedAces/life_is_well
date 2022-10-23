@@ -13,15 +13,13 @@ import kotlinx.android.synthetic.main.activity_mental_page_main.*
 class MentalPageMain : AppCompatActivity() {
     private lateinit var binding: ActivityMentalPageMainBinding
 
-    override fun onCreate(savedInstanceState: Bundle?)
-    {
+    override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-
         binding = ActivityMentalPageMainBinding.inflate(layoutInflater)
         setContentView(binding.root)
-        // setContentView(R.layout.activity_mental_page_main)
+        //setContentView(R.layout.activity_mental_page_main)
 
-       val meditateButton = findViewById<ImageButton>(R.id.imageButton6)
+        val meditateButton = findViewById<ImageButton>(R.id.imageButton6)
         meditateButton.setOnClickListener {
             val intent = Intent(this, MeditationPage::class.java)
             startActivity(intent)
@@ -33,15 +31,9 @@ class MentalPageMain : AppCompatActivity() {
             startActivity(intent)
         }
 
-        val breathingExButton = findViewById<ImageButton>(R.id.imageButton8)
-        breathingExButton.setOnClickListener {
-            val intent = Intent(this, BreathingExerciseMentalPage::class.java)
-            startActivity(intent)
-        }
-
-        val toDoButton = findViewById<ImageButton>(R.id.imageButton9)
-       toDoButton.setOnClickListener {
-            val intent = Intent(this, ToDoMentalPage::class.java)
+        val todoPageButton = findViewById<ImageButton>(R.id.imageButton9)
+        todoPageButton.setOnClickListener{
+            val intent = Intent(this, TodoListMentalPage::class.java)
             startActivity(intent)
         }
 
@@ -69,22 +61,14 @@ class MentalPageMain : AppCompatActivity() {
                 }
             }
             true
+
         }
-
     }
-
 
     fun mentalBackBtn(view: View) {
         val intent = Intent(this,MainActivity::class.java )
         startActivity(intent)
     }
-
-    fun homeBtn(view: View) {
-        val intent = Intent(this,MainActivity::class.java )
-        startActivity(intent)
-    }
-
-
 
 
 }

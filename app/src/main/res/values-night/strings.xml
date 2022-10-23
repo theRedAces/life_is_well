@@ -105,4 +105,15 @@
     <string name="task_name">Task Name</string>
     <string name="description_of_task">Description of task</string>
     <string name="allows_tasks_to_be_edited">Allows tasks to be edited</string>
+    <string name="youtube_video_title">YouTube Video Title</string>
+    <string name="number_1_3">Number 1-3</string>
+    <string name="enter_number_for_background_1_green_2_orange_3_blue">Enter number for background(1-Green, 2-Orange, 3-Blue)</string>
+    <string name="enter_number_for_icon_1_finance_2_fitness_3_mental">Enter number for icon(1-Finance,2-Fitness, 3-Mental)</string>
+    <string name="enter_navigation_button_name">Enter navigation button name</string>
+    <string name="liquids">Liquids</string>
+    <string name="calculate_your_daily_intake">Calculate Your Daily Intake</string>
+    <string name="edit">Edit</string>
+    <string name="delete">Delete</string>
+    <string name="mark_as_completed">Mark as completed</string>
+    <string name="reset">Reset</string>
 </resources>
