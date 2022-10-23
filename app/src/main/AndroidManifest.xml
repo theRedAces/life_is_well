@@ -113,8 +113,11 @@
         <activity
             android:name=".SettingsPageMain"
             android:exported="true"
-            android:label="SettingPageMain"
+            android:label=".SettingPageMain"
             android:parentActivityName=".MainActivity"
+            android:launchMode="singleTask"
+            android:taskAffinity=""
+            android:excludeFromRecents="true"
             android:theme="@style/PreferenceTheme" />
         <activity
             android:name=".MentalPageMain"

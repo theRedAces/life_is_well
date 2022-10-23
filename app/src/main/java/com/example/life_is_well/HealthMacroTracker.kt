@@ -2,7 +2,10 @@ package com.example.life_is_well
 
 import android.app.AlertDialog
 import android.app.DatePickerDialog
+import android.content.Context
 import android.content.Intent
+import android.content.SharedPreferences
+import android.media.audiofx.Equalizer.Settings
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.LayoutInflater
@@ -11,6 +14,7 @@ import android.widget.Button
 import android.widget.EditText
 import android.widget.TextView
 import android.widget.Toast
+import androidx.preference.Preference
 import com.example.life_is_well.goalsPages.GoalsPageMain
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
@@ -20,6 +24,7 @@ import macros.MealData
 import kotlinx.android.synthetic.main.activity_health_macro_tracker.*
 import java.text.SimpleDateFormat
 import java.util.*
+import java.util.prefs.Preferences
 import kotlin.collections.ArrayList
 
 class HealthMacroTracker : AppCompatActivity() {
@@ -30,8 +35,13 @@ class HealthMacroTracker : AppCompatActivity() {
     private lateinit var mealList:ArrayList<MealData>
     private lateinit var mealAdapter: MealAdapter
 
+    val sharepref = getSharedPreferences("Messages", Context.MODE_PRIVATE)
+
     override fun onCreate(savedInstanceState: Bundle?) {
+
+
         super.onCreate(savedInstanceState)
+
         setContentView(R.layout.activity_health_macro_tracker)
         /** RecyclerView Code*/
         /** set List*/
@@ -84,27 +94,39 @@ class HealthMacroTracker : AppCompatActivity() {
 
     }
 
-    private fun clickDateClicker(){
+    private fun clickDateClicker() {
 
         val myCalendar = Calendar.getInstance()
         val year = myCalendar.get(Calendar.YEAR)
         val month = myCalendar.get(Calendar.MONTH)
         val day = myCalendar.get(Calendar.DAY_OF_MONTH)
-        val dpd = DatePickerDialog(this, DatePickerDialog.OnDateSetListener { view, selectedYear, selectedMonth, selectedDayOfMonth ->
-            Toast.makeText(this, "Year was $selectedYear, Month was ${selectedMonth + 1}, Day is $selectedDayOfMonth" , Toast.LENGTH_LONG).show()
-            val selectedDate = "${selectedMonth + 1}/$selectedDayOfMonth/$selectedYear"
-            tvSelectedDate?.setText(selectedDate)
-            val sdf = SimpleDateFormat("MM/dd/yyyy", Locale.ENGLISH)
-            val theDate =sdf.parse(selectedDate)
-            val selectedDateInMinutes = theDate.time / 60000
-            val currentDate =sdf.parse(sdf.format(System.currentTimeMillis()))
-        },
+        val dpd = DatePickerDialog(
+            this,
+            DatePickerDialog.OnDateSetListener { view, selectedYear, selectedMonth, selectedDayOfMonth ->
+                Toast.makeText(
+                    this,
+                    "Year was $selectedYear, Month was ${selectedMonth + 1}, Day is $selectedDayOfMonth",
+                    Toast.LENGTH_LONG
+                ).show()
+                val selectedDate = "${selectedMonth + 1}/$selectedDayOfMonth/$selectedYear"
+                tvSelectedDate?.setText(selectedDate)
+                val sdf = SimpleDateFormat("MM/dd/yyyy", Locale.ENGLISH)
+                val theDate = sdf.parse(selectedDate)
+                val selectedDateInMinutes = theDate.time / 60000
+                val currentDate = sdf.parse(sdf.format(System.currentTimeMillis()))
+            },
             year,
             month,
             day,
         )
         dpd.datePicker.maxDate = System.currentTimeMillis() - 86400000
-        dpd.show()
+
+
+
+            dpd.show()
+
+
+
 
     }
 
@@ -130,6 +152,7 @@ class HealthMacroTracker : AppCompatActivity() {
         val userOunces = v.findViewById<EditText>(R.id.etOunces)
         val addDialog = AlertDialog.Builder(this)
         addDialog.setView(v)
+
         addDialog.setPositiveButton("Ok") {
             dialog, _->
             val meals = userMeal.text.toString()

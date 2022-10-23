@@ -133,5 +133,7 @@
         <item name="android:statusBarColor" >@color/inputBackground</item>
         <!-- Customize your theme here. -->
     </style>
-
+    <style name="Theme.Custom" parent="@style/Theme.Life_is_well">
+        <item name="darktheme"> @color/colorPrimaryDarkHome</item>
+    </style>
 </resources>
