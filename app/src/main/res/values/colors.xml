@@ -19,6 +19,8 @@
     <color name="colorWhiteHome">#FFFFFF</color>
     <color name="colorBlackHome">#000000</color>
     <color name="colorFinanceHome">#87FC73</color>
+    <color name="colorFinanceExpenses">#AF2F39</color>
+
     <color name="colorHealthHome">#ED801B</color>
     <color name="colorMentalHome">#BDE9FF</color>
     <color name="colorMeditationButtons">#FCBD4684</color>

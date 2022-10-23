@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <shape xmlns:android="http://schemas.android.com/apk/res/android"
     android:shape="rectangle">
-
-    <solid android:color="?colorSurfaceInverse"/>
+    <stroke android:color="@color/colorBlackHome" android:width="3dp"/>
+    <solid android:color="@color/colorFinanceHome"/>
     <corners android:radius="10dp"/>
 
 </shape>

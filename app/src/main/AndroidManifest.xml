@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    package="com.example.life_is_well" >
+    package="com.example.life_is_well">
 
     <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
 
@@ -14,30 +14,102 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.Life_is_well"
-        tools:targetApi="31" >
-
-
+        tools:targetApi="31">
+        <activity
+            android:name=".finance_account_pages.AccountActivity10"
+            android:exported="false"
+            android:theme="@style/Theme.Life_is_well_finance"/>
+        <activity
+            android:name=".finance_account_pages.AccountActivity9"
+            android:exported="false"
+            android:theme="@style/Theme.Life_is_well_finance"/>
+        <activity
+            android:name=".finance_account_pages.AccountActivity8"
+            android:exported="false"
+            android:theme="@style/Theme.Life_is_well_finance"/>
+        <activity
+            android:name=".finance_account_pages.AccountActivity7"
+            android:exported="false"
+            android:theme="@style/Theme.Life_is_well_finance"/>
+        <activity
+            android:name=".finance_account_pages.AccountActivity6"
+            android:exported="false"
+            android:theme="@style/Theme.Life_is_well_finance"/>
+        <activity
+            android:name=".finance_account_pages.AccountActivity5"
+            android:exported="false"
+            android:theme="@style/Theme.Life_is_well_finance"/>
+        <activity
+            android:name=".finance_account_pages.AccountActivity4"
+            android:exported="false"
+            android:theme="@style/Theme.Life_is_well_finance"/>
+        <activity
+            android:name=".finance_account_pages.AccountActivity3"
+            android:exported="false"
+            android:theme="@style/Theme.Life_is_well_finance"/>
+        <activity
+            android:name=".finance_account_pages.AccountActivity2"
+            android:exported="false"
+            android:theme="@style/Theme.Life_is_well_finance"/>
+        <activity
+            android:name=".finance_account_pages.MainAccountActivity"
+            android:exported="false"
+            android:theme="@style/Theme.Life_is_well_finance"/>
+        <activity
+            android:name=".home.misc_home_activities.MiscActivity7"
+            android:exported="false"
+            android:theme="@style/Theme.Life_is_well_home"/>
+        <activity
+            android:name=".home.misc_home_activities.MiscActivity6"
+            android:exported="false"
+            android:theme="@style/Theme.Life_is_well_home"/>
+        <activity
+            android:name=".home.misc_home_activities.MiscActivity5"
+            android:exported="false"
+            android:theme="@style/Theme.Life_is_well_home"/>
+        <activity
+            android:name=".home.misc_home_activities.MiscActivity4"
+            android:exported="false"
+            android:theme="@style/Theme.Life_is_well_home"/>
+        <activity
+            android:name=".home.misc_home_activities.MiscActivity3"
+            android:exported="false"
+            android:theme="@style/Theme.Life_is_well_home"/>
+        <activity
+            android:name=".home.misc_home_activities.MiscActivity2"
+            android:exported="false"
+            android:theme="@style/Theme.Life_is_well_home"/>
+        <activity
+            android:name=".home.misc_home_activities.MiscActivity1"
+            android:exported="false"
+            android:theme="@style/Theme.Life_is_well_home"/>
         <activity
             android:name="youtube.EachItem"
             android:exported="false" />
         <activity
             android:name=".WorkoutNonBinary"
-            android:exported="false" />
+            android:exported="false"
+            android:theme="@style/Theme.Life_is_well_health" />
         <activity
             android:name=".WorkoutFemale"
-            android:exported="false" />
+            android:exported="false"
+            android:theme="@style/Theme.Life_is_well_health" />
         <activity
             android:name=".WorkoutMale"
-            android:exported="false" />
+            android:exported="false"
+            android:theme="@style/Theme.Life_is_well_health" />
         <activity
             android:name=".WorkoutPage"
-            android:exported="false" />
+            android:exported="false"
+            android:theme="@style/Theme.Life_is_well_health" />
         <activity
             android:name=".BMICalc"
-            android:exported="false" />
+            android:exported="false"
+            android:theme="@style/Theme.Life_is_well_health" />
         <activity
             android:name=".HealthMacroTracker"
-            android:exported="false" />
+            android:exported="false"
+            android:theme="@style/Theme.Life_is_well_health" />
         <activity
             android:name=".SettingsPageMain"
             android:exported="true"
@@ -45,31 +117,32 @@
             android:parentActivityName=".MainActivity"
             android:launchMode="singleTask"
             android:taskAffinity=""
-            android:excludeFromRecents="true">
-
-
-        </activity>
-        <activity
-            android:name=".FinanceAccountPageMain"
-            android:exported="false" />
+            android:excludeFromRecents="true"
+            android:theme="@style/PreferenceTheme" />
         <activity
             android:name=".MentalPageMain"
-            android:exported="false" />
+            android:exported="false"
+            android:theme="@style/Theme.Life_is_well_mental" />
         <activity
             android:name=".MeditationPage"
-            android:exported="false" />
+            android:exported="false"
+            android:theme="@style/Theme.Life_is_well_mental" />
         <activity
             android:name=".GratitudeMentalPage"
-            android:exported="false" />
+            android:exported="false"
+            android:theme="@style/Theme.Life_is_well_mental" />
         <activity
             android:name=".BreathingExerciseMentalPage"
-            android:exported="false" />
+            android:exported="false"
+            android:theme="@style/Theme.Life_is_well_mental" />
         <activity
             android:name=".ToDoMentalPage"
-            android:exported="false" />
+            android:exported="false"
+            android:theme="@style/Theme.Life_is_well_mental" />
         <activity
             android:name=".HealthPageMain"
-            android:exported="false" />
+            android:exported="false"
+            android:theme="@style/Theme.Life_is_well_health" />
         <activity
             android:name=".ProfilePageMain"
             android:exported="false" />
@@ -81,16 +154,18 @@
             android:name=".LettingGoMeditationPage"
             android:configChanges="orientation|screenSize|keyboardHidden|smallestScreenSize|screenLayout"
             android:exported="false" />
-        <activity android:name=".goalsPages.GoalsPageMain"
+        <activity
+            android:name=".goalsPages.GoalsPageMain"
             android:exported="true"
             android:label="@string/goals"
             android:parentActivityName=".goalsPages.GoalsPageMain"
-            android:theme="@style/GoalPageMain"/>
-        <activity android:name=".goalsPages.goalsScreens.GoalTaskPageMain"
+            android:theme="@style/GoalPageMain" />
+        <activity
+            android:name=".goalsPages.goalsScreens.GoalTaskPageMain"
             android:exported="true"
             android:label="@string/goals"
             android:parentActivityName=".goalsPages.goalsScreens.GoalTaskPageMain"
-            android:theme="@style/GoalPageMain"/>
+            android:theme="@style/GoalPageMain" />
         <activity
             android:name=".OpenHeartMeditationPage"
             android:configChanges="orientation|screenSize|keyboardHidden|smallestScreenSize|screenLayout"
@@ -105,14 +180,14 @@
             android:theme="@style/Theme.Life_is_well_finance" />
         <activity
             android:name=".MainActivity"
-            android:exported="true">
+            android:exported="true"
+            android:theme="@style/Theme.Life_is_well_home">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-
     </application>
 
 </manifest>
