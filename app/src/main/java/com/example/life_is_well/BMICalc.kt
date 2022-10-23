@@ -11,7 +11,7 @@ import android.widget.TextView
 import android.widget.Toast
 import androidx.core.app.NotificationCompat.getColor
 import androidx.core.content.ContextCompat
-import com.example.life_is_well.goals.GoalsPageMain
+import com.example.life_is_well.goalsPages.GoalsPageMain
 import kotlinx.android.synthetic.main.activity_bmicalc.*
 import kotlinx.android.synthetic.main.activity_health_macro_tracker.*
 

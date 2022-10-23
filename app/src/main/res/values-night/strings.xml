@@ -27,7 +27,7 @@
     <string name="title_home">Home</string>
     <string name="title_dashboard">Dashboard</string>
     <string name="title_notifications">Notifications</string>
-    <string name="title_activity_breathing_exercise">BreathingExercise</string>
+   <string name="title_activity_breathing_exercise">BreathingExercise</string>
     <string name="title_activity_breathing_exercise_mental_page">BreathingExerciseMentalPage</string>
     <string name="defaultNavHost">nav_host</string>
     <string name="navGraph">nav_graph</string>
@@ -101,4 +101,8 @@
     <string name="finance_goals">Finance Goals</string>
     <string name="adds_new_goal_card">Adds new goal card</string>
     <string name="addNewGoalButtonText">Add New Goal</string>
+    <string name="button_to_add_new_goal">Button to add new goal</string>
+    <string name="task_name">Task Name</string>
+    <string name="description_of_task">Description of task</string>
+    <string name="allows_tasks_to_be_edited">Allows tasks to be edited</string>
 </resources>

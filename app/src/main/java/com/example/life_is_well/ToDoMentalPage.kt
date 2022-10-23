@@ -6,7 +6,7 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.View
 import com.example.life_is_well.databinding.ActivityToDoMentalPageBinding
-import com.example.life_is_well.goals.GoalsPageMain
+import com.example.life_is_well.goalsPages.GoalsPageMain
 import kotlinx.android.synthetic.main.activity_mental_page_main.*
 import kotlinx.android.synthetic.main.activity_to_do_mental_page.*
 

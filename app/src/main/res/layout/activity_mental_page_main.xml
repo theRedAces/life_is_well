@@ -4,7 +4,6 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/colorBackgroundHome"
     android:clickable="true"
     tools:context=".MentalPageMain">
 
@@ -170,7 +169,7 @@
         android:id="@+id/mental_main_bottom_nav"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:background="@color/colorMentalHome"
+        android:background="?android:colorPrimary"
         app:itemIconTint="@color/colorBlackHome"
         app:itemTextColor="@color/colorBlackHome"
         app:layout_constraintBottom_toBottomOf="parent"

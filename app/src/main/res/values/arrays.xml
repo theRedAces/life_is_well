@@ -10,10 +10,16 @@
         <item>reply_all</item>
     </string-array>
 
-    <string-array name="Theme_layoutvals">
-        <item>Light Theme</item>
-        <item>Dark Theme</item>
+    <string-array name="Theme_Entries">
         <item>App Original Theme</item>
+        <item>Dark Theme</item>
+
+    </string-array>
+    <string-array name="Themes_Values">
+        <item>1</item>
+        <item>2</item>
+
+
     </string-array>
 
     <string-array name="Notifvals">
@@ -39,4 +45,14 @@
         <item>Imperial A.K.A MERCAN</item>
     </string-array>
 
-</resources>
+    <string-array name="Unitvals_value">
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+
+    <string-array name="SecurityAnnount">
+        <item>Password Changed</item>
+        <item></item>
+    </string-array>
+
+    </resources>
