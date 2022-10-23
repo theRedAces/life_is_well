@@ -119,4 +119,12 @@
     <string name="reset">Reset</string>
     <string name="List_Dashboard">List Dashboard</string>
     <string name="Createnewlist">Add a New List</string>
+    <string name="main_account">Main Account</string>
+    <string name="current_balance">Current Balance:</string>
+    <string name="balance">$999.99</string>
+    <string name="income_date">10/21/2022</string>
+    <string name="income_total">$999.99</string>
+    <string name="future_income">Future Income:</string>
+    <string name="future_expenses">Future Expenses:</string>
+
 </resources>

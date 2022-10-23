@@ -19,6 +19,8 @@
     <color name="colorWhiteHome">#FFFFFF</color>
     <color name="colorBlackHome">#000000</color>
     <color name="colorFinanceHome">#87FC73</color>
+    <color name="colorFinanceExpenses">#AF2F39</color>
+
     <color name="colorHealthHome">#ED801B</color>
     <color name="colorMentalHome">#BDE9FF</color>
     <color name="colorMeditationButtons">#FCBD4684</color>
@@ -29,6 +31,30 @@
     <color name="colorLightGrey">#b7b7a4</color>
     <color name="colorOffWhite">#EEEAEA</color>
     <color name="inputBackground">#DEE0FF</color>
+
+<!--
+    <color name="primary">@color/purple_700</color>
+    <color name="primaryDark">@color/colorAccentHome</color>
+    <color name="primaryLight">@color/primary</color>
+    <color name="accent">#FF03DAC5</color>
+    <color name="primaryDarktext">#FF018786</color>
+    <color name="secondaryDarktext">#FF000000</color>
+    <color name="icons">#FFFFFFFF</color>
+    <color name="divider">#8A37B1</color>
+-->
+    <attr name="darktheme" format="color"/>
+
+    <color name="primary">@color/colorAccentHome</color>
+    <color name="primaryDark">@color/colorAccentHome</color>
+    <color name="primaryLight">@color/primary</color>
+    <color name="accent">@color/colorAccentHome</color>
+    <color name="primaryDarktext">#022E2E</color>
+    <color name="secondaryDarktext">#9E9898</color>
+    <color name="icons">#FFFFFFFF</color>
+    <color name="divider">#38313A</color>
+
+
+
 
     <color name="colorUnderWeight">#FD5F2A</color>
     <color name="colorNormal">#00EC00</color>

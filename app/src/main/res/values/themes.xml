@@ -22,13 +22,17 @@
 
     <style name="Theme.Life_is_well_home" parent="Theme.MaterialComponents.DayNight.NoActionBar">
         <!-- Primary brand color. -->
+        <item name="android:windowBackground">@color/colorBackgroundHome</item>
+        <item name="colorOnSurface">@color/colorHealthHome</item>
+        <item name="colorSurfaceInverse">@color/colorMentalHome</item>
+        <item name="colorSurface">@color/colorFinanceHome</item>
         <item name="colorPrimary">@color/colorPrimaryHome</item>
         <item name="colorPrimaryVariant">@color/colorPrimaryLightHome</item>
-        <item name="colorOnPrimary">@color/colorWhiteHome</item>
+        <item name="colorOnPrimary">@color/colorBackgroundHome</item>
         <!-- Secondary brand color. -->
-        <item name="colorSecondary">@color/colorAccentHome</item>
-        <item name="colorSecondaryVariant">@color/colorAccentHome</item>
-        <item name="colorOnSecondary">@color/colorBlackHome</item>
+        <item name="colorSecondary">#1D5284</item>
+        <item name="colorSecondaryVariant">@color/colorBackgroundHome</item>
+        <item name="colorOnSecondary">#000000</item>
         <!-- Status bar color. -->
         <item name="android:statusBarColor">?attr/colorPrimaryVariant</item>
         <!-- Customize your theme here. -->
@@ -49,6 +53,8 @@
 
     <style name="Theme.Life_is_well_mental" parent="Theme.MaterialComponents.DayNight.NoActionBar">
         <!-- Primary brand color. -->
+        <item name="android:windowBackground">@color/colorBackgroundHome</item>
+        <item name="colorSurfaceInverse">@color/colorMentalHome</item>
         <item name="colorPrimary">@color/colorMentalHome</item>
         <item name="colorPrimaryVariant">@color/colorMentalHome</item>
         <item name="colorOnPrimary">@color/white</item>
@@ -67,6 +73,10 @@
 
     <style name="Theme.Life_is_well_finance" parent="Theme.MaterialComponents.DayNight.NoActionBar">
         <!-- Primary brand color. -->
+        <item name="android:windowBackground">@color/colorBackgroundHome</item>
+        <item name="colorSurface">@color/colorFinanceHome</item>
+        <item name="colorOnSurface">@color/colorHealthHome</item>
+        <item name="colorSurfaceInverse">@color/colorMentalHome</item>
         <item name="colorPrimary">@color/colorFinanceHome</item>
         <item name="colorPrimaryVariant">@color/colorFinanceHome</item>
         <item name="colorOnPrimary">@color/colorWhiteHome</item>
@@ -85,6 +95,8 @@
 
     <style name="Theme.Life_is_well_health" parent="Theme.MaterialComponents.DayNight.NoActionBar">
         <!-- Primary brand color. -->
+        <item name="android:windowBackground">@color/colorBackgroundHome</item>
+        <item name="colorOnSurface">@color/colorHealthHome</item>
         <item name="colorPrimary">@color/colorHealthHome</item>
         <item name="colorPrimaryVariant">@color/colorHealthHome</item>
         <item name="colorOnPrimary">@color/colorWhiteHome</item>
@@ -123,5 +135,7 @@
         <item name="android:statusBarColor" >@color/inputBackground</item>
         <!-- Customize your theme here. -->
     </style>
-
+    <style name="Theme.Custom" parent="@style/Theme.Life_is_well">
+        <item name="darktheme"> @color/colorPrimaryDarkHome</item>
+    </style>
 </resources>

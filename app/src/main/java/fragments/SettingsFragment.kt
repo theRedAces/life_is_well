@@ -9,7 +9,7 @@ import android.view.View
 import android.view.ViewGroup
 import com.example.life_is_well.R
 import com.example.life_is_well.SettingsPageMain
-import com.example.life_is_well.SettingsPageMain.SettingsFragment
+
 import com.example.life_is_well.databinding.FragmentSettingsBinding
 import kotlinx.android.synthetic.main.settings_activity.*
 

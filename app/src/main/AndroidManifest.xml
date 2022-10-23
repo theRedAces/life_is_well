@@ -15,6 +15,75 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Life_is_well"
         tools:targetApi="31">
+
+        <activity
+            android:name=".finance_account_pages.AccountActivity10"
+            android:exported="false"
+            android:theme="@style/Theme.Life_is_well_finance"/>
+        <activity
+            android:name=".finance_account_pages.AccountActivity9"
+            android:exported="false"
+            android:theme="@style/Theme.Life_is_well_finance"/>
+        <activity
+            android:name=".finance_account_pages.AccountActivity8"
+            android:exported="false"
+            android:theme="@style/Theme.Life_is_well_finance"/>
+        <activity
+            android:name=".finance_account_pages.AccountActivity7"
+            android:exported="false"
+            android:theme="@style/Theme.Life_is_well_finance"/>
+        <activity
+            android:name=".finance_account_pages.AccountActivity6"
+            android:exported="false"
+            android:theme="@style/Theme.Life_is_well_finance"/>
+        <activity
+            android:name=".finance_account_pages.AccountActivity5"
+            android:exported="false"
+            android:theme="@style/Theme.Life_is_well_finance"/>
+        <activity
+            android:name=".finance_account_pages.AccountActivity4"
+            android:exported="false"
+            android:theme="@style/Theme.Life_is_well_finance"/>
+        <activity
+            android:name=".finance_account_pages.AccountActivity3"
+            android:exported="false"
+            android:theme="@style/Theme.Life_is_well_finance"/>
+        <activity
+            android:name=".finance_account_pages.AccountActivity2"
+            android:exported="false"
+            android:theme="@style/Theme.Life_is_well_finance"/>
+        <activity
+            android:name=".finance_account_pages.MainAccountActivity"
+            android:exported="false"
+            android:theme="@style/Theme.Life_is_well_finance"/>
+        <activity
+            android:name=".home.misc_home_activities.MiscActivity7"
+            android:exported="false"
+            android:theme="@style/Theme.Life_is_well_home"/>
+        <activity
+            android:name=".home.misc_home_activities.MiscActivity6"
+            android:exported="false"
+            android:theme="@style/Theme.Life_is_well_home"/>
+        <activity
+            android:name=".home.misc_home_activities.MiscActivity5"
+            android:exported="false"
+            android:theme="@style/Theme.Life_is_well_home"/>
+        <activity
+            android:name=".home.misc_home_activities.MiscActivity4"
+            android:exported="false"
+            android:theme="@style/Theme.Life_is_well_home"/>
+        <activity
+            android:name=".home.misc_home_activities.MiscActivity3"
+            android:exported="false"
+            android:theme="@style/Theme.Life_is_well_home"/>
+        <activity
+            android:name=".home.misc_home_activities.MiscActivity2"
+            android:exported="false"
+            android:theme="@style/Theme.Life_is_well_home"/>
+        <activity
+            android:name=".home.misc_home_activities.MiscActivity1"
+            android:exported="false"
+            android:theme="@style/Theme.Life_is_well_home"/>
         <activity
             android:name="youtube.EachItem"
             android:exported="false" />
@@ -45,34 +114,12 @@
         <activity
             android:name=".SettingsPageMain"
             android:exported="true"
-            android:label="SettingPageMain"
+            android:label=".SettingPageMain"
             android:parentActivityName=".MainActivity"
+            android:launchMode="singleTask"
+            android:taskAffinity=""
+            android:excludeFromRecents="true"
             android:theme="@style/PreferenceTheme" />
-        <activity
-            android:name=".ProfilePageMain"
-            android:exported="false" />
-        <activity
-            android:name=".SuperPerformanceMeditationPage"
-            android:configChanges="orientation|screenSize|keyboardHidden|smallestScreenSize|screenLayout"
-            android:exported="false" />
-        <activity
-            android:name=".LettingGoMeditationPage"
-            android:configChanges="orientation|screenSize|keyboardHidden|smallestScreenSize|screenLayout"
-            android:exported="false" />
-        <activity
-            android:name=".goalsPages.GoalsPageMain"
-            android:exported="true"
-            android:label="@string/goals"
-            android:parentActivityName=".goalsPages.GoalsPageMain"
-            android:theme="@style/GoalPageMain" />
-        <activity
-            android:name=".OpenHeartMeditationPage"
-            android:configChanges="orientation|screenSize|keyboardHidden|smallestScreenSize|screenLayout"
-            android:exported="false" />
-        <activity
-            android:name=".FinanceAccountPageMain"
-            android:exported="false"
-            android:theme="@style/Theme.Life_is_well_finance" />
         <activity
             android:name=".MentalPageMain"
             android:exported="false"
@@ -98,11 +145,32 @@
             android:exported="false"
             android:theme="@style/Theme.Life_is_well_health" />
         <activity
+            android:name=".ProfilePageMain"
+            android:exported="false" />
+        <activity
+            android:name=".SuperPerformanceMeditationPage"
+            android:configChanges="orientation|screenSize|keyboardHidden|smallestScreenSize|screenLayout"
+            android:exported="false" />
+        <activity
+            android:name=".LettingGoMeditationPage"
+            android:configChanges="orientation|screenSize|keyboardHidden|smallestScreenSize|screenLayout"
+            android:exported="false" />
+        <activity
+            android:name=".goalsPages.GoalsPageMain"
+            android:exported="true"
+            android:label="@string/goals"
+            android:parentActivityName=".goalsPages.GoalsPageMain"
+            android:theme="@style/GoalPageMain" />
+        <activity
             android:name=".goalsPages.goalsScreens.GoalTaskPageMain"
             android:exported="true"
             android:label="@string/goals"
             android:parentActivityName=".goalsPages.goalsScreens.GoalTaskPageMain"
             android:theme="@style/GoalPageMain" />
+        <activity
+            android:name=".OpenHeartMeditationPage"
+            android:configChanges="orientation|screenSize|keyboardHidden|smallestScreenSize|screenLayout"
+            android:exported="false" />
         <activity
             android:name=".DailyMeditationPage"
             android:configChanges="orientation|screenSize|keyboardHidden|smallestScreenSize|screenLayout"
