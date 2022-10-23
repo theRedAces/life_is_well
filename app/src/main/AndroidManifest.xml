@@ -15,6 +15,7 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Life_is_well"
         tools:targetApi="31">
+
         <activity
             android:name=".finance_account_pages.AccountActivity10"
             android:exported="false"

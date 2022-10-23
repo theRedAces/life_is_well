@@ -13,6 +13,8 @@ import youtube.YouTubeVideos
 class YouTubeVideoAdapter(private val videoList:ArrayList<YouTubeVideos>)
     : RecyclerView.Adapter<YouTubeVideoAdapter.VideoViewHolder>(){
 
+    var onItemClick : ((YouTubeVideos) -> Unit)? = null
+
     class VideoViewHolder(itemView: View)  : RecyclerView.ViewHolder(itemView){
         val imageView : ImageView = itemView.findViewById(R.id.Thumbnail)
         val textView : TextView = itemView.findViewById(R.id.workoutTitle)
@@ -29,6 +31,9 @@ class YouTubeVideoAdapter(private val videoList:ArrayList<YouTubeVideos>)
         holder.imageView.setImageResource(video.image)
         holder.textView.text = video.name
 
+        holder.itemView.setOnClickListener{
+            onItemClick?.invoke(video)
+        }
     }
 
     override fun getItemCount(): Int {
