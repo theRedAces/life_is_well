@@ -22,17 +22,13 @@
 
     <style name="Theme.Life_is_well_home" parent="Theme.MaterialComponents.DayNight.NoActionBar">
         <!-- Primary brand color. -->
-        <item name="android:windowBackground">@color/colorBackgroundHome</item>
-        <item name="colorOnSurface">@color/colorHealthHome</item>
-        <item name="colorSurfaceInverse">@color/colorMentalHome</item>
-        <item name="colorSurface">@color/colorFinanceHome</item>
         <item name="colorPrimary">@color/colorPrimaryHome</item>
         <item name="colorPrimaryVariant">@color/colorPrimaryLightHome</item>
-        <item name="colorOnPrimary">@color/colorBackgroundHome</item>
+        <item name="colorOnPrimary">@color/colorWhiteHome</item>
         <!-- Secondary brand color. -->
-        <item name="colorSecondary">#1D5284</item>
-        <item name="colorSecondaryVariant">@color/colorBackgroundHome</item>
-        <item name="colorOnSecondary">#000000</item>
+        <item name="colorSecondary">@color/colorAccentHome</item>
+        <item name="colorSecondaryVariant">@color/colorAccentHome</item>
+        <item name="colorOnSecondary">@color/colorBlackHome</item>
         <!-- Status bar color. -->
         <item name="android:statusBarColor">?attr/colorPrimaryVariant</item>
         <!-- Customize your theme here. -->
@@ -109,19 +105,20 @@
         <!-- Customize your theme here. -->
     </style>
 
+    <style name="PreferenceTheme" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+        <item name="android:colorBackground">@color/colorBackgroundHome</item>
+
+    </style>
+
+    <!-- Style to make square components have rounded corners -->
     <style name="RoundCorner" parent="">
         <item name="cornerFamily">rounded</item>
         <item name="cornerSize">10dp</item>
         <item name="color">@color/white</item>
     </style>
 
-    <style name="PreferenceTheme" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
-        <item name="android:colorBackground">@color/colorBackgroundHome</item>
 
-    </style>
-
-    /** Custom style for Goals page */
-
+    <!-- Custom style for Goals page -->
     <style name="GoalPageMain" parent="Theme.MaterialComponents.DayNight.NoActionBar">
         <!-- Primary brand color. -->
         <item name="colorPrimary">@color/inputBackground</item>
@@ -135,6 +132,13 @@
         <item name="android:statusBarColor" >@color/inputBackground</item>
         <!-- Customize your theme here. -->
     </style>
+
+    <!-- Goal Page dialog theme -->
+    <style name="Theme_Goal_Dialog" parent="ThemeOverlay.AppCompat.Dialog">
+        <item name="android:windowMinWidthMajor">90%</item>
+        <item name="android:windowMinWidthMinor">90%</item>
+    </style>
+
     <style name="Theme.Custom" parent="@style/Theme.Life_is_well">
         <item name="darktheme"> @color/colorPrimaryDarkHome</item>
     </style>
