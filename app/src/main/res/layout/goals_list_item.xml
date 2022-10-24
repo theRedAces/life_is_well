@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/goal_item_layout"
+    android:layout_width="200dp"
+    android:layout_height="200dp"
+    android:layout_marginEnd="20dp"
+    android:layout_marginBottom="20dp">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="180dp"
+        android:layout_height="180dp"
+        android:background="@drawable/goal_card_layout"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:shapeAppearanceOverlay="@style/RoundCorner"
+        tools:context=".goalsPages.GoalsPageMain">
+
+        <com.google.android.material.imageview.ShapeableImageView
+            android:id="@+id/goal_icon"
+            android:layout_width="57dp"
+            android:layout_height="56dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:adjustViewBounds="true"
+            android:scaleType="centerCrop"
+            android:src="@drawable/finance"
+            android:tint="@color/colorPrimaryHome"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/goal_title"
+            android:layout_width="100dp"
+            android:layout_height="56dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="14dp"
+            android:background="@null"
+            android:gravity="center_horizontal|center_vertical"
+            android:importantForAutofill="no"
+            android:text="@string/finance_goals"
+            android:textAlignment="gravity"
+            android:textAllCaps="true"
+            android:textColor="@color/colorPrimaryHome"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toEndOf="@id/goal_icon"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/goal_description"
+            android:layout_width="164dp"
+            android:layout_height="100dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="8dp"
+            android:background="@null"
+            android:ems="10"
+            android:gravity="center_horizontal"
+            android:hint="@string/goal_description"
+            android:includeFontPadding="true"
+            android:minHeight="48dp"
+            android:padding="2dp"
+            android:textAlignment="center"
+            android:textColor="@color/colorPrimaryHome"
+            android:textColorHint="@color/colorPrimaryHome"
+            android:textSize="16sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/goal_icon" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/delete_goal_button_container"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <Button
+            android:id="@+id/delete_goal_button"
+            android:layout_width="30dp"
+            android:layout_height="40dp"
+            android:backgroundTint="@color/colorPrimaryHome"
+            app:icon="@drawable/delete_x"
+            app:iconGravity="textStart"
+            app:iconPadding="0dp"
+            app:iconSize="20dp"
+            app:iconTint="@color/white"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:shapeAppearanceOverlay="@style/RoundCorner"
+            tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
